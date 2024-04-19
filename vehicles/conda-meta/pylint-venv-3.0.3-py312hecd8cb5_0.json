@@ -1,0 +1,109 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/pylint-venv-3.0.3-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/__pycache__/pylint_venv.cpython-312.pyc",
+    "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/METADATA",
+    "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/RECORD",
+    "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/WHEEL",
+    "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/pylint_venv.py"
+  ],
+  "fn": "pylint-venv-3.0.3-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "f1cef3f0d62700e4efb902a74931221c",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/pylint-venv-3.0.3-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "570d506eadc84978262ade21bc37eb3d",
+  "name": "pylint-venv",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/pylint-venv-3.0.3-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/__pycache__/pylint_venv.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "98b7c214dcf7c241189c4ddd9ed055e2d7cb787befac35d1cbf87a57c013f9b5",
+        "sha256_in_prefix": "98b7c214dcf7c241189c4ddd9ed055e2d7cb787befac35d1cbf87a57c013f9b5",
+        "size_in_bytes": 5981
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "b6b087cae10c9386509b0590c190a5ef86075eca6626ecf6afc5254fc5fcc550",
+        "sha256_in_prefix": "b6b087cae10c9386509b0590c190a5ef86075eca6626ecf6afc5254fc5fcc550",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "0afcc3621ff8855aff1e47d33755da4c4f53d1a623935ac74c48801828caa35a",
+        "sha256_in_prefix": "0afcc3621ff8855aff1e47d33755da4c4f53d1a623935ac74c48801828caa35a",
+        "size_in_bytes": 6388
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "90f2a3619af953a79c7089ae6c11f71e160a5f75c22a2ec3495fac0aedb5c538",
+        "sha256_in_prefix": "90f2a3619af953a79c7089ae6c11f71e160a5f75c22a2ec3495fac0aedb5c538",
+        "size_in_bytes": 717
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "90bb84f26d56614d08834fd8106ad7c93b6226f28fa4ba431220a188dc9e8b96",
+        "sha256_in_prefix": "90bb84f26d56614d08834fd8106ad7c93b6226f28fa4ba431220a188dc9e8b96",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylint_venv-3.0.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ced586d1d55144cb29249e393b1ed5d257cd29d8c4a9c449a89ca625a78a3a15",
+        "sha256_in_prefix": "ced586d1d55144cb29249e393b1ed5d257cd29d8c4a9c449a89ca625a78a3a15",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylint_venv.py",
+        "path_type": "hardlink",
+        "sha256": "5c2677d7d702587380863dcb18e26651ee8395a9f7f7fae8cb7714ff8b430294",
+        "sha256_in_prefix": "5c2677d7d702587380863dcb18e26651ee8395a9f7f7fae8cb7714ff8b430294",
+        "size_in_bytes": 4316
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "096cfc9e48bd0365036a84d57919e733c62b6c04d7564781eeb8d18d6d9f9d82",
+  "size": 13667,
+  "subdir": "osx-64",
+  "timestamp": 1709837806794,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/pylint-venv-3.0.3-py312hecd8cb5_0.conda",
+  "version": "3.0.3"
+}

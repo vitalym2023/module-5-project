@@ -1,0 +1,1477 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "bokeh >=1.0.0",
+    "colorcet >=2",
+    "holoviews >=1.11.0",
+    "numpy >=1.15",
+    "packaging",
+    "pandas",
+    "panel >=0.11.0",
+    "param >=1.12.0,<3.0",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/hvplot-0.9.2-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/LICENSE",
+    "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/METADATA",
+    "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/RECORD",
+    "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/WHEEL",
+    "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/hvplot/.version",
+    "lib/python3.12/site-packages/hvplot/__init__.py",
+    "lib/python3.12/site-packages/hvplot/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/backend_transforms.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/converter.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/cudf.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/dask.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/fugue.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/ibis.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/intake.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/interactive.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/networkx.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/pandas.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/polars.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/sample_data.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/streamz.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/ui.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/util.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/utilities.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/__pycache__/xarray.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/backend_transforms.py",
+    "lib/python3.12/site-packages/hvplot/converter.py",
+    "lib/python3.12/site-packages/hvplot/cudf.py",
+    "lib/python3.12/site-packages/hvplot/dask.py",
+    "lib/python3.12/site-packages/hvplot/examples/__pycache__/conftest.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/examples/assets/console.png",
+    "lib/python3.12/site-packages/hvplot/examples/assets/console_server.gif",
+    "lib/python3.12/site-packages/hvplot/examples/assets/diagram.png",
+    "lib/python3.12/site-packages/hvplot/examples/assets/hvplot-wm.png",
+    "lib/python3.12/site-packages/hvplot/examples/conftest.py",
+    "lib/python3.12/site-packages/hvplot/examples/data/crime.csv",
+    "lib/python3.12/site-packages/hvplot/examples/datasets.yaml",
+    "lib/python3.12/site-packages/hvplot/examples/getting_started/explorer.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/getting_started/hvplot.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/getting_started/interactive.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/geopandas/points.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/geopandas/polygons.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/andrewscurves.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/area.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/bar.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/barh.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/bivariate.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/box.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/errorbars.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/heatmap.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/hexbin.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/hist.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/kde.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/labels.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/lagplot.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/line.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/ohlc.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/parallelcoordinates.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/scatter.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/scattermatrix.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/step.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/table.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/tabular/violin.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/bar.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/contour.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/contourf.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/hist.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/image.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/kde.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/line.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/quadmesh.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/rgb.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/vectorfield.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/reference/xarray/violin.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Customization.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Explorer.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Geographic_Data.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Gridded_Data.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Integrations.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Interactive.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Introduction.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/NetworkX.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Pandas_API.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Plotting.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Plotting_Extensions.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Plotting_with_Matplotlib.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Plotting_with_Plotly.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Statistical_Plots.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Streaming.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Subplots.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Timeseries_Data.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Viewing.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/Widgets.ipynb",
+    "lib/python3.12/site-packages/hvplot/examples/user_guide/images/simple.svg",
+    "lib/python3.12/site-packages/hvplot/fugue.py",
+    "lib/python3.12/site-packages/hvplot/ibis.py",
+    "lib/python3.12/site-packages/hvplot/intake.py",
+    "lib/python3.12/site-packages/hvplot/interactive.py",
+    "lib/python3.12/site-packages/hvplot/networkx.py",
+    "lib/python3.12/site-packages/hvplot/pandas.py",
+    "lib/python3.12/site-packages/hvplot/plotting/__init__.py",
+    "lib/python3.12/site-packages/hvplot/plotting/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/plotting/__pycache__/andrews_curves.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/plotting/__pycache__/core.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/plotting/__pycache__/lag_plot.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/plotting/__pycache__/parallel_coordinates.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/plotting/__pycache__/scatter_matrix.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/plotting/andrews_curves.py",
+    "lib/python3.12/site-packages/hvplot/plotting/core.py",
+    "lib/python3.12/site-packages/hvplot/plotting/lag_plot.py",
+    "lib/python3.12/site-packages/hvplot/plotting/parallel_coordinates.py",
+    "lib/python3.12/site-packages/hvplot/plotting/scatter_matrix.py",
+    "lib/python3.12/site-packages/hvplot/polars.py",
+    "lib/python3.12/site-packages/hvplot/sample_data.py",
+    "lib/python3.12/site-packages/hvplot/streamz.py",
+    "lib/python3.12/site-packages/hvplot/tests/__init__.py",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/conftest.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/test_links.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testbackend_transforms.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testcharts.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testfugue.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testgeo.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testgeowithoutgv.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testgridplots.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testhelp.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testibis.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testinteractive.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testnetworkx.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testoperations.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testoptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testoverrides.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testpanel.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testpatch.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testplotting.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/teststreaming.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testtransforms.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testui.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/testutil.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/__pycache__/util.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/conftest.py",
+    "lib/python3.12/site-packages/hvplot/tests/plotting/__init__.py",
+    "lib/python3.12/site-packages/hvplot/tests/plotting/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/plotting/__pycache__/testcore.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/plotting/__pycache__/testohlc.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/plotting/__pycache__/testscattermatrix.cpython-312.pyc",
+    "lib/python3.12/site-packages/hvplot/tests/plotting/testcore.py",
+    "lib/python3.12/site-packages/hvplot/tests/plotting/testohlc.py",
+    "lib/python3.12/site-packages/hvplot/tests/plotting/testscattermatrix.py",
+    "lib/python3.12/site-packages/hvplot/tests/test_links.py",
+    "lib/python3.12/site-packages/hvplot/tests/testbackend_transforms.py",
+    "lib/python3.12/site-packages/hvplot/tests/testcharts.py",
+    "lib/python3.12/site-packages/hvplot/tests/testfugue.py",
+    "lib/python3.12/site-packages/hvplot/tests/testgeo.py",
+    "lib/python3.12/site-packages/hvplot/tests/testgeowithoutgv.py",
+    "lib/python3.12/site-packages/hvplot/tests/testgridplots.py",
+    "lib/python3.12/site-packages/hvplot/tests/testhelp.py",
+    "lib/python3.12/site-packages/hvplot/tests/testibis.py",
+    "lib/python3.12/site-packages/hvplot/tests/testinteractive.py",
+    "lib/python3.12/site-packages/hvplot/tests/testnetworkx.py",
+    "lib/python3.12/site-packages/hvplot/tests/testoperations.py",
+    "lib/python3.12/site-packages/hvplot/tests/testoptions.py",
+    "lib/python3.12/site-packages/hvplot/tests/testoverrides.py",
+    "lib/python3.12/site-packages/hvplot/tests/testpanel.py",
+    "lib/python3.12/site-packages/hvplot/tests/testpatch.py",
+    "lib/python3.12/site-packages/hvplot/tests/testplotting.py",
+    "lib/python3.12/site-packages/hvplot/tests/teststreaming.py",
+    "lib/python3.12/site-packages/hvplot/tests/testtransforms.py",
+    "lib/python3.12/site-packages/hvplot/tests/testui.py",
+    "lib/python3.12/site-packages/hvplot/tests/testutil.py",
+    "lib/python3.12/site-packages/hvplot/tests/util.py",
+    "lib/python3.12/site-packages/hvplot/ui.py",
+    "lib/python3.12/site-packages/hvplot/util.py",
+    "lib/python3.12/site-packages/hvplot/utilities.py",
+    "lib/python3.12/site-packages/hvplot/xarray.py"
+  ],
+  "fn": "hvplot-0.9.2-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "9d7fd6949ad2d59d05c6842984bdb182",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/hvplot-0.9.2-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "6cf8fb6da9a22415778364cbf036865f",
+  "name": "hvplot",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/hvplot-0.9.2-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3def192a7577a55a373395c2256bc61a19dfc03a5a003e091fdb9234ce87528b",
+        "sha256_in_prefix": "3def192a7577a55a373395c2256bc61a19dfc03a5a003e091fdb9234ce87528b",
+        "size_in_bytes": 1507
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "15ef182fad50b85e28f50200fbd4bd8213a5f7e6cb681757ef4f57138709dd1c",
+        "sha256_in_prefix": "15ef182fad50b85e28f50200fbd4bd8213a5f7e6cb681757ef4f57138709dd1c",
+        "size_in_bytes": 20180
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bfe741707e65842c0fa49662d5dc9e0b00c601b52135bc3547a5f388aa96f763",
+        "sha256_in_prefix": "bfe741707e65842c0fa49662d5dc9e0b00c601b52135bc3547a5f388aa96f763",
+        "size_in_bytes": 14519
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "de1f517e178161b28f79e7216dc1c249207b8d9e0a1533890c9551c9e1cf1027",
+        "sha256_in_prefix": "de1f517e178161b28f79e7216dc1c249207b8d9e0a1533890c9551c9e1cf1027",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "4d556abc63024e834f2dc8bc00b2ffa576cc4c302f0165bf83e4af221746a530",
+        "sha256_in_prefix": "4d556abc63024e834f2dc8bc00b2ffa576cc4c302f0165bf83e4af221746a530",
+        "size_in_bytes": 55
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot-0.9.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c9e600183447daaab62a9491adc4b4c52e757354cb9e0bab5cc7e2a8b50e20ba",
+        "sha256_in_prefix": "c9e600183447daaab62a9491adc4b4c52e757354cb9e0bab5cc7e2a8b50e20ba",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/.version",
+        "path_type": "hardlink",
+        "sha256": "d5b2a0b387492e2efa8ed3e9a7b4193e7a6c9229a8edfa2c100c20f28d00232e",
+        "sha256_in_prefix": "d5b2a0b387492e2efa8ed3e9a7b4193e7a6c9229a8edfa2c100c20f28d00232e",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b58f2eb763d46951eb6869ffb5ad8286909613836e82561d361bad450e804924",
+        "sha256_in_prefix": "b58f2eb763d46951eb6869ffb5ad8286909613836e82561d361bad450e804924",
+        "size_in_bytes": 9442
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "67e0bffed005e935fd91e2e4be5d8c9facd4b12661ee1bc61b52f34a5dfcfc24",
+        "sha256_in_prefix": "67e0bffed005e935fd91e2e4be5d8c9facd4b12661ee1bc61b52f34a5dfcfc24",
+        "size_in_bytes": 11745
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/backend_transforms.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "08227ae18db00da5a3e530b48a0259f67e49a77debe98eda566ac28a5393ff4f",
+        "sha256_in_prefix": "08227ae18db00da5a3e530b48a0259f67e49a77debe98eda566ac28a5393ff4f",
+        "size_in_bytes": 15179
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/converter.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b3dd91516a7fbcf5bf7d85d39b3ab963cbdfe03ddd06e41bcefaba5d2dc24264",
+        "sha256_in_prefix": "b3dd91516a7fbcf5bf7d85d39b3ab963cbdfe03ddd06e41bcefaba5d2dc24264",
+        "size_in_bytes": 123268
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/cudf.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e38eaaf4cc280e1790307dc72b75eedc7a9cb25d94ba3b416fd6ab7079605cdd",
+        "sha256_in_prefix": "e38eaaf4cc280e1790307dc72b75eedc7a9cb25d94ba3b416fd6ab7079605cdd",
+        "size_in_bytes": 1555
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/dask.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "12c1f2819bbaf78e714b9491cc2e27f253b04de43f276c139d2c8bc485453810",
+        "sha256_in_prefix": "12c1f2819bbaf78e714b9491cc2e27f253b04de43f276c139d2c8bc485453810",
+        "size_in_bytes": 2377
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/fugue.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "beec0d3ed70bcbf43a83740f631482695529351f9c80a9b9c3128385689bf7e3",
+        "sha256_in_prefix": "beec0d3ed70bcbf43a83740f631482695529351f9c80a9b9c3128385689bf7e3",
+        "size_in_bytes": 3362
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/ibis.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "45ac66072d1518a08ad341e911189b9677d8eb8c7e640ffaa92fbce7ae96731b",
+        "sha256_in_prefix": "45ac66072d1518a08ad341e911189b9677d8eb8c7e640ffaa92fbce7ae96731b",
+        "size_in_bytes": 1036
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/intake.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "933d530b9652c0e6d20caaf262cc8656e5f4fa6e77ab1d7c26451f336f9db55a",
+        "sha256_in_prefix": "933d530b9652c0e6d20caaf262cc8656e5f4fa6e77ab1d7c26451f336f9db55a",
+        "size_in_bytes": 1410
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/interactive.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d09dd3d568e65d967121b5875748a981e74bef090ed8c602132c62c6846be11f",
+        "sha256_in_prefix": "d09dd3d568e65d967121b5875748a981e74bef090ed8c602132c62c6846be11f",
+        "size_in_bytes": 46768
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/networkx.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "01459bde8a6aee1e75fcc6ed3efe6f53933238ae137207312859f07afe28b152",
+        "sha256_in_prefix": "01459bde8a6aee1e75fcc6ed3efe6f53933238ae137207312859f07afe28b152",
+        "size_in_bytes": 27027
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/pandas.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f96143a9881c0a55efd7a0ef5b4f190e7a8b30520ab1a74e534b526549b5d8b4",
+        "sha256_in_prefix": "f96143a9881c0a55efd7a0ef5b4f190e7a8b30520ab1a74e534b526549b5d8b4",
+        "size_in_bytes": 1631
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/polars.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "09c11eae57f26c222882b1bed58af6387a30792871ec9fdd0232b2702a885149",
+        "sha256_in_prefix": "09c11eae57f26c222882b1bed58af6387a30792871ec9fdd0232b2702a885149",
+        "size_in_bytes": 1119
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/sample_data.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "83238f03c18803a23f81c5f22174f1231ff04f46afbb28ac6cf15f164c14148f",
+        "sha256_in_prefix": "83238f03c18803a23f81c5f22174f1231ff04f46afbb28ac6cf15f164c14148f",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/streamz.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "29e60fc9a2eb459ecad1e6f4431344d96e6a1ae34eb6a59608038cee492e05fc",
+        "sha256_in_prefix": "29e60fc9a2eb459ecad1e6f4431344d96e6a1ae34eb6a59608038cee492e05fc",
+        "size_in_bytes": 1276
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/ui.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e10f8b8c34787e4f904c1e764deb51ca9f7ddec17d8874f2226b1d0f22d28223",
+        "sha256_in_prefix": "e10f8b8c34787e4f904c1e764deb51ca9f7ddec17d8874f2226b1d0f22d28223",
+        "size_in_bytes": 49135
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/util.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7872ad2e2395563873a8ee307ad5c5e775c8d7201de7ada9ec675c29caeecef1",
+        "sha256_in_prefix": "7872ad2e2395563873a8ee307ad5c5e775c8d7201de7ada9ec675c29caeecef1",
+        "size_in_bytes": 26087
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/utilities.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "41a9d1c803ec3cbdfacfee214bd8971944abd3be9441b323ec227d06d1e0a120",
+        "sha256_in_prefix": "41a9d1c803ec3cbdfacfee214bd8971944abd3be9441b323ec227d06d1e0a120",
+        "size_in_bytes": 3024
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/__pycache__/xarray.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9625ff38caa166b63ecd2919dd2b8cbcfab52b178443841c8ed58e8f641e6f36",
+        "sha256_in_prefix": "9625ff38caa166b63ecd2919dd2b8cbcfab52b178443841c8ed58e8f641e6f36",
+        "size_in_bytes": 3425
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/backend_transforms.py",
+        "path_type": "hardlink",
+        "sha256": "6995a686a0c6b1df1a0649e501f7ff0cfee0626af7dd24bb35fc0a3027acdc7d",
+        "sha256_in_prefix": "6995a686a0c6b1df1a0649e501f7ff0cfee0626af7dd24bb35fc0a3027acdc7d",
+        "size_in_bytes": 10844
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/converter.py",
+        "path_type": "hardlink",
+        "sha256": "e6da5ad07bc15b05e83eada86785642e82ee37aa19cab8a438f86e95f25641c5",
+        "sha256_in_prefix": "e6da5ad07bc15b05e83eada86785642e82ee37aa19cab8a438f86e95f25641c5",
+        "size_in_bytes": 101785
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/cudf.py",
+        "path_type": "hardlink",
+        "sha256": "3ddc24c17bc8d4bcbd06115f1b22cfef068e2662c599c6fe1f1ffae367ae1fa6",
+        "sha256_in_prefix": "3ddc24c17bc8d4bcbd06115f1b22cfef068e2662c599c6fe1f1ffae367ae1fa6",
+        "size_in_bytes": 895
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/dask.py",
+        "path_type": "hardlink",
+        "sha256": "3aad39627ce7c00334ad6424173c909e920ce85a09bb441087e5e6d9f7b57def",
+        "sha256_in_prefix": "3aad39627ce7c00334ad6424173c909e920ce85a09bb441087e5e6d9f7b57def",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/__pycache__/conftest.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2675af4fc3f57ea07fe78b449dc38dc94800a94f125d505825915262c7a9368a",
+        "sha256_in_prefix": "2675af4fc3f57ea07fe78b449dc38dc94800a94f125d505825915262c7a9368a",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/assets/console.png",
+        "path_type": "hardlink",
+        "sha256": "25d7665bf629272840a7bea20c010e9e056f4d8fdbbe59420fa43b27a76fb94f",
+        "sha256_in_prefix": "25d7665bf629272840a7bea20c010e9e056f4d8fdbbe59420fa43b27a76fb94f",
+        "size_in_bytes": 359182
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/assets/console_server.gif",
+        "path_type": "hardlink",
+        "sha256": "6516d801b64c9577ff044e846c246831a9ab625a2f1baf1416cd428f7688719d",
+        "sha256_in_prefix": "6516d801b64c9577ff044e846c246831a9ab625a2f1baf1416cd428f7688719d",
+        "size_in_bytes": 1080507
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/assets/diagram.png",
+        "path_type": "hardlink",
+        "sha256": "290f0ab2c6e27799473020b5b1ed6888ff5882a0590423bd224438ec7c4f2643",
+        "sha256_in_prefix": "290f0ab2c6e27799473020b5b1ed6888ff5882a0590423bd224438ec7c4f2643",
+        "size_in_bytes": 151250
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/assets/hvplot-wm.png",
+        "path_type": "hardlink",
+        "sha256": "28fda57558a7c0c97ef479b5cf6b2c1ff5ff0d9fa13cb2c1be68cec2f1ff3277",
+        "sha256_in_prefix": "28fda57558a7c0c97ef479b5cf6b2c1ff5ff0d9fa13cb2c1be68cec2f1ff3277",
+        "size_in_bytes": 16120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "892d57aa48b182556f0a31dbb6f0e5c5bd89a5281906ad9961806e2d5df1e07a",
+        "sha256_in_prefix": "892d57aa48b182556f0a31dbb6f0e5c5bd89a5281906ad9961806e2d5df1e07a",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/data/crime.csv",
+        "path_type": "hardlink",
+        "sha256": "36b925b17cc6f52ebe3bd91f3bd62e91f32224f809e38542e518832f59b4e040",
+        "sha256_in_prefix": "36b925b17cc6f52ebe3bd91f3bd62e91f32224f809e38542e518832f59b4e040",
+        "size_in_bytes": 7871
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/datasets.yaml",
+        "path_type": "hardlink",
+        "sha256": "7a8d377582de8d874868b0c4c0a8db26b0e1cffd7db566af2a8fcb21b1eebfc6",
+        "sha256_in_prefix": "7a8d377582de8d874868b0c4c0a8db26b0e1cffd7db566af2a8fcb21b1eebfc6",
+        "size_in_bytes": 1367
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/getting_started/explorer.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a01ea99a4a5d3ec893bb3b919507b3f168568d95915b23552356c6ad93ff1f4c",
+        "sha256_in_prefix": "a01ea99a4a5d3ec893bb3b919507b3f168568d95915b23552356c6ad93ff1f4c",
+        "size_in_bytes": 4519
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/getting_started/hvplot.ipynb",
+        "path_type": "hardlink",
+        "sha256": "4045ab1d984f5651432e4aa1cd1e94ed0787a947023275354b58ff1ccc63c35f",
+        "sha256_in_prefix": "4045ab1d984f5651432e4aa1cd1e94ed0787a947023275354b58ff1ccc63c35f",
+        "size_in_bytes": 12924
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/getting_started/interactive.ipynb",
+        "path_type": "hardlink",
+        "sha256": "69171044f49ad645b9050871450b78846518221f6d7236bbe757c2901c348bd4",
+        "sha256_in_prefix": "69171044f49ad645b9050871450b78846518221f6d7236bbe757c2901c348bd4",
+        "size_in_bytes": 7006
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/geopandas/points.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d61178160cbdc9bbb37bbcef78fc8a2880413aa0e8a30142a8fa9318c46d324e",
+        "sha256_in_prefix": "d61178160cbdc9bbb37bbcef78fc8a2880413aa0e8a30142a8fa9318c46d324e",
+        "size_in_bytes": 1816
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/geopandas/polygons.ipynb",
+        "path_type": "hardlink",
+        "sha256": "4fc09ef07813798d2d45f20d25ca30be2ceb3678ad78aca527d682f425b2ed27",
+        "sha256_in_prefix": "4fc09ef07813798d2d45f20d25ca30be2ceb3678ad78aca527d682f425b2ed27",
+        "size_in_bytes": 1620
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/andrewscurves.ipynb",
+        "path_type": "hardlink",
+        "sha256": "5c5495ec7bce3abb8cfca4526f48dcae7dd0f9a17bd844368b7fb63cf6cb8151",
+        "sha256_in_prefix": "5c5495ec7bce3abb8cfca4526f48dcae7dd0f9a17bd844368b7fb63cf6cb8151",
+        "size_in_bytes": 1668
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/area.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d991d6cebd48d6109536e3602958c6f707f85b73212f61cbec53bc33f0bab828",
+        "sha256_in_prefix": "d991d6cebd48d6109536e3602958c6f707f85b73212f61cbec53bc33f0bab828",
+        "size_in_bytes": 2549
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/bar.ipynb",
+        "path_type": "hardlink",
+        "sha256": "816509b552ede83b59cd4aa4610b7489faa280e2474737b19464e68755b4b157",
+        "sha256_in_prefix": "816509b552ede83b59cd4aa4610b7489faa280e2474737b19464e68755b4b157",
+        "size_in_bytes": 6473
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/barh.ipynb",
+        "path_type": "hardlink",
+        "sha256": "76fa82c0c103125699dfb11b97018ea0e816ad5d665bfc88fa70b7b152675097",
+        "sha256_in_prefix": "76fa82c0c103125699dfb11b97018ea0e816ad5d665bfc88fa70b7b152675097",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/bivariate.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3120b1b1ec62d1e145177454536bb8c4e016977ecfd69d00494785b221423070",
+        "sha256_in_prefix": "3120b1b1ec62d1e145177454536bb8c4e016977ecfd69d00494785b221423070",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/box.ipynb",
+        "path_type": "hardlink",
+        "sha256": "290a6a7592c034fb2304aef5e4d9c2703c1dce969f3af897de7752ade264b5bb",
+        "sha256_in_prefix": "290a6a7592c034fb2304aef5e4d9c2703c1dce969f3af897de7752ade264b5bb",
+        "size_in_bytes": 1673
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/errorbars.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d19255244acf33826f46d0c71e2054216c105ecb5af416c607a28ab763c5ab37",
+        "sha256_in_prefix": "d19255244acf33826f46d0c71e2054216c105ecb5af416c607a28ab763c5ab37",
+        "size_in_bytes": 1702
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/heatmap.ipynb",
+        "path_type": "hardlink",
+        "sha256": "efc69c75d9ef5e5fc164d60379405fc1e73707f064e7159d79a12cf9a8fb706b",
+        "sha256_in_prefix": "efc69c75d9ef5e5fc164d60379405fc1e73707f064e7159d79a12cf9a8fb706b",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/hexbin.ipynb",
+        "path_type": "hardlink",
+        "sha256": "544f65dc28e5bb005c04ed42fecc6de3fd7b10d6ba86cad5b12d8db700cc36f2",
+        "sha256_in_prefix": "544f65dc28e5bb005c04ed42fecc6de3fd7b10d6ba86cad5b12d8db700cc36f2",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/hist.ipynb",
+        "path_type": "hardlink",
+        "sha256": "86c9dd5d9417e5baddd3fc66ce7217402ec733554cc26e44fd72136bcda44bb1",
+        "sha256_in_prefix": "86c9dd5d9417e5baddd3fc66ce7217402ec733554cc26e44fd72136bcda44bb1",
+        "size_in_bytes": 2571
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/kde.ipynb",
+        "path_type": "hardlink",
+        "sha256": "1ded941dc37214cc17fec807bb07de75b50492df3fddfd21de977fc58236d534",
+        "sha256_in_prefix": "1ded941dc37214cc17fec807bb07de75b50492df3fddfd21de977fc58236d534",
+        "size_in_bytes": 1774
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/labels.ipynb",
+        "path_type": "hardlink",
+        "sha256": "af2ee414df2f7fde881367f4a5424ae422e3cd842760e833576283deed195124",
+        "sha256_in_prefix": "af2ee414df2f7fde881367f4a5424ae422e3cd842760e833576283deed195124",
+        "size_in_bytes": 2046
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/lagplot.ipynb",
+        "path_type": "hardlink",
+        "sha256": "0cd1dd6ca76c4d50b82326a07e1f5de1d1ff0eae4c43073a4139f16185720a9d",
+        "sha256_in_prefix": "0cd1dd6ca76c4d50b82326a07e1f5de1d1ff0eae4c43073a4139f16185720a9d",
+        "size_in_bytes": 1487
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/line.ipynb",
+        "path_type": "hardlink",
+        "sha256": "29642a08b812dc8d258797d3138dede830071b2aefaf0c4961559fea3e58c266",
+        "sha256_in_prefix": "29642a08b812dc8d258797d3138dede830071b2aefaf0c4961559fea3e58c266",
+        "size_in_bytes": 989
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/ohlc.ipynb",
+        "path_type": "hardlink",
+        "sha256": "96d5afc4fdae71ceef9f3eb1909a6d2dd6d6bd797e86b4df9981a94b2c6c1660",
+        "sha256_in_prefix": "96d5afc4fdae71ceef9f3eb1909a6d2dd6d6bd797e86b4df9981a94b2c6c1660",
+        "size_in_bytes": 2629
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/parallelcoordinates.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d835e4f78821b3212b21782f10aaac6bdf1730c21a1e28ad4f186dff33520e3c",
+        "sha256_in_prefix": "d835e4f78821b3212b21782f10aaac6bdf1730c21a1e28ad4f186dff33520e3c",
+        "size_in_bytes": 1706
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/scatter.ipynb",
+        "path_type": "hardlink",
+        "sha256": "75ebdd667053133de770fcf4f3620dee4db8f48803aa83cf02fa85f7c0c08f00",
+        "sha256_in_prefix": "75ebdd667053133de770fcf4f3620dee4db8f48803aa83cf02fa85f7c0c08f00",
+        "size_in_bytes": 1796
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/scattermatrix.ipynb",
+        "path_type": "hardlink",
+        "sha256": "f7a8f7e8b1317d868ca2f4aaf92e370bd7cb675776145c664f754505bede044b",
+        "sha256_in_prefix": "f7a8f7e8b1317d868ca2f4aaf92e370bd7cb675776145c664f754505bede044b",
+        "size_in_bytes": 5616
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/step.ipynb",
+        "path_type": "hardlink",
+        "sha256": "078df8a753b031d2e6deb6608e604de93b6809fa960c2909918218d66fe8d384",
+        "sha256_in_prefix": "078df8a753b031d2e6deb6608e604de93b6809fa960c2909918218d66fe8d384",
+        "size_in_bytes": 1029
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/table.ipynb",
+        "path_type": "hardlink",
+        "sha256": "837365eb5aa43ac46a0e6b8c3a41060fe463d24879b4b8b23dc86ef5ba369dbe",
+        "sha256_in_prefix": "837365eb5aa43ac46a0e6b8c3a41060fe463d24879b4b8b23dc86ef5ba369dbe",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/tabular/violin.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b05637be7d020f4dd63d26850584d997d9e535fe8db92772ae329ab22cf7529b",
+        "sha256_in_prefix": "b05637be7d020f4dd63d26850584d997d9e535fe8db92772ae329ab22cf7529b",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/bar.ipynb",
+        "path_type": "hardlink",
+        "sha256": "84e4e9fef8e8d221fba8c57f1cd911f31f529e12033448c7d0ddf9b8185b1d0e",
+        "sha256_in_prefix": "84e4e9fef8e8d221fba8c57f1cd911f31f529e12033448c7d0ddf9b8185b1d0e",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/contour.ipynb",
+        "path_type": "hardlink",
+        "sha256": "be695d69bf8b1607e5c0602db6508434195aac43f8a1de6242962b58ca00347f",
+        "sha256_in_prefix": "be695d69bf8b1607e5c0602db6508434195aac43f8a1de6242962b58ca00347f",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/contourf.ipynb",
+        "path_type": "hardlink",
+        "sha256": "313b3c8f9612d2dd2c7ad1ca6872ca3364d5ab319d3c2a29bc16dec2ec4ed7f3",
+        "sha256_in_prefix": "313b3c8f9612d2dd2c7ad1ca6872ca3364d5ab319d3c2a29bc16dec2ec4ed7f3",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/hist.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b4ecfbc8fa796f9cf93cf88d35de447c5d5b65b1a0f99d97ec5f000d6fa64cbf",
+        "sha256_in_prefix": "b4ecfbc8fa796f9cf93cf88d35de447c5d5b65b1a0f99d97ec5f000d6fa64cbf",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/image.ipynb",
+        "path_type": "hardlink",
+        "sha256": "5d8d0d208cb67babeec634753d84fd746ffe5e0f1c7eebce99cac84d60dffaa3",
+        "sha256_in_prefix": "5d8d0d208cb67babeec634753d84fd746ffe5e0f1c7eebce99cac84d60dffaa3",
+        "size_in_bytes": 2173
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/kde.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e7c108e9587d0b2480af1ae7e688628df5b22251789ae4b2ad69a0414f0e2176",
+        "sha256_in_prefix": "e7c108e9587d0b2480af1ae7e688628df5b22251789ae4b2ad69a0414f0e2176",
+        "size_in_bytes": 1196
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/line.ipynb",
+        "path_type": "hardlink",
+        "sha256": "aa929d7cc3c82bfb87e55340099410fd1e15f7b34b87567944d6808212a5680b",
+        "sha256_in_prefix": "aa929d7cc3c82bfb87e55340099410fd1e15f7b34b87567944d6808212a5680b",
+        "size_in_bytes": 1242
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/quadmesh.ipynb",
+        "path_type": "hardlink",
+        "sha256": "fca0c8ffe62ba1f8b827d115e35c923c018181c77b09abde86104fc67270081a",
+        "sha256_in_prefix": "fca0c8ffe62ba1f8b827d115e35c923c018181c77b09abde86104fc67270081a",
+        "size_in_bytes": 1472
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/rgb.ipynb",
+        "path_type": "hardlink",
+        "sha256": "8e88551309b1abb51fd5c0557e942e3119599369c9ca561c36031638554d2af5",
+        "sha256_in_prefix": "8e88551309b1abb51fd5c0557e942e3119599369c9ca561c36031638554d2af5",
+        "size_in_bytes": 1241
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/vectorfield.ipynb",
+        "path_type": "hardlink",
+        "sha256": "82a724608080f503658ffdff252495b3ea5e942a1167ec76d99e0b5ae564ba14",
+        "sha256_in_prefix": "82a724608080f503658ffdff252495b3ea5e942a1167ec76d99e0b5ae564ba14",
+        "size_in_bytes": 3232
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/reference/xarray/violin.ipynb",
+        "path_type": "hardlink",
+        "sha256": "9057b4d9c7b9acd4bad66b68fa464b8e129de439ce272850d0ea0f9736390401",
+        "sha256_in_prefix": "9057b4d9c7b9acd4bad66b68fa464b8e129de439ce272850d0ea0f9736390401",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Customization.ipynb",
+        "path_type": "hardlink",
+        "sha256": "c04de4107a9b83a66fcd8953fa0cff50379cecb4f18abe76887983f1cc02525a",
+        "sha256_in_prefix": "c04de4107a9b83a66fcd8953fa0cff50379cecb4f18abe76887983f1cc02525a",
+        "size_in_bytes": 11280
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Explorer.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d08a390da0152ade1c6ff7356a09f71e654e54cf9f6d7865ca28dbb47dd63f8a",
+        "sha256_in_prefix": "d08a390da0152ade1c6ff7356a09f71e654e54cf9f6d7865ca28dbb47dd63f8a",
+        "size_in_bytes": 10655
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Geographic_Data.ipynb",
+        "path_type": "hardlink",
+        "sha256": "283ce1d0ceb006f008f46a6413ab48dcfa31fa18c2ffd2b0ca6c180177bb4cbf",
+        "sha256_in_prefix": "283ce1d0ceb006f008f46a6413ab48dcfa31fa18c2ffd2b0ca6c180177bb4cbf",
+        "size_in_bytes": 11754
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Gridded_Data.ipynb",
+        "path_type": "hardlink",
+        "sha256": "d08cdfc6ad70ed6e091bd033f3e23f849f2c4c99ccc30f3d3819cb452d7273cb",
+        "sha256_in_prefix": "d08cdfc6ad70ed6e091bd033f3e23f849f2c4c99ccc30f3d3819cb452d7273cb",
+        "size_in_bytes": 8635
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Integrations.ipynb",
+        "path_type": "hardlink",
+        "sha256": "1ead391ffbc0e7beb62fd0141a3c14bbb9e8723be05f9989d75a184a3309a789",
+        "sha256_in_prefix": "1ead391ffbc0e7beb62fd0141a3c14bbb9e8723be05f9989d75a184a3309a789",
+        "size_in_bytes": 15528
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Interactive.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3e16a8e97ffb70f955748e198c045f8a57c5e8bcb9bae1a44f19c39d70212a19",
+        "sha256_in_prefix": "3e16a8e97ffb70f955748e198c045f8a57c5e8bcb9bae1a44f19c39d70212a19",
+        "size_in_bytes": 13672
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Introduction.ipynb",
+        "path_type": "hardlink",
+        "sha256": "a9b9f0dc18bcdfeb16f035f0e829d68382b7009a120dcbf5d0ce31869a5d1add",
+        "sha256_in_prefix": "a9b9f0dc18bcdfeb16f035f0e829d68382b7009a120dcbf5d0ce31869a5d1add",
+        "size_in_bytes": 6944
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/NetworkX.ipynb",
+        "path_type": "hardlink",
+        "sha256": "87b8ceae11bd2a2f30128ee49d8987af8497af550e2070df6dac496b84cf1557",
+        "sha256_in_prefix": "87b8ceae11bd2a2f30128ee49d8987af8497af550e2070df6dac496b84cf1557",
+        "size_in_bytes": 25824
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Pandas_API.ipynb",
+        "path_type": "hardlink",
+        "sha256": "ccfa467922132c120f9b4671ab9a6a7e2b6bd91f9bc543d13c058e2695b78f29",
+        "sha256_in_prefix": "ccfa467922132c120f9b4671ab9a6a7e2b6bd91f9bc543d13c058e2695b78f29",
+        "size_in_bytes": 31440
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Plotting.ipynb",
+        "path_type": "hardlink",
+        "sha256": "97b95a51333dbbc7d078e649603251690a85e6b2657af108687a38e5fc33fc50",
+        "sha256_in_prefix": "97b95a51333dbbc7d078e649603251690a85e6b2657af108687a38e5fc33fc50",
+        "size_in_bytes": 22075
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Plotting_Extensions.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b947589b3d4453d0f0cf57a1f0daa306565356f859d4e04ee41052ce5980d688",
+        "sha256_in_prefix": "b947589b3d4453d0f0cf57a1f0daa306565356f859d4e04ee41052ce5980d688",
+        "size_in_bytes": 7788
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Plotting_with_Matplotlib.ipynb",
+        "path_type": "hardlink",
+        "sha256": "c4937829cb7221f5051c28519a8bf3b899883f37110c39f1ca9cad365b867655",
+        "sha256_in_prefix": "c4937829cb7221f5051c28519a8bf3b899883f37110c39f1ca9cad365b867655",
+        "size_in_bytes": 23431
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Plotting_with_Plotly.ipynb",
+        "path_type": "hardlink",
+        "sha256": "91ff0930c53e9f86a70f46941f9bc10d1cf222de8971b1a0c18d4193e7bc9bd7",
+        "sha256_in_prefix": "91ff0930c53e9f86a70f46941f9bc10d1cf222de8971b1a0c18d4193e7bc9bd7",
+        "size_in_bytes": 23018
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Statistical_Plots.ipynb",
+        "path_type": "hardlink",
+        "sha256": "3c88f0b1bbbaeaf9de0395addfa1becd7c591b2128c70af3f1dd2e4814b613c9",
+        "sha256_in_prefix": "3c88f0b1bbbaeaf9de0395addfa1becd7c591b2128c70af3f1dd2e4814b613c9",
+        "size_in_bytes": 4862
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Streaming.ipynb",
+        "path_type": "hardlink",
+        "sha256": "c709123e58c6ab4a4240b42a35a9b63cb3315c3bdbd1f0efe7cd384e66336e1c",
+        "sha256_in_prefix": "c709123e58c6ab4a4240b42a35a9b63cb3315c3bdbd1f0efe7cd384e66336e1c",
+        "size_in_bytes": 9187
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Subplots.ipynb",
+        "path_type": "hardlink",
+        "sha256": "2fee355dbb3dfdc18a215e185dfce13f544588e309c503370c2fcba559c8be15",
+        "sha256_in_prefix": "2fee355dbb3dfdc18a215e185dfce13f544588e309c503370c2fcba559c8be15",
+        "size_in_bytes": 4695
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Timeseries_Data.ipynb",
+        "path_type": "hardlink",
+        "sha256": "53a9032337b88f7632fc4752cd8b082bd66c6cb8e9cb18e1ec2939e759d2ca9f",
+        "sha256_in_prefix": "53a9032337b88f7632fc4752cd8b082bd66c6cb8e9cb18e1ec2939e759d2ca9f",
+        "size_in_bytes": 6291
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Viewing.ipynb",
+        "path_type": "hardlink",
+        "sha256": "659da04354aabaabb47f22d2a88a8cfe8d2b90a23de0a00461e8c5f37e73b6b8",
+        "sha256_in_prefix": "659da04354aabaabb47f22d2a88a8cfe8d2b90a23de0a00461e8c5f37e73b6b8",
+        "size_in_bytes": 5589
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/Widgets.ipynb",
+        "path_type": "hardlink",
+        "sha256": "e00f28fc11b7d6410a409296186de4908307ec6e2a11041e0ae356ef71812ef2",
+        "sha256_in_prefix": "e00f28fc11b7d6410a409296186de4908307ec6e2a11041e0ae356ef71812ef2",
+        "size_in_bytes": 5872
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/examples/user_guide/images/simple.svg",
+        "path_type": "hardlink",
+        "sha256": "f5b0a3e50e2ca8d597af439e76565d2108764f0f7afb674a288b7224bd272e0a",
+        "sha256_in_prefix": "f5b0a3e50e2ca8d597af439e76565d2108764f0f7afb674a288b7224bd272e0a",
+        "size_in_bytes": 5117
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/fugue.py",
+        "path_type": "hardlink",
+        "sha256": "f50be3ba4ab3f4441f50d9c7a0505ce9e4c5e29c2c4aec00d76aa0f5e4bc8d10",
+        "sha256_in_prefix": "f50be3ba4ab3f4441f50d9c7a0505ce9e4c5e29c2c4aec00d76aa0f5e4bc8d10",
+        "size_in_bytes": 1889
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/ibis.py",
+        "path_type": "hardlink",
+        "sha256": "6a1cf0c1612c52c81d0455bf35c03d6031746d2d1eba2f98cc476dd3ccdf40b6",
+        "sha256_in_prefix": "6a1cf0c1612c52c81d0455bf35c03d6031746d2d1eba2f98cc476dd3ccdf40b6",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/intake.py",
+        "path_type": "hardlink",
+        "sha256": "d63df458ba2c16b61278c5e29680cd9ca867c7006467847d87d559bef8b7d24f",
+        "sha256_in_prefix": "d63df458ba2c16b61278c5e29680cd9ca867c7006467847d87d559bef8b7d24f",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/interactive.py",
+        "path_type": "hardlink",
+        "sha256": "b9fd0396840b4a2b31450e1ef1f474f78a84cf35f07701bd85e3d2672645d30a",
+        "sha256_in_prefix": "b9fd0396840b4a2b31450e1ef1f474f78a84cf35f07701bd85e3d2672645d30a",
+        "size_in_bytes": 36804
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/networkx.py",
+        "path_type": "hardlink",
+        "sha256": "479463b3cbda4b34337f37c623c69dc9ebe810ad97524518fed4bcc82e958bac",
+        "sha256_in_prefix": "479463b3cbda4b34337f37c623c69dc9ebe810ad97524518fed4bcc82e958bac",
+        "size_in_bytes": 21303
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/pandas.py",
+        "path_type": "hardlink",
+        "sha256": "22e7f12c28b45ca77ef3d9e68864949e73871a40360714086500cf3f93da94e2",
+        "sha256_in_prefix": "22e7f12c28b45ca77ef3d9e68864949e73871a40360714086500cf3f93da94e2",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7d3bdd51abd087ef48fd1aa6867579884bc8f77c287942d3a302b04cc2f00218",
+        "sha256_in_prefix": "7d3bdd51abd087ef48fd1aa6867579884bc8f77c287942d3a302b04cc2f00218",
+        "size_in_bytes": 1799
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "30f29cf0904873bd82ffb40e5da9a632da28fa7d3521a3a6f17ddf74555a6578",
+        "sha256_in_prefix": "30f29cf0904873bd82ffb40e5da9a632da28fa7d3521a3a6f17ddf74555a6578",
+        "size_in_bytes": 2521
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/__pycache__/andrews_curves.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d0d99266bbf81f2a8b95a74f555b1f3db84266748567c8108371404a9cad59d",
+        "sha256_in_prefix": "3d0d99266bbf81f2a8b95a74f555b1f3db84266748567c8108371404a9cad59d",
+        "size_in_bytes": 4527
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/__pycache__/core.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7a8cc3adc9b6fd0c34a7f50266a0f03d15210f21e947e50f947aa9e3d60949f",
+        "sha256_in_prefix": "f7a8cc3adc9b6fd0c34a7f50266a0f03d15210f21e947e50f947aa9e3d60949f",
+        "size_in_bytes": 85305
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/__pycache__/lag_plot.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "98f84527db609dc705a297c526f520aec1ed7000109424b856aac3327eb778ab",
+        "sha256_in_prefix": "98f84527db609dc705a297c526f520aec1ed7000109424b856aac3327eb778ab",
+        "size_in_bytes": 1704
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/__pycache__/parallel_coordinates.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "beded1bac839c2c28280df8204295e311ebe2306081e434e176e92afc1aa018a",
+        "sha256_in_prefix": "beded1bac839c2c28280df8204295e311ebe2306081e434e176e92afc1aa018a",
+        "size_in_bytes": 3506
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/__pycache__/scatter_matrix.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c63abef4061f2ee3282323940d21f1c5f15571fc5b89cda6a1ec6a63fe70bc51",
+        "sha256_in_prefix": "c63abef4061f2ee3282323940d21f1c5f15571fc5b89cda6a1ec6a63fe70bc51",
+        "size_in_bytes": 9165
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/andrews_curves.py",
+        "path_type": "hardlink",
+        "sha256": "079f77611f5e8cb3caa22abdd933b0b3c28e43c47d402f0c6f91d4da4baf33b4",
+        "sha256_in_prefix": "079f77611f5e8cb3caa22abdd933b0b3c28e43c47d402f0c6f91d4da4baf33b4",
+        "size_in_bytes": 2825
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/core.py",
+        "path_type": "hardlink",
+        "sha256": "d8d0ec64b650fe80debd3837a447430d082ee7be81b1acc82aba255ae2a17d0b",
+        "sha256_in_prefix": "d8d0ec64b650fe80debd3837a447430d082ee7be81b1acc82aba255ae2a17d0b",
+        "size_in_bytes": 80908
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/lag_plot.py",
+        "path_type": "hardlink",
+        "sha256": "ab3e90d953f4624c5949d4b3bf4a90f93da002cda1b325ca188df4e63d10db08",
+        "sha256_in_prefix": "ab3e90d953f4624c5949d4b3bf4a90f93da002cda1b325ca188df4e63d10db08",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/parallel_coordinates.py",
+        "path_type": "hardlink",
+        "sha256": "18bcebf2de41e589b6eb93f13ad184a36487a6405419aebcde6f98624d1ff63c",
+        "sha256_in_prefix": "18bcebf2de41e589b6eb93f13ad184a36487a6405419aebcde6f98624d1ff63c",
+        "size_in_bytes": 2523
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/plotting/scatter_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "aed5f5c74bd8a09d741985272b21f76547c833fd18a044e4baf2d7647149ed47",
+        "sha256_in_prefix": "aed5f5c74bd8a09d741985272b21f76547c833fd18a044e4baf2d7647149ed47",
+        "size_in_bytes": 8676
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/polars.py",
+        "path_type": "hardlink",
+        "sha256": "c448762702c256812610495a3451cde3788c7b0cb3af686648339febe71487ed",
+        "sha256_in_prefix": "c448762702c256812610495a3451cde3788c7b0cb3af686648339febe71487ed",
+        "size_in_bytes": 631
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/sample_data.py",
+        "path_type": "hardlink",
+        "sha256": "cb8aabb9cbf282985a2a2fb3159a8dc745b763b3942e23e2c85fc02d02485d56",
+        "sha256_in_prefix": "cb8aabb9cbf282985a2a2fb3159a8dc745b763b3942e23e2c85fc02d02485d56",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/streamz.py",
+        "path_type": "hardlink",
+        "sha256": "d7c544fcf9840eb17e900d2e0dd49f9e454152a45ea122b3925cb44137323d8a",
+        "sha256_in_prefix": "d7c544fcf9840eb17e900d2e0dd49f9e454152a45ea122b3925cb44137323d8a",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a1e90a1e0a8d3d883e0f7a11cb07996146216af256db2df288dacb78dfd44af",
+        "sha256_in_prefix": "6a1e90a1e0a8d3d883e0f7a11cb07996146216af256db2df288dacb78dfd44af",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/conftest.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a378c60e032f06e2941d43664524ae64bae7b43974f05af85753041432c7273",
+        "sha256_in_prefix": "9a378c60e032f06e2941d43664524ae64bae7b43974f05af85753041432c7273",
+        "size_in_bytes": 2431
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/test_links.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "db222768a653c2dff5660ff533728367339605ae1896bddaed5397576a19a231",
+        "sha256_in_prefix": "db222768a653c2dff5660ff533728367339605ae1896bddaed5397576a19a231",
+        "size_in_bytes": 4103
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testbackend_transforms.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2df46c61c1eede228b7d7cded78a1c55088cfd64112878b146d34cb49e961a60",
+        "sha256_in_prefix": "2df46c61c1eede228b7d7cded78a1c55088cfd64112878b146d34cb49e961a60",
+        "size_in_bytes": 4176
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testcharts.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a2fe0cb5ac6b260eb19d490e4fca5793c3b11cda2b059194cbcf6dc5bcc4212",
+        "sha256_in_prefix": "4a2fe0cb5ac6b260eb19d490e4fca5793c3b11cda2b059194cbcf6dc5bcc4212",
+        "size_in_bytes": 35934
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testfugue.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e13e76ca27006b2b917c63c9a22103f743f436dc1af120a847d173f1ddff58d",
+        "sha256_in_prefix": "1e13e76ca27006b2b917c63c9a22103f743f436dc1af120a847d173f1ddff58d",
+        "size_in_bytes": 1418
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testgeo.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "aec37545df3710f7b85078b6728ab62123b4afd1afdb35e7ced754eb7441d290",
+        "sha256_in_prefix": "aec37545df3710f7b85078b6728ab62123b4afd1afdb35e7ced754eb7441d290",
+        "size_in_bytes": 33874
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testgeowithoutgv.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b18a7a591f5c679f908eeba3249cdcfba62ff9bcc7bd8fde3b310418670898b0",
+        "sha256_in_prefix": "b18a7a591f5c679f908eeba3249cdcfba62ff9bcc7bd8fde3b310418670898b0",
+        "size_in_bytes": 4003
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testgridplots.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e04129daf5c5719c7a35290ee367f009c3798b230e1ce189036c11858aa8ead1",
+        "sha256_in_prefix": "e04129daf5c5719c7a35290ee367f009c3798b230e1ce189036c11858aa8ead1",
+        "size_in_bytes": 24046
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testhelp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "52a7d12b75b9226e81213d942e62e9928ce29599725d169d6d1067e7863bbc9d",
+        "sha256_in_prefix": "52a7d12b75b9226e81213d942e62e9928ce29599725d169d6d1067e7863bbc9d",
+        "size_in_bytes": 2772
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testibis.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "045ea73520020eb0bd4219fee016d902ad70c1eec45bc2e8abf94b977f3259d1",
+        "sha256_in_prefix": "045ea73520020eb0bd4219fee016d902ad70c1eec45bc2e8abf94b977f3259d1",
+        "size_in_bytes": 906
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testinteractive.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "85f1761f93f0e7ded9475eedd3a2aa51b0899d6d065c5f4eb9f48c850d45c478",
+        "sha256_in_prefix": "85f1761f93f0e7ded9475eedd3a2aa51b0899d6d065c5f4eb9f48c850d45c478",
+        "size_in_bytes": 79007
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testnetworkx.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c729208af99fe417b9a778942854b44c6a93a83a289f8a3c8958bec493f92a70",
+        "sha256_in_prefix": "c729208af99fe417b9a778942854b44c6a93a83a289f8a3c8958bec493f92a70",
+        "size_in_bytes": 1597
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testoperations.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2c3f9de923d8907c9bbe3401dbe109812f53a527f0299b5da2734a3af2b5562",
+        "sha256_in_prefix": "a2c3f9de923d8907c9bbe3401dbe109812f53a527f0299b5da2734a3af2b5562",
+        "size_in_bytes": 28559
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testoptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4311acd5943039c9396d58e037f0b77df36a1dfc30990e6994b7f2231fc966b4",
+        "sha256_in_prefix": "4311acd5943039c9396d58e037f0b77df36a1dfc30990e6994b7f2231fc966b4",
+        "size_in_bytes": 37234
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testoverrides.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d43110bf6ea7f6eee5d791e8a9cae90c0d4b4fac54c7d3b453daff1700681d1",
+        "sha256_in_prefix": "3d43110bf6ea7f6eee5d791e8a9cae90c0d4b4fac54c7d3b453daff1700681d1",
+        "size_in_bytes": 6640
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testpanel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "02980d4bf37c5a1cea3a59b81ee95e0d063e4d7c6048b1f1b2607b6f15c94007",
+        "sha256_in_prefix": "02980d4bf37c5a1cea3a59b81ee95e0d063e4d7c6048b1f1b2607b6f15c94007",
+        "size_in_bytes": 4405
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testpatch.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d93987bafb647d8be937951a1a3b30e3e684cb59cb2ad209fefc197d96933efb",
+        "sha256_in_prefix": "d93987bafb647d8be937951a1a3b30e3e684cb59cb2ad209fefc197d96933efb",
+        "size_in_bytes": 8058
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testplotting.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "49966a86aee3f17ad45a646e3ad4322b6e01e847f333ea5ce6c7a00a2e68fbd2",
+        "sha256_in_prefix": "49966a86aee3f17ad45a646e3ad4322b6e01e847f333ea5ce6c7a00a2e68fbd2",
+        "size_in_bytes": 5155
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/teststreaming.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4986cf1b912212fa0bbe637f0bca21a263fe9e75d44228761dbe33a34bbb935",
+        "sha256_in_prefix": "c4986cf1b912212fa0bbe637f0bca21a263fe9e75d44228761dbe33a34bbb935",
+        "size_in_bytes": 2564
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testtransforms.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "19df0972b9fc9e83e65fc54ce5b892ab9622360968a2c554b178fdba3cca74f9",
+        "sha256_in_prefix": "19df0972b9fc9e83e65fc54ce5b892ab9622360968a2c554b178fdba3cca74f9",
+        "size_in_bytes": 3004
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testui.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "09458e42ff5f2dad51122190643f78e9e306b5118485739ba58582648ac08faa",
+        "sha256_in_prefix": "09458e42ff5f2dad51122190643f78e9e306b5118485739ba58582648ac08faa",
+        "size_in_bytes": 16891
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/testutil.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb3d15cc0a63a8861273799e1e9a74a0c3a1b691c7c17add87046d05966cb96c",
+        "sha256_in_prefix": "fb3d15cc0a63a8861273799e1e9a74a0c3a1b691c7c17add87046d05966cb96c",
+        "size_in_bytes": 22197
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/__pycache__/util.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a5ef9038b6aab38857140221d1a429fe02291a161e8b69527663341508c744d",
+        "sha256_in_prefix": "6a5ef9038b6aab38857140221d1a429fe02291a161e8b69527663341508c744d",
+        "size_in_bytes": 4187
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "ad7af077dcaee344c7537b596a70e8345d658d59a1fb2b31dc226fac3dc415f0",
+        "sha256_in_prefix": "ad7af077dcaee344c7537b596a70e8345d658d59a1fb2b31dc226fac3dc415f0",
+        "size_in_bytes": 1205
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/plotting/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/plotting/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4dd0ad5df32f5220b87d99542fa4497f13c4496ceeb309595863fd6be11571f",
+        "sha256_in_prefix": "a4dd0ad5df32f5220b87d99542fa4497f13c4496ceeb309595863fd6be11571f",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/plotting/__pycache__/testcore.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "10997e056c7543916fcf4240d061a80b27649cf33520966fd0a49cf918296100",
+        "sha256_in_prefix": "10997e056c7543916fcf4240d061a80b27649cf33520966fd0a49cf918296100",
+        "size_in_bytes": 5861
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/plotting/__pycache__/testohlc.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c605ac4640f6df12d4f113184ef22453e109a7bb55311c9930fe92746a28dea5",
+        "sha256_in_prefix": "c605ac4640f6df12d4f113184ef22453e109a7bb55311c9930fe92746a28dea5",
+        "size_in_bytes": 2153
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/plotting/__pycache__/testscattermatrix.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "73b6503f4557ab6318dd29ecb54753a83200731727ff1eac51f9751461e97366",
+        "sha256_in_prefix": "73b6503f4557ab6318dd29ecb54753a83200731727ff1eac51f9751461e97366",
+        "size_in_bytes": 11453
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/plotting/testcore.py",
+        "path_type": "hardlink",
+        "sha256": "27897699f242693cc4d35de512ac430d33e8c418070b8988dfadcc2e564e7fa4",
+        "sha256_in_prefix": "27897699f242693cc4d35de512ac430d33e8c418070b8988dfadcc2e564e7fa4",
+        "size_in_bytes": 2830
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/plotting/testohlc.py",
+        "path_type": "hardlink",
+        "sha256": "0f73a278b05ab19ec856f74c3058f50f0c25f9b86040ec1984c94bf06c2935e0",
+        "sha256_in_prefix": "0f73a278b05ab19ec856f74c3058f50f0c25f9b86040ec1984c94bf06c2935e0",
+        "size_in_bytes": 1061
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/plotting/testscattermatrix.py",
+        "path_type": "hardlink",
+        "sha256": "0d96c3f1f438c58a494d99888322739b4f13da9f84df0eeaa1d20c51c9b36762",
+        "sha256_in_prefix": "0d96c3f1f438c58a494d99888322739b4f13da9f84df0eeaa1d20c51c9b36762",
+        "size_in_bytes": 5125
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/test_links.py",
+        "path_type": "hardlink",
+        "sha256": "a746359ad0b4457cf32c66014574dc02c454f61c42abb3673d31a3a16c8c7761",
+        "sha256_in_prefix": "a746359ad0b4457cf32c66014574dc02c454f61c42abb3673d31a3a16c8c7761",
+        "size_in_bytes": 3073
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testbackend_transforms.py",
+        "path_type": "hardlink",
+        "sha256": "59abcdeaeb6dafb66c7e1db42ffc7b49fa1a51dd8d0538274be432c893eb0018",
+        "sha256_in_prefix": "59abcdeaeb6dafb66c7e1db42ffc7b49fa1a51dd8d0538274be432c893eb0018",
+        "size_in_bytes": 3189
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testcharts.py",
+        "path_type": "hardlink",
+        "sha256": "45528ed064530ff84043f0ddb3f0e5d169d36eae08ee06ae55c949610fcaf3d8",
+        "sha256_in_prefix": "45528ed064530ff84043f0ddb3f0e5d169d36eae08ee06ae55c949610fcaf3d8",
+        "size_in_bytes": 18438
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testfugue.py",
+        "path_type": "hardlink",
+        "sha256": "c7fff01acf772994a4b79fd1890b8e740bfc30abe2bcdd8190fb3f296bfec0af",
+        "sha256_in_prefix": "c7fff01acf772994a4b79fd1890b8e740bfc30abe2bcdd8190fb3f296bfec0af",
+        "size_in_bytes": 996
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testgeo.py",
+        "path_type": "hardlink",
+        "sha256": "1fde1adfef092b86610c06368dc53da6fe02256c44d877709ab13b8c1b6d6f73",
+        "sha256_in_prefix": "1fde1adfef092b86610c06368dc53da6fe02256c44d877709ab13b8c1b6d6f73",
+        "size_in_bytes": 16801
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testgeowithoutgv.py",
+        "path_type": "hardlink",
+        "sha256": "6e6a8024e5336ca357ba6039bc14286fc996ad0fbb281b72cd0c380737c33663",
+        "sha256_in_prefix": "6e6a8024e5336ca357ba6039bc14286fc996ad0fbb281b72cd0c380737c33663",
+        "size_in_bytes": 1744
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testgridplots.py",
+        "path_type": "hardlink",
+        "sha256": "ad73fd74fbf4d3d4183509ecc0b0a37ad9a22cdcd15ed9878b6138b164a36bb8",
+        "sha256_in_prefix": "ad73fd74fbf4d3d4183509ecc0b0a37ad9a22cdcd15ed9878b6138b164a36bb8",
+        "size_in_bytes": 11575
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testhelp.py",
+        "path_type": "hardlink",
+        "sha256": "a45bfd8123b2733d5854348805b421c5279524ceddd0d2ac6704277262053fa2",
+        "sha256_in_prefix": "a45bfd8123b2733d5854348805b421c5279524ceddd0d2ac6704277262053fa2",
+        "size_in_bytes": 2158
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testibis.py",
+        "path_type": "hardlink",
+        "sha256": "a1f7476ee61d7cb2315aefe1be8427cf37317947c3b6dc1a3b3feed7cfeafd1b",
+        "sha256_in_prefix": "a1f7476ee61d7cb2315aefe1be8427cf37317947c3b6dc1a3b3feed7cfeafd1b",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testinteractive.py",
+        "path_type": "hardlink",
+        "sha256": "fdc7885217932a2a9e39fb95349b83b9d87703fc02b5407bd0a1e3d1b0137446",
+        "sha256_in_prefix": "fdc7885217932a2a9e39fb95349b83b9d87703fc02b5407bd0a1e3d1b0137446",
+        "size_in_bytes": 41836
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testnetworkx.py",
+        "path_type": "hardlink",
+        "sha256": "afb97fb2775863854325a7f9312ed91c216db0aa15b1d3b83b309b70af279aa9",
+        "sha256_in_prefix": "afb97fb2775863854325a7f9312ed91c216db0aa15b1d3b83b309b70af279aa9",
+        "size_in_bytes": 665
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testoperations.py",
+        "path_type": "hardlink",
+        "sha256": "a52dfca567a0f43000aa987738cb80fb6839be59de8db37568c8f562c04a382d",
+        "sha256_in_prefix": "a52dfca567a0f43000aa987738cb80fb6839be59de8db37568c8f562c04a382d",
+        "size_in_bytes": 14493
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testoptions.py",
+        "path_type": "hardlink",
+        "sha256": "bacf43c59985a512a425358c2d7626997b302f4d82e8c9a98ab149526488571c",
+        "sha256_in_prefix": "bacf43c59985a512a425358c2d7626997b302f4d82e8c9a98ab149526488571c",
+        "size_in_bytes": 22554
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testoverrides.py",
+        "path_type": "hardlink",
+        "sha256": "0e36055dc18b761c2943c8837479be25f66c37cb2f08aa5b8c8f75080124ca2a",
+        "sha256_in_prefix": "0e36055dc18b761c2943c8837479be25f66c37cb2f08aa5b8c8f75080124ca2a",
+        "size_in_bytes": 3150
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testpanel.py",
+        "path_type": "hardlink",
+        "sha256": "2aaa3dddd48775bb7a3af5fde45bd628fd474a650ebad8bf86892058b09768e9",
+        "sha256_in_prefix": "2aaa3dddd48775bb7a3af5fde45bd628fd474a650ebad8bf86892058b09768e9",
+        "size_in_bytes": 2299
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testpatch.py",
+        "path_type": "hardlink",
+        "sha256": "8f6ee91526fb538ee0fa83303dd01bbcf2619dcd2e1f6d36f03adaec9d26bb9f",
+        "sha256_in_prefix": "8f6ee91526fb538ee0fa83303dd01bbcf2619dcd2e1f6d36f03adaec9d26bb9f",
+        "size_in_bytes": 3907
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testplotting.py",
+        "path_type": "hardlink",
+        "sha256": "55e60ad0df62974e5a3b1157b5fae3d31b28a8b29f2ec771b7ded49188f3fef9",
+        "sha256_in_prefix": "55e60ad0df62974e5a3b1157b5fae3d31b28a8b29f2ec771b7ded49188f3fef9",
+        "size_in_bytes": 2504
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/teststreaming.py",
+        "path_type": "hardlink",
+        "sha256": "5f8f1f1ad0f527b1126adbf81ccbfb287bd946cee011cc424c47dbac777d4d31",
+        "sha256_in_prefix": "5f8f1f1ad0f527b1126adbf81ccbfb287bd946cee011cc424c47dbac777d4d31",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testtransforms.py",
+        "path_type": "hardlink",
+        "sha256": "588ea18fb4e56030a3eefbe3d29db412d0204fab2f3bf0f44670ec57877ad016",
+        "sha256_in_prefix": "588ea18fb4e56030a3eefbe3d29db412d0204fab2f3bf0f44670ec57877ad016",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testui.py",
+        "path_type": "hardlink",
+        "sha256": "4046abfcc930d91b898a3a98fa661bc96373e2511b067f2aca1daa468f45c75a",
+        "sha256_in_prefix": "4046abfcc930d91b898a3a98fa661bc96373e2511b067f2aca1daa468f45c75a",
+        "size_in_bytes": 10453
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/testutil.py",
+        "path_type": "hardlink",
+        "sha256": "612d9a035609dd3b1c7b00928fefffd54b5012c9b15f8c66dd8ba53ac437626b",
+        "sha256_in_prefix": "612d9a035609dd3b1c7b00928fefffd54b5012c9b15f8c66dd8ba53ac437626b",
+        "size_in_bytes": 14116
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/tests/util.py",
+        "path_type": "hardlink",
+        "sha256": "a1f8de1cfbddd969e9f6913cdaaf86661e5019af9d8fd356b9e2b5310090ba40",
+        "sha256_in_prefix": "a1f8de1cfbddd969e9f6913cdaaf86661e5019af9d8fd356b9e2b5310090ba40",
+        "size_in_bytes": 1955
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/ui.py",
+        "path_type": "hardlink",
+        "sha256": "933fa8befafa8ae4e1a1d6ad0cb4a009d83b4cbf3620ad4bc4517a8dea44e357",
+        "sha256_in_prefix": "933fa8befafa8ae4e1a1d6ad0cb4a009d83b4cbf3620ad4bc4517a8dea44e357",
+        "size_in_bytes": 32398
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/util.py",
+        "path_type": "hardlink",
+        "sha256": "0ac7bcf2406473c0cbf6de184a61163f71dc7a5f1667634ce9e7746845920d3c",
+        "sha256_in_prefix": "0ac7bcf2406473c0cbf6de184a61163f71dc7a5f1667634ce9e7746845920d3c",
+        "size_in_bytes": 19345
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "e152d11cc44eccd2c2b9b93af9e7b242700cbdfdceebc06d616759875f50b6e5",
+        "sha256_in_prefix": "e152d11cc44eccd2c2b9b93af9e7b242700cbdfdceebc06d616759875f50b6e5",
+        "size_in_bytes": 2217
+      },
+      {
+        "_path": "lib/python3.12/site-packages/hvplot/xarray.py",
+        "path_type": "hardlink",
+        "sha256": "0635f2ae93dc611dfbb175b40e9747a9469acb24b7153c8697d1e8d1075d240c",
+        "sha256_in_prefix": "0635f2ae93dc611dfbb175b40e9747a9469acb24b7153c8697d1e8d1075d240c",
+        "size_in_bytes": 1894
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e286b2a100a033e074dfbadf1971fbedb83f2296341403e05b30be09c3487ddd",
+  "size": 1960144,
+  "subdir": "osx-64",
+  "timestamp": 1706712441429,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/hvplot-0.9.2-py312hecd8cb5_0.conda",
+  "version": "0.9.2"
+}

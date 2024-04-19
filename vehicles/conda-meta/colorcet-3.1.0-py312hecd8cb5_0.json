@@ -1,0 +1,165 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/colorcet-3.1.0-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/colorcet/__init__.py",
+    "lib/python3.12/site-packages/colorcet/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/colorcet/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/colorcet/__pycache__/plotting.cpython-312.pyc",
+    "lib/python3.12/site-packages/colorcet/__pycache__/sineramp.cpython-312.pyc",
+    "lib/python3.12/site-packages/colorcet/_version.py",
+    "lib/python3.12/site-packages/colorcet/plotting.py",
+    "lib/python3.12/site-packages/colorcet/sineramp.py"
+  ],
+  "fn": "colorcet-3.1.0-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "d635b8f6295e235480dfce2ada1a12f3",
+  "license": "CC-BY-4.0",
+  "license_family": "CC",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/colorcet-3.1.0-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "3a6593eb645f77a1bbca61fd9bcd74b4",
+  "name": "colorcet",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/colorcet-3.1.0-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "c97deeeca4ae375a0334bc7f7af5f707aabfcec959c53c783b9f8771d28fd5b3",
+        "sha256_in_prefix": "c97deeeca4ae375a0334bc7f7af5f707aabfcec959c53c783b9f8771d28fd5b3",
+        "size_in_bytes": 14990
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "20fe51b77d74f66f7b637898dd0b7f16f150a2ad7fa012196fcfc4b16f86d219",
+        "sha256_in_prefix": "20fe51b77d74f66f7b637898dd0b7f16f150a2ad7fa012196fcfc4b16f86d219",
+        "size_in_bytes": 6277
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d53554cc58e9719736cb3c0ebc9b58e6fdf8ac65d5c358f6b291abd086b374ff",
+        "sha256_in_prefix": "d53554cc58e9719736cb3c0ebc9b58e6fdf8ac65d5c358f6b291abd086b374ff",
+        "size_in_bytes": 1184
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6c9863dd79e7761e491ed4c89767b80266c9613cd72c280d49fce49bf6034a53",
+        "sha256_in_prefix": "6c9863dd79e7761e491ed4c89767b80266c9613cd72c280d49fce49bf6034a53",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet-3.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "534fc2e11f039c24465646af2e0d21586718c6a4272abe65ea324783d04eab1a",
+        "sha256_in_prefix": "534fc2e11f039c24465646af2e0d21586718c6a4272abe65ea324783d04eab1a",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6097505d3c67041ec04a8485c0f8c921adbd65ed7708c80130350e09d22d853a",
+        "sha256_in_prefix": "6097505d3c67041ec04a8485c0f8c921adbd65ed7708c80130350e09d22d853a",
+        "size_in_bytes": 816752
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "864cb0b25ba5719ec6713028e4651e7fdace4f53b27adf0c69a4a6d115f5aeb7",
+        "sha256_in_prefix": "864cb0b25ba5719ec6713028e4651e7fdace4f53b27adf0c69a4a6d115f5aeb7",
+        "size_in_bytes": 1204227
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9554de42d81ad2295c943765d0e57b640d082996acb9dc0b067f515d64a8497",
+        "sha256_in_prefix": "e9554de42d81ad2295c943765d0e57b640d082996acb9dc0b067f515d64a8497",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet/__pycache__/plotting.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e315c6a7efb11f8ad21f8e559c2234ad39fe29ac067770486b62496af0c81e3",
+        "sha256_in_prefix": "3e315c6a7efb11f8ad21f8e559c2234ad39fe29ac067770486b62496af0c81e3",
+        "size_in_bytes": 7813
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet/__pycache__/sineramp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2dc0c623137436883849a3a34655756a97e18a4223e9837fba0876f4d8a75381",
+        "sha256_in_prefix": "2dc0c623137436883849a3a34655756a97e18a4223e9837fba0876f4d8a75381",
+        "size_in_bytes": 6624
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet/_version.py",
+        "path_type": "hardlink",
+        "sha256": "03e1ce7b483f69882dcfe01ede59936c087b7ffabcf42590bb17c086b2340f3e",
+        "sha256_in_prefix": "03e1ce7b483f69882dcfe01ede59936c087b7ffabcf42590bb17c086b2340f3e",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet/plotting.py",
+        "path_type": "hardlink",
+        "sha256": "d092175209b816f5a917a79d0c007bc308905e6f96d7d97aa5ccbe07334737dc",
+        "sha256_in_prefix": "d092175209b816f5a917a79d0c007bc308905e6f96d7d97aa5ccbe07334737dc",
+        "size_in_bytes": 5330
+      },
+      {
+        "_path": "lib/python3.12/site-packages/colorcet/sineramp.py",
+        "path_type": "hardlink",
+        "sha256": "da19299b303d0cd3dff4f553e13ff55d0a20136e854c6dc52b229ee542c86fdc",
+        "sha256_in_prefix": "da19299b303d0cd3dff4f553e13ff55d0a20136e854c6dc52b229ee542c86fdc",
+        "size_in_bytes": 6433
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5fa550ce19dc0c5895c8bd3626d8a83e21d35265857d6f86a025b95ddf2bed44",
+  "size": 615018,
+  "subdir": "osx-64",
+  "timestamp": 1709758532652,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/colorcet-3.1.0-py312hecd8cb5_0.conda",
+  "version": "3.1.0"
+}

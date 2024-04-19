@@ -1,0 +1,36 @@
+{
+  "build": "py312_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "_anaconda_depends",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/anaconda-custom-py312_2",
+  "features": "",
+  "files": [],
+  "fn": "anaconda-custom-py312_2.conda",
+  "legacy_bz2_md5": "7475339cb4639b76b89359601150c780",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/anaconda-custom-py312_2",
+    "type": 1
+  },
+  "md5": "76125947ed48e915e7c7e034ee3050fa",
+  "name": "anaconda",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/anaconda-custom-py312_2.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4302b357bd061048446c051d297e7bbbda23da35c86677d694b13cbff8580029",
+  "size": 13097,
+  "subdir": "osx-64",
+  "timestamp": 1711477369609,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/anaconda-custom-py312_2.conda",
+  "version": "custom"
+}

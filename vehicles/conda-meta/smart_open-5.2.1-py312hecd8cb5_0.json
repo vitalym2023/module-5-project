@@ -1,0 +1,389 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/smart_open-5.2.1-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/LICENSE",
+    "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/smart_open/__init__.py",
+    "lib/python3.12/site-packages/smart_open/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/azure.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/bytebuffer.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/compression.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/concurrency.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/constants.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/doctools.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/gcs.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/hdfs.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/http.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/local_file.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/s3.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/smart_open_lib.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/ssh.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/transport.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/version.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/__pycache__/webhdfs.cpython-312.pyc",
+    "lib/python3.12/site-packages/smart_open/azure.py",
+    "lib/python3.12/site-packages/smart_open/bytebuffer.py",
+    "lib/python3.12/site-packages/smart_open/compression.py",
+    "lib/python3.12/site-packages/smart_open/concurrency.py",
+    "lib/python3.12/site-packages/smart_open/constants.py",
+    "lib/python3.12/site-packages/smart_open/doctools.py",
+    "lib/python3.12/site-packages/smart_open/gcs.py",
+    "lib/python3.12/site-packages/smart_open/hdfs.py",
+    "lib/python3.12/site-packages/smart_open/http.py",
+    "lib/python3.12/site-packages/smart_open/local_file.py",
+    "lib/python3.12/site-packages/smart_open/s3.py",
+    "lib/python3.12/site-packages/smart_open/smart_open_lib.py",
+    "lib/python3.12/site-packages/smart_open/ssh.py",
+    "lib/python3.12/site-packages/smart_open/transport.py",
+    "lib/python3.12/site-packages/smart_open/utils.py",
+    "lib/python3.12/site-packages/smart_open/version.py",
+    "lib/python3.12/site-packages/smart_open/webhdfs.py"
+  ],
+  "fn": "smart_open-5.2.1-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "7589d4093e20659ce4e43891316b54d8",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/smart_open-5.2.1-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "83dec1c2d57bac8d96f2313e1bcd3da1",
+  "name": "smart_open",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/smart_open-5.2.1-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cbedcdbba694f5aad9e5f65875bcf7137bc7e6307e1d11a8d52bba9943d82f98",
+        "sha256_in_prefix": "cbedcdbba694f5aad9e5f65875bcf7137bc7e6307e1d11a8d52bba9943d82f98",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "cf00df6d53011124ccefb17a7d371d94ac05751aafaf669b0d286c3d0666b4ce",
+        "sha256_in_prefix": "cf00df6d53011124ccefb17a7d371d94ac05751aafaf669b0d286c3d0666b4ce",
+        "size_in_bytes": 22665
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "60532898281cd55de4d526dfa4d9e8ffea588ce7e095211d677e6b51813ea243",
+        "sha256_in_prefix": "60532898281cd55de4d526dfa4d9e8ffea588ce7e095211d677e6b51813ea243",
+        "size_in_bytes": 3020
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "fcf69c557696e510f70b4809d0ab5d017a9368bce477b55052bb06b2095808b9",
+        "sha256_in_prefix": "fcf69c557696e510f70b4809d0ab5d017a9368bce477b55052bb06b2095808b9",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open-5.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "eab955131518468dca5265e154b02a17ce926d9bd65a16b9c9be2bffcf687584",
+        "sha256_in_prefix": "eab955131518468dca5265e154b02a17ce926d9bd65a16b9c9be2bffcf687584",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4691a0950f871e39f81899d08162b63fc2dc96b2ab4d8c0d95d4df1e2cf7a8ca",
+        "sha256_in_prefix": "4691a0950f871e39f81899d08162b63fc2dc96b2ab4d8c0d95d4df1e2cf7a8ca",
+        "size_in_bytes": 2029
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fca25d2751e2b48a891ae76349e53d822f450e42af67a042d6820dd14924b28",
+        "sha256_in_prefix": "6fca25d2751e2b48a891ae76349e53d822f450e42af67a042d6820dd14924b28",
+        "size_in_bytes": 2027
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/azure.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "21827569bd6c23a5d519895e2ef3158a2b1feffc820c2035f6704e6e13c31477",
+        "sha256_in_prefix": "21827569bd6c23a5d519895e2ef3158a2b1feffc820c2035f6704e6e13c31477",
+        "size_in_bytes": 21399
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/bytebuffer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "82ecaaa1a2f6a1bfcd31b44575e338398c8749f2eb0cab4b813f58796add5767",
+        "sha256_in_prefix": "82ecaaa1a2f6a1bfcd31b44575e338398c8749f2eb0cab4b813f58796add5767",
+        "size_in_bytes": 7152
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/compression.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3d3421b97397947087dd92affec02588f46ad0eb5fc3ab8606876c3ecb77af02",
+        "sha256_in_prefix": "3d3421b97397947087dd92affec02588f46ad0eb5fc3ab8606876c3ecb77af02",
+        "size_in_bytes": 5207
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/concurrency.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc69481899352c9ecd1b4442c4201739cf19aa61b1c19d380166f93832bef316",
+        "sha256_in_prefix": "fc69481899352c9ecd1b4442c4201739cf19aa61b1c19d380166f93832bef316",
+        "size_in_bytes": 3652
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/constants.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c90d95a1efed0e447ff04c77847ca3110d09cbb51c1c64bcd109ed9ec2e4a81d",
+        "sha256_in_prefix": "c90d95a1efed0e447ff04c77847ca3110d09cbb51c1c64bcd109ed9ec2e4a81d",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/doctools.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f9ba138b25eedf7b315693954a6f9d7e7e2cdc4eaca6c5a4a5f348d6584730ad",
+        "sha256_in_prefix": "f9ba138b25eedf7b315693954a6f9d7e7e2cdc4eaca6c5a4a5f348d6584730ad",
+        "size_in_bytes": 9583
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/gcs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fead8063f402227aa28b82149d298280fedbc46f4ad498cbb07f62ace624a0d",
+        "sha256_in_prefix": "5fead8063f402227aa28b82149d298280fedbc46f4ad498cbb07f62ace624a0d",
+        "size_in_bytes": 24092
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/hdfs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2baf6050e348b2c57e488e900f80b173abdb4cf8fc207c5b656c7c51465d26b8",
+        "sha256_in_prefix": "2baf6050e348b2c57e488e900f80b173abdb4cf8fc207c5b656c7c51465d26b8",
+        "size_in_bytes": 6580
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/http.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "98069039c7ce84ae12dbf5a6910985eb5889798dd3a48d570faf09ad769dcfad",
+        "sha256_in_prefix": "98069039c7ce84ae12dbf5a6910985eb5889798dd3a48d570faf09ad769dcfad",
+        "size_in_bytes": 13027
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/local_file.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad119da2f83e6002360b966d0c8cad99b2f62194cb60a3c565fd4e873b7703cd",
+        "sha256_in_prefix": "ad119da2f83e6002360b966d0c8cad99b2f62194cb60a3c565fd4e873b7703cd",
+        "size_in_bytes": 1359
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/s3.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0da4c7802609725f13b1676fd7f45cd13200efb4958b86e23c918f207f54154b",
+        "sha256_in_prefix": "0da4c7802609725f13b1676fd7f45cd13200efb4958b86e23c918f207f54154b",
+        "size_in_bytes": 45280
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/smart_open_lib.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "45e12f033adf4c3f50e81147d295c8bc92dc08651d9a50f4d1519b7b58b42593",
+        "sha256_in_prefix": "45e12f033adf4c3f50e81147d295c8bc92dc08651d9a50f4d1519b7b58b42593",
+        "size_in_bytes": 14503
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/ssh.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae4fbea95f5bf92dfce6e835657988b10627d5b1468b6d3c222dc840dc821f5b",
+        "sha256_in_prefix": "ae4fbea95f5bf92dfce6e835657988b10627d5b1468b6d3c222dc840dc821f5b",
+        "size_in_bytes": 5384
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/transport.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cfe52490856d809c82683f32ee200d09c739e6cc6abe294de9399d08f58359d6",
+        "sha256_in_prefix": "cfe52490856d809c82683f32ee200d09c739e6cc6abe294de9399d08f58359d6",
+        "size_in_bytes": 3649
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2cd932b9e47e8095f9cff6439ec2dca1ff5306dae6edf8edbacfbcc6a73738de",
+        "sha256_in_prefix": "2cd932b9e47e8095f9cff6439ec2dca1ff5306dae6edf8edbacfbcc6a73738de",
+        "size_in_bytes": 6730
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ea590d446ad817e338b8bf366ea1a54fcb7b716c6786c867cdb1b5b8cf0b634",
+        "sha256_in_prefix": "0ea590d446ad817e338b8bf366ea1a54fcb7b716c6786c867cdb1b5b8cf0b634",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/__pycache__/webhdfs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "617206943f345b797322ade8c75b695ec90020e3d1070c8cb4b77515a6b325dc",
+        "sha256_in_prefix": "617206943f345b797322ade8c75b695ec90020e3d1070c8cb4b77515a6b325dc",
+        "size_in_bytes": 13046
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/azure.py",
+        "path_type": "hardlink",
+        "sha256": "a1db051a4426ac5d8f33608dc88192c80fa1d5ec875c51812a7cd9a88460fdaf",
+        "sha256_in_prefix": "a1db051a4426ac5d8f33608dc88192c80fa1d5ec875c51812a7cd9a88460fdaf",
+        "size_in_bytes": 16595
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/bytebuffer.py",
+        "path_type": "hardlink",
+        "sha256": "7ac577f1c357b0ca27b5f7a34720ccee864968bad5d6c42a4c36a5aff4ed609b",
+        "sha256_in_prefix": "7ac577f1c357b0ca27b5f7a34720ccee864968bad5d6c42a4c36a5aff4ed609b",
+        "size_in_bytes": 5971
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/compression.py",
+        "path_type": "hardlink",
+        "sha256": "e7f0c70c87a5a09fa86ef0e0d9f0b84958b05e82b55ce08cecaa18d2f5c96a84",
+        "sha256_in_prefix": "e7f0c70c87a5a09fa86ef0e0d9f0b84958b05e82b55ce08cecaa18d2f5c96a84",
+        "size_in_bytes": 4396
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/concurrency.py",
+        "path_type": "hardlink",
+        "sha256": "4786ee1e0d93748373c9cf0906fae731be4097a492f761560ebf92b282a3d37c",
+        "sha256_in_prefix": "4786ee1e0d93748373c9cf0906fae731be4097a492f761560ebf92b282a3d37c",
+        "size_in_bytes": 2544
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/constants.py",
+        "path_type": "hardlink",
+        "sha256": "83972b22d15c2b4e1efc6c90431aa4d6549e17815b53e4c22f6dddc4dbe1d58c",
+        "sha256_in_prefix": "83972b22d15c2b4e1efc6c90431aa4d6549e17815b53e4c22f6dddc4dbe1d58c",
+        "size_in_bytes": 467
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/doctools.py",
+        "path_type": "hardlink",
+        "sha256": "0ef2e36e83b2615bfc0f7ea3cf600a51772356bbbdcb38ccdf9df6428fa4b858",
+        "sha256_in_prefix": "0ef2e36e83b2615bfc0f7ea3cf600a51772356bbbdcb38ccdf9df6428fa4b858",
+        "size_in_bytes": 6639
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/gcs.py",
+        "path_type": "hardlink",
+        "sha256": "9149ba90ad05be92c6732422086959aa9d4e2e0ad63b409da4ee7a5ceaeb63cc",
+        "sha256_in_prefix": "9149ba90ad05be92c6732422086959aa9d4e2e0ad63b409da4ee7a5ceaeb63cc",
+        "size_in_bytes": 19654
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/hdfs.py",
+        "path_type": "hardlink",
+        "sha256": "4aac34d85e3cd04b3f973c6ba29eacf5f2a8c60dae2ae6989541f571ba9cd14e",
+        "sha256_in_prefix": "4aac34d85e3cd04b3f973c6ba29eacf5f2a8c60dae2ae6989541f571ba9cd14e",
+        "size_in_bytes": 3994
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/http.py",
+        "path_type": "hardlink",
+        "sha256": "83d5532c1ec2ffb9e55eb7f9794864dec3c59d0e9a00cb35075235fcb9c32b6d",
+        "sha256_in_prefix": "83d5532c1ec2ffb9e55eb7f9794864dec3c59d0e9a00cb35075235fcb9c32b6d",
+        "size_in_bytes": 10306
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/local_file.py",
+        "path_type": "hardlink",
+        "sha256": "45e51206df8948b423fc1b10e34cff69ddddaf0c7c5c2cdf399d52b53c2df4fb",
+        "sha256_in_prefix": "45e51206df8948b423fc1b10e34cff69ddddaf0c7c5c2cdf399d52b53c2df4fb",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/s3.py",
+        "path_type": "hardlink",
+        "sha256": "32051c2f431919cbdb21fd4b9e92148aae7e82c56a88f61f3ac8d9e22377efe7",
+        "sha256_in_prefix": "32051c2f431919cbdb21fd4b9e92148aae7e82c56a88f61f3ac8d9e22377efe7",
+        "size_in_bytes": 40705
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/smart_open_lib.py",
+        "path_type": "hardlink",
+        "sha256": "8249314cfa4676677c1038d9661d2bd4378ece8b5efae4058f6e67a7cef5f8d0",
+        "sha256_in_prefix": "8249314cfa4676677c1038d9661d2bd4378ece8b5efae4058f6e67a7cef5f8d0",
+        "size_in_bytes": 16140
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/ssh.py",
+        "path_type": "hardlink",
+        "sha256": "a5573f732bc2a11dee0d37308175daf3e393a1e9d14b0a6ff15ae4718469a352",
+        "sha256_in_prefix": "a5573f732bc2a11dee0d37308175daf3e393a1e9d14b0a6ff15ae4718469a352",
+        "size_in_bytes": 4312
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/transport.py",
+        "path_type": "hardlink",
+        "sha256": "86540ccdfe0552d042e6a7ec92daebe82c3b7e7fdf33dc9f1912ae5c4069c1dd",
+        "sha256_in_prefix": "86540ccdfe0552d042e6a7ec92daebe82c3b7e7fdf33dc9f1912ae5c4069c1dd",
+        "size_in_bytes": 3313
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/utils.py",
+        "path_type": "hardlink",
+        "sha256": "beb5fa5d54252abd303a58f907bdc4c2c20366c429d49ff9c431c79ab2525e5d",
+        "sha256_in_prefix": "beb5fa5d54252abd303a58f907bdc4c2c20366c429d49ff9c431c79ab2525e5d",
+        "size_in_bytes": 5995
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/version.py",
+        "path_type": "hardlink",
+        "sha256": "94b01b6af4406961a7292a86ec022ee1de17f1d288668f484857a61c27d523f6",
+        "sha256_in_prefix": "94b01b6af4406961a7292a86ec022ee1de17f1d288668f484857a61c27d523f6",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "lib/python3.12/site-packages/smart_open/webhdfs.py",
+        "path_type": "hardlink",
+        "sha256": "ce9297a12315a3086edcc7539fccfe879ce5eb90bc998a4062fceea730b4ed5e",
+        "sha256_in_prefix": "ce9297a12315a3086edcc7539fccfe879ce5eb90bc998a4062fceea730b4ed5e",
+        "size_in_bytes": 8481
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "20c6d85f099be528a6477666a6c9d2b0940069b0f13eacd0b44bf805ed4c268a",
+  "size": 97866,
+  "subdir": "osx-64",
+  "timestamp": 1699247103398,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/smart_open-5.2.1-py312hecd8cb5_0.conda",
+  "version": "5.2.1"
+}

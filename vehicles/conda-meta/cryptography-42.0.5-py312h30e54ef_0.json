@@ -1,0 +1,1425 @@
+{
+  "build": "py312h30e54ef_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "pyopenssl >=23.0.0"
+  ],
+  "depends": [
+    "cffi >=1.12",
+    "openssl >=3.0.13,<4.0a0",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/cryptography-42.0.5-py312h30e54ef_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/LICENSE",
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/LICENSE.APACHE",
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/LICENSE.BSD",
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/METADATA",
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/RECORD",
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/WHEEL",
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/cryptography/__about__.py",
+    "lib/python3.12/site-packages/cryptography/__init__.py",
+    "lib/python3.12/site-packages/cryptography/__pycache__/__about__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/__pycache__/fernet.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/exceptions.py",
+    "lib/python3.12/site-packages/cryptography/fernet.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/__pycache__/_oid.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/_oid.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/aead.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/backend.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/ciphers.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/decode_asn1.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/aead.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/backend.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/ciphers.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/decode_asn1.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/__init__.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/_openssl.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/asn1.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/exceptions.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/ocsp.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/__init__.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/aead.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/cmac.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/dh.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/dsa.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ec.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ed25519.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ed448.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/hashes.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/hmac.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/kdf.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/keys.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/poly1305.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/rsa.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/x25519.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/x448.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/pkcs7.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/x509.pyi",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/_conditional.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/binding.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/_conditional.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/binding.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_asymmetric.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_cipheralgorithm.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_serialization.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/cmac.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/constant_time.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hashes.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hmac.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/keywrap.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/padding.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/poly1305.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/_asymmetric.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/_cipheralgorithm.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/_serialization.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dh.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dsa.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ec.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed25519.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed448.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/padding.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/rsa.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/types.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x25519.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x448.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/dh.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/dsa.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ec.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ed25519.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ed448.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/padding.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/rsa.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/types.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/utils.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/x25519.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/x448.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/aead.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/algorithms.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/modes.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/aead.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/algorithms.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/base.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/modes.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/cmac.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/constant_time.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/hashes.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/hmac.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/concatkdf.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/hkdf.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/kbkdf.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/pbkdf2.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/scrypt.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/x963kdf.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/concatkdf.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/hkdf.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/kbkdf.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/pbkdf2.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/scrypt.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/x963kdf.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/keywrap.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/padding.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/poly1305.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs12.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs7.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/ssh.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/base.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/pkcs12.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/pkcs7.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/ssh.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__init__.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/hotp.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/totp.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/hotp.py",
+    "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/totp.py",
+    "lib/python3.12/site-packages/cryptography/py.typed",
+    "lib/python3.12/site-packages/cryptography/utils.py",
+    "lib/python3.12/site-packages/cryptography/x509/__init__.py",
+    "lib/python3.12/site-packages/cryptography/x509/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/x509/__pycache__/base.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/x509/__pycache__/certificate_transparency.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/x509/__pycache__/extensions.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/x509/__pycache__/general_name.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/x509/__pycache__/name.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/x509/__pycache__/ocsp.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/x509/__pycache__/oid.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/x509/__pycache__/verification.cpython-312.pyc",
+    "lib/python3.12/site-packages/cryptography/x509/base.py",
+    "lib/python3.12/site-packages/cryptography/x509/certificate_transparency.py",
+    "lib/python3.12/site-packages/cryptography/x509/extensions.py",
+    "lib/python3.12/site-packages/cryptography/x509/general_name.py",
+    "lib/python3.12/site-packages/cryptography/x509/name.py",
+    "lib/python3.12/site-packages/cryptography/x509/ocsp.py",
+    "lib/python3.12/site-packages/cryptography/x509/oid.py",
+    "lib/python3.12/site-packages/cryptography/x509/verification.py"
+  ],
+  "fn": "cryptography-42.0.5-py312h30e54ef_0.conda",
+  "legacy_bz2_md5": "71506a3a08296ee78a30e028b98eea37",
+  "license": "Apache-2.0 OR BSD-3-Clause",
+  "license_family": "OTHER",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/cryptography-42.0.5-py312h30e54ef_0",
+    "type": 1
+  },
+  "md5": "ed1415f9d537ee959abcedf3de936610",
+  "name": "cryptography",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/cryptography-42.0.5-py312h30e54ef_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+        "sha256_in_prefix": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/LICENSE.APACHE",
+        "path_type": "hardlink",
+        "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+        "sha256_in_prefix": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe",
+        "size_in_bytes": 11360
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/LICENSE.BSD",
+        "path_type": "hardlink",
+        "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb",
+        "sha256_in_prefix": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb",
+        "size_in_bytes": 1532
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1c12d5d6747ab7326ac187628eb23699d22b5afe1ff5c8b8669ce42455a63e9b",
+        "sha256_in_prefix": "1c12d5d6747ab7326ac187628eb23699d22b5afe1ff5c8b8669ce42455a63e9b",
+        "size_in_bytes": 5295
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ee098f0a3aaeccc7ab6819478ea67649bd03eb6076e15ded51b57bb4144f290b",
+        "sha256_in_prefix": "ee098f0a3aaeccc7ab6819478ea67649bd03eb6076e15ded51b57bb4144f290b",
+        "size_in_bytes": 15445
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "91e1cda508150ad6669dab2c5c8dfc6d87a1564899f0baee77f93eccbcaab048",
+        "sha256_in_prefix": "91e1cda508150ad6669dab2c5c8dfc6d87a1564899f0baee77f93eccbcaab048",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "acc901775a237d05a0e48a27a5fc68f6460534c90e7ab443f5afb985218b1787",
+        "sha256_in_prefix": "acc901775a237d05a0e48a27a5fc68f6460534c90e7ab443f5afb985218b1787",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography-42.0.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "28d693f929f62b8bb135a11b7ba9987439f7a960cc969e32f8cb567c1ef79c97",
+        "sha256_in_prefix": "28d693f929f62b8bb135a11b7ba9987439f7a960cc969e32f8cb567c1ef79c97",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/__about__.py",
+        "path_type": "hardlink",
+        "sha256": "43f7483da076bb9e246df350333aa66de97e81b1ba442e6f5b33ba3921431aa3",
+        "sha256_in_prefix": "43f7483da076bb9e246df350333aa66de97e81b1ba442e6f5b33ba3921431aa3",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8953e50655d64c9ca215e45e77171b30f8721c1df8be238cd7477bdaf1a75ae1",
+        "sha256_in_prefix": "8953e50655d64c9ca215e45e77171b30f8721c1df8be238cd7477bdaf1a75ae1",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/__pycache__/__about__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "03b6e935120a29371e5f99cb6550bd1927c859f38f394f472b520b697e785f21",
+        "sha256_in_prefix": "03b6e935120a29371e5f99cb6550bd1927c859f38f394f472b520b697e785f21",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f9b3a4990486a4b81267e7721cde9b0b623f30942c17136493b5e5747d82bb3",
+        "sha256_in_prefix": "4f9b3a4990486a4b81267e7721cde9b0b623f30942c17136493b5e5747d82bb3",
+        "size_in_bytes": 349
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b143937833e2d7aa5129faf1b976731cfdc8690aa811eceafcec158e1b53107f",
+        "sha256_in_prefix": "b143937833e2d7aa5129faf1b976731cfdc8690aa811eceafcec158e1b53107f",
+        "size_in_bytes": 2346
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/__pycache__/fernet.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a5d2b21ad2ea97bee4a6380f52fbce336e65134ee91f9bf48fcdea980024515e",
+        "sha256_in_prefix": "a5d2b21ad2ea97bee4a6380f52fbce336e65134ee91f9bf48fcdea980024515e",
+        "size_in_bytes": 10687
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7724a5bb142c8da8638778b3bc57e4268340ed6ad3024e79a6d438d04de55fcd",
+        "sha256_in_prefix": "7724a5bb142c8da8638778b3bc57e4268340ed6ad3024e79a6d438d04de55fcd",
+        "size_in_bytes": 6603
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "f37e445882dcd9fc31c3e83214cae27220b64aa8558844c1d742c14b2b670c87",
+        "sha256_in_prefix": "f37e445882dcd9fc31c3e83214cae27220b64aa8558844c1d742c14b2b670c87",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/fernet.py",
+        "path_type": "hardlink",
+        "sha256": "68f8fcdb0f99ff51815d4b56454b197556ccc11a3931b8e3d30900f701b8ae4c",
+        "sha256_in_prefix": "68f8fcdb0f99ff51815d4b56454b197556ccc11a3931b8e3d30900f701b8ae4c",
+        "size_in_bytes": 6696
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e48c2b2d6ad5a7402312bff815d586fd5d39ecd489198fd6e1e80d36cb9cb748",
+        "sha256_in_prefix": "e48c2b2d6ad5a7402312bff815d586fd5d39ecd489198fd6e1e80d36cb9cb748",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c69f99bfd0c51767f8607740b8536138ce27b7384055209d34d7d813c6c0dc4",
+        "sha256_in_prefix": "2c69f99bfd0c51767f8607740b8536138ce27b7384055209d34d7d813c6c0dc4",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/__pycache__/_oid.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a81db3dfb2a7755ad199546e8f3b9acc5bd5a17d636ecb3083782eee870ef537",
+        "sha256_in_prefix": "a81db3dfb2a7755ad199546e8f3b9acc5bd5a17d636ecb3083782eee870ef537",
+        "size_in_bytes": 17560
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/_oid.py",
+        "path_type": "hardlink",
+        "sha256": "d03853e8dfb3899ce5429d3988f28eb32e7074f31aca229dad283fc997d62f37",
+        "sha256_in_prefix": "d03853e8dfb3899ce5429d3988f28eb32e7074f31aca229dad283fc997d62f37",
+        "size_in_bytes": 14460
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b98ef28541d6675e129ea89f87b6e95a10bf4d8bb9abd660f3658e641e56212",
+        "sha256_in_prefix": "3b98ef28541d6675e129ea89f87b6e95a10bf4d8bb9abd660f3658e641e56212",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b6292539f3d5701550fcd05209b8098f6a537aede406a9b1ce69b5427518658",
+        "sha256_in_prefix": "0b6292539f3d5701550fcd05209b8098f6a537aede406a9b1ce69b5427518658",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a778e625f9c26a0f62139b1d32b37a56f544bb9e6ee3ac5a4bf223a08d12ae60",
+        "sha256_in_prefix": "a778e625f9c26a0f62139b1d32b37a56f544bb9e6ee3ac5a4bf223a08d12ae60",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cfcda80466216a88d833bc5e4835f557aa42a646bd86e4845bdae9b5e5ad526f",
+        "sha256_in_prefix": "cfcda80466216a88d833bc5e4835f557aa42a646bd86e4845bdae9b5e5ad526f",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/aead.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6d21ac041d988eb2b47f46251617b30f2c97b6aab95f898053a293b5bbcec12",
+        "sha256_in_prefix": "d6d21ac041d988eb2b47f46251617b30f2c97b6aab95f898053a293b5bbcec12",
+        "size_in_bytes": 10928
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/backend.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b355c24b04e24140c3bcee1b20824eb048a357f84ed31fab59c509cb5a04daa5",
+        "sha256_in_prefix": "b355c24b04e24140c3bcee1b20824eb048a357f84ed31fab59c509cb5a04daa5",
+        "size_in_bytes": 41184
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/ciphers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "826db8ed2c6f455c496588d464e184e75569564cf66737b72cd1062b0ed857ea",
+        "sha256_in_prefix": "826db8ed2c6f455c496588d464e184e75569564cf66737b72cd1062b0ed857ea",
+        "size_in_bytes": 14698
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__/decode_asn1.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7228edc0200779908fd54730217b5f0dbafe6c0c95b23f05200037a57f983c5",
+        "sha256_in_prefix": "c7228edc0200779908fd54730217b5f0dbafe6c0c95b23f05200037a57f983c5",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/aead.py",
+        "path_type": "hardlink",
+        "sha256": "50134baa489c528daf7bbabeabc478f4881539894332648fb5b3d42b6a9d31b3",
+        "sha256_in_prefix": "50134baa489c528daf7bbabeabc478f4881539894332648fb5b3d42b6a9d31b3",
+        "size_in_bytes": 8176
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/backend.py",
+        "path_type": "hardlink",
+        "sha256": "229a665b81d2c626e33dc8152fa6f316bcea08ba2247a4d5050ad6417007760a",
+        "sha256_in_prefix": "229a665b81d2c626e33dc8152fa6f316bcea08ba2247a4d5050ad6417007760a",
+        "size_in_bytes": 32966
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/ciphers.py",
+        "path_type": "hardlink",
+        "sha256": "33005b05ab9a5233626a36b6e6864ab7bbc8f5b4465df17994ad69fbc010ebb5",
+        "sha256_in_prefix": "33005b05ab9a5233626a36b6e6864ab7bbc8f5b4465df17994ad69fbc010ebb5",
+        "size_in_bytes": 10353
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/decode_asn1.py",
+        "path_type": "hardlink",
+        "sha256": "933ea0cacf30b8986bc7843253a7a7631ed46ad347af42c1dd32358c7de8439e",
+        "sha256_in_prefix": "933ea0cacf30b8986bc7843253a7a7631ed46ad347af42c1dd32358c7de8439e",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3da0a090db2705757a0445d4b58a669fb9e4a406c2fd92f6f27e085a6ae67d6",
+        "sha256_in_prefix": "b3da0a090db2705757a0445d4b58a669fb9e4a406c2fd92f6f27e085a6ae67d6",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "65b67c512456d74b78f12770e8a1f882ddd567f1d4e8061125912953c4e7997b",
+        "sha256_in_prefix": "65b67c512456d74b78f12770e8a1f882ddd567f1d4e8061125912953c4e7997b",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust.cpython-312-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "fcbb7f0271a25166eb614bf7d2820a13c91c66bef40ae32e7e15e74e6388e312",
+        "sha256_in_prefix": "fcbb7f0271a25166eb614bf7d2820a13c91c66bef40ae32e7e15e74e6388e312",
+        "size_in_bytes": 3403600
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "763b1e1c197352a0c9ec951cd89e75393ffb08b9bf2f3d04c95439e68dee7542",
+        "sha256_in_prefix": "763b1e1c197352a0c9ec951cd89e75393ffb08b9bf2f3d04c95439e68dee7542",
+        "size_in_bytes": 495
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/_openssl.pyi",
+        "path_type": "hardlink",
+        "sha256": "9a93492ee60b6c256b7798b7dc5053996c0bff9e43c3b24f9122e5497f50ee82",
+        "sha256_in_prefix": "9a93492ee60b6c256b7798b7dc5053996c0bff9e43c3b24f9122e5497f50ee82",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/asn1.pyi",
+        "path_type": "hardlink",
+        "sha256": "f30f9ff3d96cd296fb0406edd44d0fbe4779f4d1ad4c522d2ed14af192466e49",
+        "sha256_in_prefix": "f30f9ff3d96cd296fb0406edd44d0fbe4779f4d1ad4c522d2ed14af192466e49",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/exceptions.pyi",
+        "path_type": "hardlink",
+        "sha256": "7b15ebdb1c3fd29075924f777186ccdcca216f3a149233a6b3564c522d2e4191",
+        "sha256_in_prefix": "7b15ebdb1c3fd29075924f777186ccdcca216f3a149233a6b3564c522d2e4191",
+        "size_in_bytes": 640
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/ocsp.pyi",
+        "path_type": "hardlink",
+        "sha256": "a94036c7b9706c6fd9ef027fc14c6c04527bd5aae3a17fa79e4640c389d50de4",
+        "sha256_in_prefix": "a94036c7b9706c6fd9ef027fc14c6c04527bd5aae3a17fa79e4640c389d50de4",
+        "size_in_bytes": 860
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "2cec417b28c18306bf86609f97386c39f090283bd2714d387144d2e07acc12b8",
+        "sha256_in_prefix": "2cec417b28c18306bf86609f97386c39f090283bd2714d387144d2e07acc12b8",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/aead.pyi",
+        "path_type": "hardlink",
+        "sha256": "64db0ed47f10f62c503bd0dbeeab646e858a3397f271663f65ec865dbdec7078",
+        "sha256_in_prefix": "64db0ed47f10f62c503bd0dbeeab646e858a3397f271663f65ec865dbdec7078",
+        "size_in_bytes": 1737
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/cmac.pyi",
+        "path_type": "hardlink",
+        "sha256": "9cf1f45f9ed1629b00911a305698d0887139eba4e1513c7b617aec69d9ab9879",
+        "sha256_in_prefix": "9cf1f45f9ed1629b00911a305698d0887139eba4e1513c7b617aec69d9ab9879",
+        "size_in_bytes": 564
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/dh.pyi",
+        "path_type": "hardlink",
+        "sha256": "6774c2f86d38f931ed49d00e3cb3358761bb9a5e5b75ad4495951c9f9c29ba19",
+        "sha256_in_prefix": "6774c2f86d38f931ed49d00e3cb3358761bb9a5e5b75ad4495951c9f9c29ba19",
+        "size_in_bytes": 1564
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/dsa.pyi",
+        "path_type": "hardlink",
+        "sha256": "a81b64823d9a95bb76a8572767d503ae1ce83610953bb1d36f2e5549fd445cc2",
+        "sha256_in_prefix": "a81b64823d9a95bb76a8572767d503ae1ce83610953bb1d36f2e5549fd445cc2",
+        "size_in_bytes": 1299
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ec.pyi",
+        "path_type": "hardlink",
+        "sha256": "cc9cb4a516b99fefe9d9d9b8e4fc44081ffe07a49567234a7e3c450e93ea4f7f",
+        "sha256_in_prefix": "cc9cb4a516b99fefe9d9d9b8e4fc44081ffe07a49567234a7e3c450e93ea4f7f",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ed25519.pyi",
+        "path_type": "hardlink",
+        "sha256": "389b2b6e54b69c7a6d65cb6f6bea402852f9abcc8f1009219a33d9a49e9303de",
+        "sha256_in_prefix": "389b2b6e54b69c7a6d65cb6f6bea402852f9abcc8f1009219a33d9a49e9303de",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/ed448.pyi",
+        "path_type": "hardlink",
+        "sha256": "4a43c72b61dd6d8374d935501143a05b7893762118ec7044e038a3a5d900ce69",
+        "sha256_in_prefix": "4a43c72b61dd6d8374d935501143a05b7893762118ec7044e038a3a5d900ce69",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/hashes.pyi",
+        "path_type": "hardlink",
+        "sha256": "27c1e837419db4f7234407cd1ebe4496f6bf9e49907eaeb72fbe7fcfd75df147",
+        "sha256_in_prefix": "27c1e837419db4f7234407cd1ebe4496f6bf9e49907eaeb72fbe7fcfd75df147",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/hmac.pyi",
+        "path_type": "hardlink",
+        "sha256": "6662c9ef7a66c5c6450b55e8b161225cc458b6f249a2bdd92dd090389bbce42c",
+        "sha256_in_prefix": "6662c9ef7a66c5c6450b55e8b161225cc458b6f249a2bdd92dd090389bbce42c",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/kdf.pyi",
+        "path_type": "hardlink",
+        "sha256": "c0f4b973b34bb29336eb7d88234238887d514b166f491b41395aa6a724004df9",
+        "sha256_in_prefix": "c0f4b973b34bb29336eb7d88234238887d514b166f491b41395aa6a724004df9",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/keys.pyi",
+        "path_type": "hardlink",
+        "sha256": "f6715f6745125311ed3efa899af59ec33dbbb28dea950c714c4b7677dd389ac2",
+        "sha256_in_prefix": "f6715f6745125311ed3efa899af59ec33dbbb28dea950c714c4b7677dd389ac2",
+        "size_in_bytes": 980
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/poly1305.pyi",
+        "path_type": "hardlink",
+        "sha256": "f62a2017b4388bcd4890e4be20c5e9e87bf1145ff770dcbfb9cac08d54279f5e",
+        "sha256_in_prefix": "f62a2017b4388bcd4890e4be20c5e9e87bf1145ff770dcbfb9cac08d54279f5e",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/rsa.pyi",
+        "path_type": "hardlink",
+        "sha256": "d8e4023525e4c6073edeec35c620829682104d5ea9f7f90aefd62ed2b85980f7",
+        "sha256_in_prefix": "d8e4023525e4c6073edeec35c620829682104d5ea9f7f90aefd62ed2b85980f7",
+        "size_in_bytes": 1364
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/x25519.pyi",
+        "path_type": "hardlink",
+        "sha256": "d8129d6eb75d33ff52314a5dbc728685bf4c36351109aacfc5c71b503cc77a80",
+        "sha256_in_prefix": "d8129d6eb75d33ff52314a5dbc728685bf4c36351109aacfc5c71b503cc77a80",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl/x448.pyi",
+        "path_type": "hardlink",
+        "sha256": "02844c58dbc2253887e4bfa590890274f96b3cb51d26fbdf5e922f7f51a6c693",
+        "sha256_in_prefix": "02844c58dbc2253887e4bfa590890274f96b3cb51d26fbdf5e922f7f51a6c693",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/pkcs7.pyi",
+        "path_type": "hardlink",
+        "sha256": "59f257043826b0e835ba2d54df072580bfb1a666dc14daba96de9f63acb1cbcc",
+        "sha256_in_prefix": "59f257043826b0e835ba2d54df072580bfb1a666dc14daba96de9f63acb1cbcc",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/x509.pyi",
+        "path_type": "hardlink",
+        "sha256": "2aab0cd96ded838329cf18c8e1e2fd25bb26ee9430bc9e3ffb10c4ef0035c77c",
+        "sha256_in_prefix": "2aab0cd96ded838329cf18c8e1e2fd25bb26ee9430bc9e3ffb10c4ef0035c77c",
+        "size_in_bytes": 3001
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3da0a090db2705757a0445d4b58a669fb9e4a406c2fd92f6f27e085a6ae67d6",
+        "sha256_in_prefix": "b3da0a090db2705757a0445d4b58a669fb9e4a406c2fd92f6f27e085a6ae67d6",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "592931c36426042bb371faed7331834c93da1ebc80a751ad38e3a74bd5c38ace",
+        "sha256_in_prefix": "592931c36426042bb371faed7331834c93da1ebc80a751ad38e3a74bd5c38ace",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/_conditional.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ed264c58ae473180600dd55315856c83423925d35e11ce3c278fc6e4a83e67f",
+        "sha256_in_prefix": "3ed264c58ae473180600dd55315856c83423925d35e11ce3c278fc6e4a83e67f",
+        "size_in_bytes": 6425
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__/binding.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2116d7392b7f5e3eec52d875f3092ce69370a7b8a0f594e992f78826ebbf7317",
+        "sha256_in_prefix": "2116d7392b7f5e3eec52d875f3092ce69370a7b8a0f594e992f78826ebbf7317",
+        "size_in_bytes": 6366
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/_conditional.py",
+        "path_type": "hardlink",
+        "sha256": "a1ad1768286235ac6a4a6c30584e205a03f4a07264fc0a97a8755edec9bd4db1",
+        "sha256_in_prefix": "a1ad1768286235ac6a4a6c30584e205a03f4a07264fc0a97a8755edec9bd4db1",
+        "size_in_bytes": 6290
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/binding.py",
+        "path_type": "hardlink",
+        "sha256": "82e8c0ef9910f0d0175c148d34fd9e00f9fc82912686ff7dc2a4b4ddc9366fed",
+        "sha256_in_prefix": "82e8c0ef9910f0d0175c148d34fd9e00f9fc82912686ff7dc2a4b4ddc9366fed",
+        "size_in_bytes": 4935
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3da0a090db2705757a0445d4b58a669fb9e4a406c2fd92f6f27e085a6ae67d6",
+        "sha256_in_prefix": "b3da0a090db2705757a0445d4b58a669fb9e4a406c2fd92f6f27e085a6ae67d6",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "778e9bc62bf5442790e6e24def7da79af9c5da74298b6511082d3a9a2f3411ad",
+        "sha256_in_prefix": "778e9bc62bf5442790e6e24def7da79af9c5da74298b6511082d3a9a2f3411ad",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_asymmetric.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed98fd934c78414e38b65bf342291762e17d6b59a92e892b19914fb6f8a08846",
+        "sha256_in_prefix": "ed98fd934c78414e38b65bf342291762e17d6b59a92e892b19914fb6f8a08846",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_cipheralgorithm.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d178d2c94cb1825fd9963c51a05c2fdb131cb8448a5909ba290253e83cad1ed1",
+        "sha256_in_prefix": "d178d2c94cb1825fd9963c51a05c2fdb131cb8448a5909ba290253e83cad1ed1",
+        "size_in_bytes": 1851
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/_serialization.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "49160c53b55086d73bb6eeb4ece7c70cf95441b9f94fe454808f318b27833a44",
+        "sha256_in_prefix": "49160c53b55086d73bb6eeb4ece7c70cf95441b9f94fe454808f318b27833a44",
+        "size_in_bytes": 7000
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/cmac.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "84f77a87e34d9a2a072fb524d7a6785d89a769fcef444c540606cf50d87ad89d",
+        "sha256_in_prefix": "84f77a87e34d9a2a072fb524d7a6785d89a769fcef444c540606cf50d87ad89d",
+        "size_in_bytes": 396
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/constant_time.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e65e498edda1de5963a501affb4c5aca08f9d2eb46817290e8994b0b7f8f913c",
+        "sha256_in_prefix": "e65e498edda1de5963a501affb4c5aca08f9d2eb46817290e8994b0b7f8f913c",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hashes.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ef9e3c59371cda82db96d8baee06e9c0c6b4c61dfb0cf20833d6d6b2643eb592",
+        "sha256_in_prefix": "ef9e3c59371cda82db96d8baee06e9c0c6b4c61dfb0cf20833d6d6b2643eb592",
+        "size_in_bytes": 8113
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/hmac.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a161a35a1ae2202878e19ad41bd65e0dd48af1f3616bf8dc3690a9f48c5702a8",
+        "sha256_in_prefix": "a161a35a1ae2202878e19ad41bd65e0dd48af1f3616bf8dc3690a9f48c5702a8",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/keywrap.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fad5d302bd1cfbec90c22d40b087facd7b105b88996218f99c271544d2e1a504",
+        "sha256_in_prefix": "fad5d302bd1cfbec90c22d40b087facd7b105b88996218f99c271544d2e1a504",
+        "size_in_bytes": 7420
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/padding.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "010bde5c4bfe252db304746b7034a7bf869e0b44e5208f422bed3f3493ea5f4e",
+        "sha256_in_prefix": "010bde5c4bfe252db304746b7034a7bf869e0b44e5208f422bed3f3493ea5f4e",
+        "size_in_bytes": 9144
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__/poly1305.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4679568607ca558ddc8e67050eb9fb41500323cb76b3028860c0b2c5c01a35d1",
+        "sha256_in_prefix": "4679568607ca558ddc8e67050eb9fb41500323cb76b3028860c0b2c5c01a35d1",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/_asymmetric.py",
+        "path_type": "hardlink",
+        "sha256": "46181ca2e501e874e214306b4752f1aa4323a54c4888dbd0d6bff3263446eaa4",
+        "sha256_in_prefix": "46181ca2e501e874e214306b4752f1aa4323a54c4888dbd0d6bff3263446eaa4",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/_cipheralgorithm.py",
+        "path_type": "hardlink",
+        "sha256": "bbbaf22c6fc78af0979feba528cfa1fde5563339686de8342b8e5475f964ec68",
+        "sha256_in_prefix": "bbbaf22c6fc78af0979feba528cfa1fde5563339686de8342b8e5475f964ec68",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/_serialization.py",
+        "path_type": "hardlink",
+        "sha256": "aaba3373c7f0d966526e39370c095297745eb31a5abb027be19806a142fe9a3d",
+        "sha256_in_prefix": "aaba3373c7f0d966526e39370c095297745eb31a5abb027be19806a142fe9a3d",
+        "size_in_bytes": 5142
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3da0a090db2705757a0445d4b58a669fb9e4a406c2fd92f6f27e085a6ae67d6",
+        "sha256_in_prefix": "b3da0a090db2705757a0445d4b58a669fb9e4a406c2fd92f6f27e085a6ae67d6",
+        "size_in_bytes": 180
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a01cd9d1a8882db280d87369b7e53f0cd8d9d7f16f574c74be31a696d355d40",
+        "sha256_in_prefix": "7a01cd9d1a8882db280d87369b7e53f0cd8d9d7f16f574c74be31a696d355d40",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dh.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c203830ade0be48a516da99c989593503283d460c67522b2afd672d1f3e26fd6",
+        "sha256_in_prefix": "c203830ade0be48a516da99c989593503283d460c67522b2afd672d1f3e26fd6",
+        "size_in_bytes": 5660
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/dsa.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a05375c0f4658a5abe647fce16d7951db8aae0a5dbc1f49852957803b9e5c00",
+        "sha256_in_prefix": "6a05375c0f4658a5abe647fce16d7951db8aae0a5dbc1f49852957803b9e5c00",
+        "size_in_bytes": 6454
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ec.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1dea7bdb7ef3e4b5ef219ff8480e42d13d11b24a91c5940e26d2cd496b343fb",
+        "sha256_in_prefix": "f1dea7bdb7ef3e4b5ef219ff8480e42d13d11b24a91c5940e26d2cd496b343fb",
+        "size_in_bytes": 15032
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed25519.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb90e65079e5e8cd0e92d95e1cd41c40df517b760ea8aa65409cbca142dd2cce",
+        "sha256_in_prefix": "eb90e65079e5e8cd0e92d95e1cd41c40df517b760ea8aa65409cbca142dd2cce",
+        "size_in_bytes": 5139
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/ed448.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6c640299049059bb0ef4f76f4c0852f766b7ed792163454ff5fa50429c08074",
+        "sha256_in_prefix": "a6c640299049059bb0ef4f76f4c0852f766b7ed792163454ff5fa50429c08074",
+        "size_in_bytes": 5186
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/padding.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a2e262cbb7ae4d17662f03d6ef614aee2b5e01d5a7eff50dbcb662081edf642",
+        "sha256_in_prefix": "6a2e262cbb7ae4d17662f03d6ef614aee2b5e01d5a7eff50dbcb662081edf642",
+        "size_in_bytes": 4817
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/rsa.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa2ade54b0f5f19334a63eb45e0fdf4a93cc2161bd1f99eb13ed653ba2f17b12",
+        "sha256_in_prefix": "aa2ade54b0f5f19334a63eb45e0fdf4a93cc2161bd1f99eb13ed653ba2f17b12",
+        "size_in_bytes": 8814
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/types.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e971456d9d8aa436152316a004fe0e5cf88537d85a6081110a6fe970bfd4a420",
+        "sha256_in_prefix": "e971456d9d8aa436152316a004fe0e5cf88537d85a6081110a6fe970bfd4a420",
+        "size_in_bytes": 3128
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc6866d628d85b43afa5fb27152ea9926ad62059ac8cf17e5e19a56528ffc668",
+        "sha256_in_prefix": "fc6866d628d85b43afa5fb27152ea9926ad62059ac8cf17e5e19a56528ffc668",
+        "size_in_bytes": 1293
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x25519.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe8f4660823fc7ca29968e0c8858e87845f515de94988212476613e6bf3300b0",
+        "sha256_in_prefix": "fe8f4660823fc7ca29968e0c8858e87845f515de94988212476613e6bf3300b0",
+        "size_in_bytes": 4938
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__/x448.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fbb85ba1af0ba5bf90323884d56c4f7c8e7270cbbea77cc115b2116c019abdf1",
+        "sha256_in_prefix": "fbb85ba1af0ba5bf90323884d56c4f7c8e7270cbbea77cc115b2116c019abdf1",
+        "size_in_bytes": 4983
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/dh.py",
+        "path_type": "hardlink",
+        "sha256": "38e0a3302947d417f5e12cbb8c0770cc4782c453dbf1751edaa78f6c4c6f5f07",
+        "sha256_in_prefix": "38e0a3302947d417f5e12cbb8c0770cc4782c453dbf1751edaa78f6c4c6f5f07",
+        "size_in_bytes": 3420
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/dsa.py",
+        "path_type": "hardlink",
+        "sha256": "c41c1d7f4a593a0bea8d429c3bb4342f7371c1a9588f44890d4a9385e9a14a62",
+        "sha256_in_prefix": "c41c1d7f4a593a0bea8d429c3bb4342f7371c1a9588f44890d4a9385e9a14a62",
+        "size_in_bytes": 3945
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ec.py",
+        "path_type": "hardlink",
+        "sha256": "5ba9cb6f83a1a37048dceb1347f9d42385911c26e2913aea54e8d04188d5e6fb",
+        "sha256_in_prefix": "5ba9cb6f83a1a37048dceb1347f9d42385911c26e2913aea54e8d04188d5e6fb",
+        "size_in_bytes": 9704
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ed25519.py",
+        "path_type": "hardlink",
+        "sha256": "925eb77e0ee6cae32335398ca1515e1fa895af4c791648cd9a08312114e5a099",
+        "sha256_in_prefix": "925eb77e0ee6cae32335398ca1515e1fa895af4c791648cd9a08312114e5a099",
+        "size_in_bytes": 3423
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/ed448.py",
+        "path_type": "hardlink",
+        "sha256": "d94cc40f3cdf90f9fcdd41551653197c831b022c71634f56990cabc229d64e7f",
+        "sha256_in_prefix": "d94cc40f3cdf90f9fcdd41551653197c831b022c71634f56990cabc229d64e7f",
+        "size_in_bytes": 3456
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/padding.py",
+        "path_type": "hardlink",
+        "sha256": "79972f52a54b6dedeee3c4ae9cb75e9e268f955e3e93aa70065ebb396e234b2f",
+        "sha256_in_prefix": "79972f52a54b6dedeee3c4ae9cb75e9e268f955e3e93aa70065ebb396e234b2f",
+        "size_in_bytes": 2885
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/rsa.py",
+        "path_type": "hardlink",
+        "sha256": "1d3a04e0ce5525b1994bfd926c9d759081a1b50f03dc6a335b9f6c584ceb7d9e",
+        "sha256_in_prefix": "1d3a04e0ce5525b1994bfd926c9d759081a1b50f03dc6a335b9f6c584ceb7d9e",
+        "size_in_bytes": 6799
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/types.py",
+        "path_type": "hardlink",
+        "sha256": "2e7b0e2729bec263d427b2a7bbfedb08d5379088842c277a92b39a5bf254d3c2",
+        "sha256_in_prefix": "2e7b0e2729bec263d427b2a7bbfedb08d5379088842c277a92b39a5bf254d3c2",
+        "size_in_bytes": 2996
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/utils.py",
+        "path_type": "hardlink",
+        "sha256": "0cf4ece93e05f94870cc541387ed5f484a50cdacc7da37f6c6922ba3722d178a",
+        "sha256_in_prefix": "0cf4ece93e05f94870cc541387ed5f484a50cdacc7da37f6c6922ba3722d178a",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/x25519.py",
+        "path_type": "hardlink",
+        "sha256": "54662e45d218b9506d8b3a4574d59dd9b4eb4f5d0945ad5a76641d06bd3cc73f",
+        "sha256_in_prefix": "54662e45d218b9506d8b3a4574d59dd9b4eb4f5d0945ad5a76641d06bd3cc73f",
+        "size_in_bytes": 3341
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/x448.py",
+        "path_type": "hardlink",
+        "sha256": "18a28906a60baf4dd57b0305d7c6d720cf78d5a696719210e2b0b4d862cb126c",
+        "sha256_in_prefix": "18a28906a60baf4dd57b0305d7c6d720cf78d5a696719210e2b0b4d862cb126c",
+        "size_in_bytes": 3374
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "900c9bf4d49ccea4eb0968f41c4a15a770b1a3b0075bc89b3c5433f991ec3ad0",
+        "sha256_in_prefix": "900c9bf4d49ccea4eb0968f41c4a15a770b1a3b0075bc89b3c5433f991ec3ad0",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "24df380681a1523c106c9973d527e503e34c3f59c02191fe2aed0cacb8fdce47",
+        "sha256_in_prefix": "24df380681a1523c106c9973d527e503e34c3f59c02191fe2aed0cacb8fdce47",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/aead.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "707350240ed14aee953e93a7e48106cabf966e6ecff81c616efc0893e79a4962",
+        "sha256_in_prefix": "707350240ed14aee953e93a7e48106cabf966e6ecff81c616efc0893e79a4962",
+        "size_in_bytes": 7083
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/algorithms.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0e41ed289a7075c2a29ac8e2a88a424bcb362bdd585a7f986822a813ea68596",
+        "sha256_in_prefix": "b0e41ed289a7075c2a29ac8e2a88a424bcb362bdd585a7f986822a813ea68596",
+        "size_in_bytes": 8759
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "46920156bbf787a10b333724bf73b3d496a3ef0ade4ea1085e9a5e5811208b6e",
+        "sha256_in_prefix": "46920156bbf787a10b333724bf73b3d496a3ef0ade4ea1085e9a5e5811208b6e",
+        "size_in_bytes": 13096
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__/modes.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ae699bb56d5421284aecac6d7d328e88584d8f54e92ba6790236dfd7a60b22c",
+        "sha256_in_prefix": "2ae699bb56d5421284aecac6d7d328e88584d8f54e92ba6790236dfd7a60b22c",
+        "size_in_bytes": 11862
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/aead.py",
+        "path_type": "hardlink",
+        "sha256": "57a50ab083cd65087471f77c8695f1dd9cf3b50f8943d0a104c30dd594d95c9d",
+        "sha256_in_prefix": "57a50ab083cd65087471f77c8695f1dd9cf3b50f8943d0a104c30dd594d95c9d",
+        "size_in_bytes": 5540
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/algorithms.py",
+        "path_type": "hardlink",
+        "sha256": "acdb2f0096487edf28d326a7e59eb6849fb1a0433f63a05806416ce239e7476b",
+        "sha256_in_prefix": "acdb2f0096487edf28d326a7e59eb6849fb1a0433f63a05806416ce239e7476b",
+        "size_in_bytes": 5120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/base.py",
+        "path_type": "hardlink",
+        "sha256": "e1592d4aac614638a08cd4379b60624100e8fb56d8a82c57a5d769849ba4a0c2",
+        "sha256_in_prefix": "e1592d4aac614638a08cd4379b60624100e8fb56d8a82c57a5d769849ba4a0c2",
+        "size_in_bytes": 8445
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/modes.py",
+        "path_type": "hardlink",
+        "sha256": "2b0d78d7d64250135b6f177b05cb703e9ea2f2bc273afbe27dd5e892bc7f6d83",
+        "sha256_in_prefix": "2b0d78d7d64250135b6f177b05cb703e9ea2f2bc273afbe27dd5e892bc7f6d83",
+        "size_in_bytes": 8317
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/cmac.py",
+        "path_type": "hardlink",
+        "sha256": "b33fece87fdc6273afc7e54d59d20a85185edd89a9f33f09d03dc206a397de08",
+        "sha256_in_prefix": "b33fece87fdc6273afc7e54d59d20a85185edd89a9f33f09d03dc206a397de08",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/constant_time.py",
+        "path_type": "hardlink",
+        "sha256": "c5dba7593d277fc3af29d72a52186514a6b21a9e3f3e0549454d96d702d2aff0",
+        "sha256_in_prefix": "c5dba7593d277fc3af29d72a52186514a6b21a9e3f3e0549454d96d702d2aff0",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/hashes.py",
+        "path_type": "hardlink",
+        "sha256": "1c2142b11f29ece116b75600ee845baa02875ceb999ebb29915ae7894fc1dae5",
+        "sha256_in_prefix": "1c2142b11f29ece116b75600ee845baa02875ceb999ebb29915ae7894fc1dae5",
+        "size_in_bytes": 5091
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/hmac.py",
+        "path_type": "hardlink",
+        "sha256": "469077cfdcf9b248ab090ae6ef341bb67a7da4b327023ae54d4bcaa85e5a0c37",
+        "sha256_in_prefix": "469077cfdcf9b248ab090ae6ef341bb67a7da4b327023ae54d4bcaa85e5a0c37",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e1789b667ad8ab8861e710635a2217cda616e852b1f213db55a6bf701f734bae",
+        "sha256_in_prefix": "e1789b667ad8ab8861e710635a2217cda616e852b1f213db55a6bf701f734bae",
+        "size_in_bytes": 750
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec5f75c15a9633bb0b9ef085feaad48ca07c5d78b2361cfa23af36447471ea64",
+        "sha256_in_prefix": "ec5f75c15a9633bb0b9ef085feaad48ca07c5d78b2361cfa23af36447471ea64",
+        "size_in_bytes": 1215
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/concatkdf.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9b3afb71df3a36a6cff5a2759aa0f4ae9df846d374ff7c2dfd1b8d76e225944",
+        "sha256_in_prefix": "b9b3afb71df3a36a6cff5a2759aa0f4ae9df846d374ff7c2dfd1b8d76e225944",
+        "size_in_bytes": 5539
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/hkdf.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e748570c7918a74f348d0bc29248e385b21d0843039228308dddccb9a074a514",
+        "sha256_in_prefix": "e748570c7918a74f348d0bc29248e385b21d0843039228308dddccb9a074a514",
+        "size_in_bytes": 4766
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/kbkdf.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0a60846a6907c17fc48c6bc1ae03ee84d1c17a63dd8f10158b5320362775fa15",
+        "sha256_in_prefix": "0a60846a6907c17fc48c6bc1ae03ee84d1c17a63dd8f10158b5320362775fa15",
+        "size_in_bytes": 11108
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/pbkdf2.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "901a779d95eed83c16db39a8d4f353c8a0d64296a0e9b1dbbb0f4986fa62d503",
+        "sha256_in_prefix": "901a779d95eed83c16db39a8d4f353c8a0d64296a0e9b1dbbb0f4986fa62d503",
+        "size_in_bytes": 2742
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/scrypt.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "cf12a00a34c264092c3764bf20e057f1bc5ee64af96a85c37fefc3b06b6e986e",
+        "sha256_in_prefix": "cf12a00a34c264092c3764bf20e057f1bc5ee64af96a85c37fefc3b06b6e986e",
+        "size_in_bytes": 3095
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__/x963kdf.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc3e3a9f5056e67cfb4d208c21bd787b7cf75215f0d46c122b16e3806a91f8f9",
+        "sha256_in_prefix": "dc3e3a9f5056e67cfb4d208c21bd787b7cf75215f0d46c122b16e3806a91f8f9",
+        "size_in_bytes": 3071
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/concatkdf.py",
+        "path_type": "hardlink",
+        "sha256": "6dc9f83465ec7be12c165ee7954f377b98a5a29ed3487717f822494b5d3b5bcd",
+        "sha256_in_prefix": "6dc9f83465ec7be12c165ee7954f377b98a5a29ed3487717f822494b5d3b5bcd",
+        "size_in_bytes": 3686
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/hkdf.py",
+        "path_type": "hardlink",
+        "sha256": "ba13792fcef0e09bed02a41c3e1fc98b64cf49cd7c2034e1a5a609887396cb70",
+        "sha256_in_prefix": "ba13792fcef0e09bed02a41c3e1fc98b64cf49cd7c2034e1a5a609887396cb70",
+        "size_in_bytes": 3015
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/kbkdf.py",
+        "path_type": "hardlink",
+        "sha256": "0b792801db45fdfc32bdb85003cf0061b8b760ead467fede6883380e45ab7f23",
+        "sha256_in_prefix": "0b792801db45fdfc32bdb85003cf0061b8b760ead467fede6883380e45ab7f23",
+        "size_in_bytes": 9072
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/pbkdf2.py",
+        "path_type": "hardlink",
+        "sha256": "d42087f50e605d4a6765dddcf1df1b097829277b36859646067b86ec51f5c1a3",
+        "sha256_in_prefix": "d42087f50e605d4a6765dddcf1df1b097829277b36859646067b86ec51f5c1a3",
+        "size_in_bytes": 2012
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/scrypt.py",
+        "path_type": "hardlink",
+        "sha256": "e1038d863c40fd9b6e42d43b415dc59db07c7edac59cce760781cf7d5ee1172b",
+        "sha256_in_prefix": "e1038d863c40fd9b6e42d43b415dc59db07c7edac59cce760781cf7d5ee1172b",
+        "size_in_bytes": 2354
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/x963kdf.py",
+        "path_type": "hardlink",
+        "sha256": "c02a569b0423676bc0bb6ae593747f3d7d2720d97c5865d806697230e0b988fc",
+        "sha256_in_prefix": "c02a569b0423676bc0bb6ae593747f3d7d2720d97c5865d806697230e0b988fc",
+        "size_in_bytes": 1992
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/keywrap.py",
+        "path_type": "hardlink",
+        "sha256": "907aad739e98be94cd122eaad627e81ca5e6638496aa5941bfe7817ea329bee1",
+        "sha256_in_prefix": "907aad739e98be94cd122eaad627e81ca5e6638496aa5941bfe7817ea329bee1",
+        "size_in_bytes": 5650
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/padding.py",
+        "path_type": "hardlink",
+        "sha256": "838aa89c081800390c02b2add8c5c3d5796719de044ff45fe580c00f06ffbfc4",
+        "sha256_in_prefix": "838aa89c081800390c02b2add8c5c3d5796719de044ff45fe580c00f06ffbfc4",
+        "size_in_bytes": 6148
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/poly1305.py",
+        "path_type": "hardlink",
+        "sha256": "3f910f415f9107f1493da869834d6ed13b384bf3e7026b2ba312065db19e451a",
+        "sha256_in_prefix": "3f910f415f9107f1493da869834d6ed13b384bf3e7026b2ba312065db19e451a",
+        "size_in_bytes": 355
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e9994bdc489c133a0674c39ab7ceb0f32fd72020a79477428c523deeb3314438",
+        "sha256_in_prefix": "e9994bdc489c133a0674c39ab7ceb0f32fd72020a79477428c523deeb3314438",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "93d248c11fd9b20a3058f86a1ac46e1ece9202a3940d3612d581261054356c52",
+        "sha256_in_prefix": "93d248c11fd9b20a3058f86a1ac46e1ece9202a3940d3612d581261054356c52",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "128141cfd71a91408c95491e9732a79a44f1a54fc3f65560fb8ff7eb5b9cbbc8",
+        "sha256_in_prefix": "128141cfd71a91408c95491e9732a79a44f1a54fc3f65560fb8ff7eb5b9cbbc8",
+        "size_in_bytes": 812
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs12.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4aa6be94c3f6ace4d09fbef73827933cae6c0aaf678e9703e9cf5b32591cdc4",
+        "sha256_in_prefix": "a4aa6be94c3f6ace4d09fbef73827933cae6c0aaf678e9703e9cf5b32591cdc4",
+        "size_in_bytes": 9289
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/pkcs7.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "afbf3bad6ca6b7daf5e342aeb935133c3aef1bd87d00d1ae2a81e6e3988e8eb8",
+        "sha256_in_prefix": "afbf3bad6ca6b7daf5e342aeb935133c3aef1bd87d00d1ae2a81e6e3988e8eb8",
+        "size_in_bytes": 9667
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__/ssh.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "af40e5dbe2c2161c6b181e1aa0599290d5d4ec77564e113ff2cfa91a81bfa6e0",
+        "sha256_in_prefix": "af40e5dbe2c2161c6b181e1aa0599290d5d4ec77564e113ff2cfa91a81bfa6e0",
+        "size_in_bytes": 63030
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/base.py",
+        "path_type": "hardlink",
+        "sha256": "8a4ab9309230a7fa149e389a05ca3f3e643039362e1a2f979185181cacbc568d",
+        "sha256_in_prefix": "8a4ab9309230a7fa149e389a05ca3f3e643039362e1a2f979185181cacbc568d",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/pkcs12.py",
+        "path_type": "hardlink",
+        "sha256": "8ed31c33e02dfc6645443e684a53861ce13539ca2cae8588be6933ac4b2fef94",
+        "sha256_in_prefix": "8ed31c33e02dfc6645443e684a53861ce13539ca2cae8588be6933ac4b2fef94",
+        "size_in_bytes": 6599
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/pkcs7.py",
+        "path_type": "hardlink",
+        "sha256": "b9a58075682070cd3cef32f596d41ce5f161a571456c1367ff673240af2da19e",
+        "sha256_in_prefix": "b9a58075682070cd3cef32f596d41ce5f161a571456c1367ff673240af2da19e",
+        "size_in_bytes": 7488
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/ssh.py",
+        "path_type": "hardlink",
+        "sha256": "ec98cbe1959c3a58b200e25d9e59d68bfd273652ed3ab0288fa02a58776b2cd8",
+        "sha256_in_prefix": "ec98cbe1959c3a58b200e25d9e59d68bfd273652ed3ab0288fa02a58776b2cd8",
+        "size_in_bytes": 50051
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b66319181fa0e08535afb94816a012534d7dcebd2e3e9ff010161cc1d0c22820",
+        "sha256_in_prefix": "b66319181fa0e08535afb94816a012534d7dcebd2e3e9ff010161cc1d0c22820",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a988459905e1dd474ee1bd7b9e6d4d413c3e821119572f6995327d358d6d17a",
+        "sha256_in_prefix": "7a988459905e1dd474ee1bd7b9e6d4d413c3e821119572f6995327d358d6d17a",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/hotp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0249217c221bce7c99924de869c45ff33c51160a0bf11337eeb2ba736b2dc1d9",
+        "sha256_in_prefix": "0249217c221bce7c99924de869c45ff33c51160a0bf11337eeb2ba736b2dc1d9",
+        "size_in_bytes": 4749
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__/totp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d37c250ec5fec89cacfc78f97477a3c45a499ff1e6bb5a88ee58d0eba2576c41",
+        "sha256_in_prefix": "d37c250ec5fec89cacfc78f97477a3c45a499ff1e6bb5a88ee58d0eba2576c41",
+        "size_in_bytes": 2245
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/hotp.py",
+        "path_type": "hardlink",
+        "sha256": "97561d44c2217cf22e1ca900eba91e0431e135b9c102587af8ee383fe38720af",
+        "sha256_in_prefix": "97561d44c2217cf22e1ca900eba91e0431e135b9c102587af8ee383fe38720af",
+        "size_in_bytes": 2976
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/totp.py",
+        "path_type": "hardlink",
+        "sha256": "bf4cb4c4ac2d62b3fcdf2a4ea3939f778e354492ce91a15f8e6a79e788e8e45d",
+        "sha256_in_prefix": "bf4cb4c4ac2d62b3fcdf2a4ea3939f778e354492ce91a15f8e6a79e788e8e45d",
+        "size_in_bytes": 1450
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/utils.py",
+        "path_type": "hardlink",
+        "sha256": "f1f35749f2af0e06a38bd33f9b89555c715355d2033f7d868655f35016030471",
+        "sha256_in_prefix": "f1f35749f2af0e06a38bd33f9b89555c715355d2033f7d868655f35016030471",
+        "size_in_bytes": 4033
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cda2ae01a96ec34a7e9509b84462b7fcd0401bd57f516ea786fff59bfa69ba02",
+        "sha256_in_prefix": "cda2ae01a96ec34a7e9509b84462b7fcd0401bd57f516ea786fff59bfa69ba02",
+        "size_in_bytes": 7924
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "927ee26d2c6eab29b22a8f29a8d311cc7dc1b3bf9dd51aedeb85b613ba9057c6",
+        "sha256_in_prefix": "927ee26d2c6eab29b22a8f29a8d311cc7dc1b3bf9dd51aedeb85b613ba9057c6",
+        "size_in_bytes": 8119
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__pycache__/base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "20dc7df16201f0be46927f3cc8fd2a2d8e0a4df13ac38275ad2bbd8e395412bd",
+        "sha256_in_prefix": "20dc7df16201f0be46927f3cc8fd2a2d8e0a4df13ac38275ad2bbd8e395412bd",
+        "size_in_bytes": 48379
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__pycache__/certificate_transparency.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "82b64b75c2b28f17e08c6c407473ac58b296978eaea96d8806b1fbd8c41f0e55",
+        "sha256_in_prefix": "82b64b75c2b28f17e08c6c407473ac58b296978eaea96d8806b1fbd8c41f0e55",
+        "size_in_bytes": 4089
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__pycache__/extensions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7ce15d56f7553f2232968fc7a52460b9f5f41b7e427d2c2042834dbbf9b2206",
+        "sha256_in_prefix": "c7ce15d56f7553f2232968fc7a52460b9f5f41b7e427d2c2042834dbbf9b2206",
+        "size_in_bytes": 96717
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__pycache__/general_name.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3acbee7ea1c4ecf25222fe1b82f1540d28ee420f7b72e9d1059445c0f596a74a",
+        "sha256_in_prefix": "3acbee7ea1c4ecf25222fe1b82f1540d28ee420f7b72e9d1059445c0f596a74a",
+        "size_in_bytes": 13055
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__pycache__/name.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "932b8e5c376ef852624c4f788caccffdb24b2415052b02f0b03869f0162289a2",
+        "sha256_in_prefix": "932b8e5c376ef852624c4f788caccffdb24b2415052b02f0b03869f0162289a2",
+        "size_in_bytes": 22676
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__pycache__/ocsp.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "63220b2646c10fb9d2fe0413cb43397f6519c6f9c00adf4e63ff8edec7ff619e",
+        "sha256_in_prefix": "63220b2646c10fb9d2fe0413cb43397f6519c6f9c00adf4e63ff8edec7ff619e",
+        "size_in_bytes": 23840
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__pycache__/oid.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9330361997b72adaf983ea6b5fc33f519e9f58a6423f1ff4bfa7695c43015681",
+        "sha256_in_prefix": "9330361997b72adaf983ea6b5fc33f519e9f58a6423f1ff4bfa7695c43015681",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/__pycache__/verification.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f07f91937e2ddd6606d4b7812a5983121770be8f79d9a29662f522a375c6cfdc",
+        "sha256_in_prefix": "f07f91937e2ddd6606d4b7812a5983121770be8f79d9a29662f522a375c6cfdc",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/base.py",
+        "path_type": "hardlink",
+        "sha256": "536653cb804c40a890ed8c277009df29f7d1bfb292cd668cbdb6e03253bc6e59",
+        "sha256_in_prefix": "536653cb804c40a890ed8c277009df29f7d1bfb292cd668cbdb6e03253bc6e59",
+        "size_in_bytes": 36933
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/certificate_transparency.py",
+        "path_type": "hardlink",
+        "sha256": "e87bf3003d1d952415c72ead9c38468f4fa98aca7531a27d6f140d46bf768a72",
+        "sha256_in_prefix": "e87bf3003d1d952415c72ead9c38468f4fa98aca7531a27d6f140d46bf768a72",
+        "size_in_bytes": 2261
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/extensions.py",
+        "path_type": "hardlink",
+        "sha256": "614f51f481addad165df333b4f62c8dddcd0bcacaf3216714f6260a82ad9dd21",
+        "sha256_in_prefix": "614f51f481addad165df333b4f62c8dddcd0bcacaf3216714f6260a82ad9dd21",
+        "size_in_bytes": 66345
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/general_name.py",
+        "path_type": "hardlink",
+        "sha256": "b0ffeb575d50969b24e31dd75c6258fccbf443fb3d76d8de2dc907b23a4b4284",
+        "sha256_in_prefix": "b0ffeb575d50969b24e31dd75c6258fccbf443fb3d76d8de2dc907b23a4b4284",
+        "size_in_bytes": 7836
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/name.py",
+        "path_type": "hardlink",
+        "sha256": "f3993b94946d5e7593b157ec2571cd8969c3aec6d6d0e279e27a76a29681576f",
+        "sha256_in_prefix": "f3993b94946d5e7593b157ec2571cd8969c3aec6d6d0e279e27a76a29681576f",
+        "size_in_bytes": 14609
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/ocsp.py",
+        "path_type": "hardlink",
+        "sha256": "ecd6b43c0c80ea74b20294c677e419f4d7f0daec944bf3c3550c795d4c35c665",
+        "sha256_in_prefix": "ecd6b43c0c80ea74b20294c677e419f4d7f0daec944bf3c3550c795d4c35c665",
+        "size_in_bytes": 18126
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/oid.py",
+        "path_type": "hardlink",
+        "sha256": "7c5a2c8c6b27201ff0ff462bcd9bf5820912570665ef1998d33a1f2993599030",
+        "sha256_in_prefix": "7c5a2c8c6b27201ff0ff462bcd9bf5820912570665ef1998d33a1f2993599030",
+        "size_in_bytes": 829
+      },
+      {
+        "_path": "lib/python3.12/site-packages/cryptography/x509/verification.py",
+        "path_type": "hardlink",
+        "sha256": "98f83a014403c4ae708067ab3ff8641560f55a3ea5ee502dd88c698b36737a40",
+        "sha256_in_prefix": "98f83a014403c4ae708067ab3ff8641560f55a3ea5ee502dd88c698b36737a40",
+        "size_in_bytes": 668
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5addab3f53950d479f14990913ff7b763269db8b12c564089d6a220d25e4a8a8",
+  "size": 1342605,
+  "subdir": "osx-64",
+  "timestamp": 1710351095040,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/cryptography-42.0.5-py312h30e54ef_0.conda",
+  "version": "42.0.5"
+}

@@ -1,0 +1,52 @@
+{
+  "build": "py312hecd8cb5_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/zope-1.0-py312hecd8cb5_1",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/zope/__init__.py",
+    "lib/python3.12/site-packages/zope/__pycache__/__init__.cpython-312.pyc"
+  ],
+  "fn": "zope-1.0-py312hecd8cb5_1.conda",
+  "legacy_bz2_md5": "392f5d33f685e83f5e4b5b463ee7a585",
+  "license": "BSD",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/zope-1.0-py312hecd8cb5_1",
+    "type": 1
+  },
+  "md5": "2ab1a057591115b01da606db1265b5d8",
+  "name": "zope",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/zope-1.0-py312hecd8cb5_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/zope/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6f5e58238857c93b55a075e2eb3927371ff45a1d1c29a2291f7b1b8a28f2672e",
+        "sha256_in_prefix": "6f5e58238857c93b55a075e2eb3927371ff45a1d1c29a2291f7b1b8a28f2672e",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/python3.12/site-packages/zope/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0445dbcba109662c5575ed795793f2661b6e1cc68558f203a9f739cc5308c02",
+        "sha256_in_prefix": "b0445dbcba109662c5575ed795793f2661b6e1cc68558f203a9f739cc5308c02",
+        "size_in_bytes": 142
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "efca96c11cfa47e50e12aaa37646203c10f6508d0e44eaa3dc73cf26199ec6b8",
+  "size": 4775,
+  "subdir": "osx-64",
+  "timestamp": 1699247354465,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/zope-1.0-py312hecd8cb5_1.conda",
+  "version": "1.0"
+}

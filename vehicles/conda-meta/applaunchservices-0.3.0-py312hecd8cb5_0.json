@@ -1,0 +1,150 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "pyobjc-framework-coreservices",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/applaunchservices-0.3.0-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/applaunchservices/__init__.py",
+    "lib/python3.12/site-packages/applaunchservices/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/applaunchservices/__pycache__/_dummy.cpython-312.pyc",
+    "lib/python3.12/site-packages/applaunchservices/__pycache__/_ls.cpython-312.pyc",
+    "lib/python3.12/site-packages/applaunchservices/_dummy.py",
+    "lib/python3.12/site-packages/applaunchservices/_ls.py"
+  ],
+  "fn": "applaunchservices-0.3.0-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "2f4015a3bda2a0a8d973f1075132d42f",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/applaunchservices-0.3.0-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "0c838cd3d9249aa5aead542d504a2cdc",
+  "name": "applaunchservices",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/applaunchservices-0.3.0-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "f522ae2dc01a561c5687ceaa0f2b3cee565d895a3cc46ef69a6e140dc9090a05",
+        "sha256_in_prefix": "f522ae2dc01a561c5687ceaa0f2b3cee565d895a3cc46ef69a6e140dc9090a05",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8f7a2a9f579657292645987e3f0b7d05e0d21cbb809d4aaea7bdd75166dd8148",
+        "sha256_in_prefix": "8f7a2a9f579657292645987e3f0b7d05e0d21cbb809d4aaea7bdd75166dd8148",
+        "size_in_bytes": 3474
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "4e046480b390db68e65d156adccb261a2df15471771164407d150d1c26abee05",
+        "sha256_in_prefix": "4e046480b390db68e65d156adccb261a2df15471771164407d150d1c26abee05",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "30455c078e45f29774ab104ba07d65cf6cc3fa2738b13b8b71a2f10f3a9977e4",
+        "sha256_in_prefix": "30455c078e45f29774ab104ba07d65cf6cc3fa2738b13b8b71a2f10f3a9977e4",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices-0.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "30716ae1d5b0db817907182f0b967ae41d6756ee83b44a11f192f8d9259fbcf7",
+        "sha256_in_prefix": "30716ae1d5b0db817907182f0b967ae41d6756ee83b44a11f192f8d9259fbcf7",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c5c92e65b2f84eac4c7852a8a088f369d3e2101c16a2fcaabaae3383731d41ca",
+        "sha256_in_prefix": "c5c92e65b2f84eac4c7852a8a088f369d3e2101c16a2fcaabaae3383731d41ca",
+        "size_in_bytes": 1689
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3fbde75e87197f8e973fe737b660d65819fc98e5a1dd802d00b9a8d721a3fbc4",
+        "sha256_in_prefix": "3fbde75e87197f8e973fe737b660d65819fc98e5a1dd802d00b9a8d721a3fbc4",
+        "size_in_bytes": 1949
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices/__pycache__/_dummy.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "01af89f5f0e6133823acfb400b84229ec3fc09d28fe5b7b3bb1031d26a377500",
+        "sha256_in_prefix": "01af89f5f0e6133823acfb400b84229ec3fc09d28fe5b7b3bb1031d26a377500",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices/__pycache__/_ls.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c9170f7e12b61bd7b74b6c171cc61df43c8507224610225e6397b01ac6d2242",
+        "sha256_in_prefix": "9c9170f7e12b61bd7b74b6c171cc61df43c8507224610225e6397b01ac6d2242",
+        "size_in_bytes": 3278
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices/_dummy.py",
+        "path_type": "hardlink",
+        "sha256": "fb38c37777824951b2638ea54ec70f576433a7a30c0cac5baf6309590ba39094",
+        "sha256_in_prefix": "fb38c37777824951b2638ea54ec70f576433a7a30c0cac5baf6309590ba39094",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "lib/python3.12/site-packages/applaunchservices/_ls.py",
+        "path_type": "hardlink",
+        "sha256": "190622addd1612054a08e9c187f00271fb068f5e8f680a5fe2f6f6a88f159988",
+        "sha256_in_prefix": "190622addd1612054a08e9c187f00271fb068f5e8f680a5fe2f6f6a88f159988",
+        "size_in_bytes": 2544
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a5bb976b8485ecddedfe67523eb82fa763749f0cef1a9cac3b62a0f87d487a5b",
+  "size": 13335,
+  "subdir": "osx-64",
+  "timestamp": 1710249834370,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/applaunchservices-0.3.0-py312hecd8cb5_0.conda",
+  "version": "0.3.0"
+}

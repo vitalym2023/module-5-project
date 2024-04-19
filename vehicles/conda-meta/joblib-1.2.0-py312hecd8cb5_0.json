@@ -1,0 +1,1885 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/joblib-1.2.0-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/joblib-1.2.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/joblib-1.2.0.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/joblib-1.2.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/joblib-1.2.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/joblib-1.2.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/joblib-1.2.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/joblib-1.2.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/joblib-1.2.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/joblib/__init__.py",
+    "lib/python3.12/site-packages/joblib/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/_cloudpickle_wrapper.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/_dask.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/_deprecated_format_stack.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/_deprecated_my_exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/_memmapping_reducer.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/_multiprocessing_helpers.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/_parallel_backends.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/_store_backends.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/backports.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/compressor.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/disk.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/executor.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/format_stack.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/func_inspect.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/hashing.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/logger.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/memory.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/my_exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/numpy_pickle.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/numpy_pickle_compat.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/numpy_pickle_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/parallel.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/pool.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/__pycache__/testing.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/_cloudpickle_wrapper.py",
+    "lib/python3.12/site-packages/joblib/_dask.py",
+    "lib/python3.12/site-packages/joblib/_deprecated_format_stack.py",
+    "lib/python3.12/site-packages/joblib/_deprecated_my_exceptions.py",
+    "lib/python3.12/site-packages/joblib/_memmapping_reducer.py",
+    "lib/python3.12/site-packages/joblib/_multiprocessing_helpers.py",
+    "lib/python3.12/site-packages/joblib/_parallel_backends.py",
+    "lib/python3.12/site-packages/joblib/_store_backends.py",
+    "lib/python3.12/site-packages/joblib/_utils.py",
+    "lib/python3.12/site-packages/joblib/backports.py",
+    "lib/python3.12/site-packages/joblib/compressor.py",
+    "lib/python3.12/site-packages/joblib/disk.py",
+    "lib/python3.12/site-packages/joblib/executor.py",
+    "lib/python3.12/site-packages/joblib/externals/__init__.py",
+    "lib/python3.12/site-packages/joblib/externals/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/cloudpickle/__init__.py",
+    "lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/cloudpickle.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/cloudpickle_fast.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/compat.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/cloudpickle/cloudpickle.py",
+    "lib/python3.12/site-packages/joblib/externals/cloudpickle/cloudpickle_fast.py",
+    "lib/python3.12/site-packages/joblib/externals/cloudpickle/compat.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/__init__.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/_base.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/cloudpickle_wrapper.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/initializers.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/process_executor.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/reusable_executor.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/_base.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__init__.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/_posix_reduction.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/_win_reduction.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/context.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/fork_exec.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/popen_loky_posix.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/popen_loky_win32.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/process.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/queues.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/reduction.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/resource_tracker.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/spawn.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/synchronize.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/_posix_reduction.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/_win_reduction.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/context.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/fork_exec.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/popen_loky_posix.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/popen_loky_win32.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/process.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/queues.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/reduction.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/resource_tracker.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/spawn.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/synchronize.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/backend/utils.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/cloudpickle_wrapper.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/initializers.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/process_executor.py",
+    "lib/python3.12/site-packages/joblib/externals/loky/reusable_executor.py",
+    "lib/python3.12/site-packages/joblib/format_stack.py",
+    "lib/python3.12/site-packages/joblib/func_inspect.py",
+    "lib/python3.12/site-packages/joblib/hashing.py",
+    "lib/python3.12/site-packages/joblib/logger.py",
+    "lib/python3.12/site-packages/joblib/memory.py",
+    "lib/python3.12/site-packages/joblib/my_exceptions.py",
+    "lib/python3.12/site-packages/joblib/numpy_pickle.py",
+    "lib/python3.12/site-packages/joblib/numpy_pickle_compat.py",
+    "lib/python3.12/site-packages/joblib/numpy_pickle_utils.py",
+    "lib/python3.12/site-packages/joblib/parallel.py",
+    "lib/python3.12/site-packages/joblib/pool.py",
+    "lib/python3.12/site-packages/joblib/test/__init__.py",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/common.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_backports.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_cloudpickle_wrapper.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_dask.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_deprecated_objects.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_disk.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_format_stack.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_func_inspect.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_func_inspect_special_encoding.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_hashing.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_init.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_logger.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_memmapping.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_memory.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_missing_multiprocessing.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_module.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_my_exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_numpy_pickle.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_numpy_pickle_compat.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_numpy_pickle_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_parallel.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_store_backends.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_testing.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/test_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/__pycache__/testutils.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/common.py",
+    "lib/python3.12/site-packages/joblib/test/data/__init__.py",
+    "lib/python3.12/site-packages/joblib/test/data/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/data/__pycache__/create_numpy_pickle.cpython-312.pyc",
+    "lib/python3.12/site-packages/joblib/test/data/create_numpy_pickle.py",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np16.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np17.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py33_np18.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py34_np19.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py35_np19.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.bz2",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.gzip",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.lzma",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.xz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.bz2",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.gzip",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.lzma",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.xz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.bz2",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.gzip",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.lzma",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.xz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.bz2",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.gzip",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.lzma",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.xz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_compressed_pickle_py36_np111.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.bz2",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.gzip",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.lzma",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.xz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.8.4_compressed_pickle_py27_np17.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np16.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np17.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_compressed_pickle_py34_np19.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_compressed_pickle_py35_np19.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_01.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_02.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_03.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_04.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_01.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_02.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_03.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_04.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_01.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_02.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_03.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_04.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_01.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_02.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_03.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_04.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_01.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_02.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_03.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_04.npy",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_01.npy.z",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_02.npy.z",
+    "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_03.npy.z",
+    "lib/python3.12/site-packages/joblib/test/test_backports.py",
+    "lib/python3.12/site-packages/joblib/test/test_cloudpickle_wrapper.py",
+    "lib/python3.12/site-packages/joblib/test/test_dask.py",
+    "lib/python3.12/site-packages/joblib/test/test_deprecated_objects.py",
+    "lib/python3.12/site-packages/joblib/test/test_disk.py",
+    "lib/python3.12/site-packages/joblib/test/test_format_stack.py",
+    "lib/python3.12/site-packages/joblib/test/test_func_inspect.py",
+    "lib/python3.12/site-packages/joblib/test/test_func_inspect_special_encoding.py",
+    "lib/python3.12/site-packages/joblib/test/test_hashing.py",
+    "lib/python3.12/site-packages/joblib/test/test_init.py",
+    "lib/python3.12/site-packages/joblib/test/test_logger.py",
+    "lib/python3.12/site-packages/joblib/test/test_memmapping.py",
+    "lib/python3.12/site-packages/joblib/test/test_memory.py",
+    "lib/python3.12/site-packages/joblib/test/test_missing_multiprocessing.py",
+    "lib/python3.12/site-packages/joblib/test/test_module.py",
+    "lib/python3.12/site-packages/joblib/test/test_my_exceptions.py",
+    "lib/python3.12/site-packages/joblib/test/test_numpy_pickle.py",
+    "lib/python3.12/site-packages/joblib/test/test_numpy_pickle_compat.py",
+    "lib/python3.12/site-packages/joblib/test/test_numpy_pickle_utils.py",
+    "lib/python3.12/site-packages/joblib/test/test_parallel.py",
+    "lib/python3.12/site-packages/joblib/test/test_store_backends.py",
+    "lib/python3.12/site-packages/joblib/test/test_testing.py",
+    "lib/python3.12/site-packages/joblib/test/test_utils.py",
+    "lib/python3.12/site-packages/joblib/test/testutils.py",
+    "lib/python3.12/site-packages/joblib/testing.py"
+  ],
+  "fn": "joblib-1.2.0-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "7d787815036110fc13b0762a50eb4521",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/joblib-1.2.0-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "aeeb33f85c1e6776700b67a4762d2e6d",
+  "name": "joblib",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/joblib-1.2.0-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/joblib-1.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib-1.2.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "42612911c1872c5e4b43f6ae0e8ee59467cd350332241cf72ce90640264fae6a",
+        "sha256_in_prefix": "42612911c1872c5e4b43f6ae0e8ee59467cd350332241cf72ce90640264fae6a",
+        "size_in_bytes": 1527
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib-1.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8f76346afa03fddeca482c98027fac324fe513205b4e9671677199298401d93b",
+        "sha256_in_prefix": "8f76346afa03fddeca482c98027fac324fe513205b4e9671677199298401d93b",
+        "size_in_bytes": 5295
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib-1.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8f014e9c5f6181a189ddecb08ac1a3c58a59dc0fd273b196d982f335ed72edf6",
+        "sha256_in_prefix": "8f014e9c5f6181a189ddecb08ac1a3c58a59dc0fd273b196d982f335ed72edf6",
+        "size_in_bytes": 19937
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib-1.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib-1.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib-1.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8a0a3e27faea8ee92d5537c4ba781f38e362feb6c03bdcce882a9179919dc486",
+        "sha256_in_prefix": "8a0a3e27faea8ee92d5537c4ba781f38e362feb6c03bdcce882a9179919dc486",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib-1.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3f42eca19e398012fb7242f896a42deed75bac70f8c6555885f7e684779e4ff5",
+        "sha256_in_prefix": "3f42eca19e398012fb7242f896a42deed75bac70f8c6555885f7e684779e4ff5",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "09738726668af6e43f4722dce17f85bac5dffcd0cec1df6021f904d77a80d723",
+        "sha256_in_prefix": "09738726668af6e43f4722dce17f85bac5dffcd0cec1df6021f904d77a80d723",
+        "size_in_bytes": 4995
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7356c71e5e5905ef478ac633a4a34f65c7783764334ef98e82ebd1f5120d90ec",
+        "sha256_in_prefix": "7356c71e5e5905ef478ac633a4a34f65c7783764334ef98e82ebd1f5120d90ec",
+        "size_in_bytes": 4611
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/_cloudpickle_wrapper.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5da4db06ae872dd15f1ff94253cf151b5f353fb50598e90d1d527d79e40b37d1",
+        "sha256_in_prefix": "5da4db06ae872dd15f1ff94253cf151b5f353fb50598e90d1d527d79e40b37d1",
+        "size_in_bytes": 570
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/_dask.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "685462cd9b5f4ca876ad880bfc193d2dbd05430fa017eed3d11ffabef3009bc4",
+        "sha256_in_prefix": "685462cd9b5f4ca876ad880bfc193d2dbd05430fa017eed3d11ffabef3009bc4",
+        "size_in_bytes": 16220
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/_deprecated_format_stack.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "507ff873cd1e58cc79d9ba2111e62b961525a7e123ddedea4a726a8985a50e96",
+        "sha256_in_prefix": "507ff873cd1e58cc79d9ba2111e62b961525a7e123ddedea4a726a8985a50e96",
+        "size_in_bytes": 13043
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/_deprecated_my_exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e71fb6dfad3c7e226925e97f429c587b7df1d3259968c63e93c18571eecc530",
+        "sha256_in_prefix": "6e71fb6dfad3c7e226925e97f429c587b7df1d3259968c63e93c18571eecc530",
+        "size_in_bytes": 3979
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/_memmapping_reducer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd32e4dd1afc751e591f79519d31202e1a21a893c5f03eb3f56fa6594fdb10cd",
+        "sha256_in_prefix": "fd32e4dd1afc751e591f79519d31202e1a21a893c5f03eb3f56fa6594fdb10cd",
+        "size_in_bytes": 24983
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/_multiprocessing_helpers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "37d5c18d5c97c1a290220ccffca30b9bb7542df481b23f7daefd6115b2a07055",
+        "sha256_in_prefix": "37d5c18d5c97c1a290220ccffca30b9bb7542df481b23f7daefd6115b2a07055",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/_parallel_backends.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba4cc90cad672ef620f9c2f83fc1056e27c347a35ad57ba9a8f196ab925dba46",
+        "sha256_in_prefix": "ba4cc90cad672ef620f9c2f83fc1056e27c347a35ad57ba9a8f196ab925dba46",
+        "size_in_bytes": 25722
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/_store_backends.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a977a7ae1bec752b3484b011edd7c7bc30cf2fba721a97f2c050ee9290e44216",
+        "sha256_in_prefix": "a977a7ae1bec752b3484b011edd7c7bc30cf2fba721a97f2c050ee9290e44216",
+        "size_in_bytes": 20229
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/_utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "358a0f5b551f15004f5f64630fb3f1478ed5b1faf9522b79d1fea358fe1dc5d3",
+        "sha256_in_prefix": "358a0f5b551f15004f5f64630fb3f1478ed5b1faf9522b79d1fea358fe1dc5d3",
+        "size_in_bytes": 2180
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/backports.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "51106b75064645b16ed86c9ba795f7557b0f8df8ed2c2e3e0b7c629e1a1a6b8f",
+        "sha256_in_prefix": "51106b75064645b16ed86c9ba795f7557b0f8df8ed2c2e3e0b7c629e1a1a6b8f",
+        "size_in_bytes": 6938
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/compressor.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e72286e585ec4558d2583c272e1c8e3c4877f6bd2e1b3f8c1a1570031a9644e",
+        "sha256_in_prefix": "3e72286e585ec4558d2583c272e1c8e3c4877f6bd2e1b3f8c1a1570031a9644e",
+        "size_in_bytes": 25035
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/disk.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c12b4fd30a5ad1a1918eb0b4aff9c5704ede164dfb59f0077be069a0efce90e",
+        "sha256_in_prefix": "4c12b4fd30a5ad1a1918eb0b4aff9c5704ede164dfb59f0077be069a0efce90e",
+        "size_in_bytes": 4699
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/executor.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0211ec19d1f54a84cffc2da6e73f779cf2901848744ed9b3af3d72bef8e3ed0",
+        "sha256_in_prefix": "d0211ec19d1f54a84cffc2da6e73f779cf2901848744ed9b3af3d72bef8e3ed0",
+        "size_in_bytes": 4504
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/format_stack.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b5e34b9ddf0aa30f8bcae634d6640711806010c9d412368639cdbc3b81a95ca",
+        "sha256_in_prefix": "0b5e34b9ddf0aa30f8bcae634d6640711806010c9d412368639cdbc3b81a95ca",
+        "size_in_bytes": 1097
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/func_inspect.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7fa847d38cbb15c072ce3579e5c86ad057afd758a67ad3df4d20ef36a27cdade",
+        "sha256_in_prefix": "7fa847d38cbb15c072ce3579e5c86ad057afd758a67ad3df4d20ef36a27cdade",
+        "size_in_bytes": 13582
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/hashing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0ffb9ce374e6c2ed432f4ef3317915e6357834521dc66bf1c4adc889fc205e2",
+        "sha256_in_prefix": "a0ffb9ce374e6c2ed432f4ef3317915e6357834521dc66bf1c4adc889fc205e2",
+        "size_in_bytes": 10135
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/logger.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e014ffe5f326eecd92d759b28e58f6e00da6926a0ba0337de4b5849d888d99f5",
+        "sha256_in_prefix": "e014ffe5f326eecd92d759b28e58f6e00da6926a0ba0337de4b5849d888d99f5",
+        "size_in_bytes": 5932
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/memory.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b015def32025513756103cc45ba13b0463faa6b7a17916fc86c97dec437f460c",
+        "sha256_in_prefix": "b015def32025513756103cc45ba13b0463faa6b7a17916fc86c97dec437f460c",
+        "size_in_bytes": 40284
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/my_exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c85b51c503968559e2ed8922f2c876da3a4ef7be7f0415211eaadb00ecbfaa4f",
+        "sha256_in_prefix": "c85b51c503968559e2ed8922f2c876da3a4ef7be7f0415211eaadb00ecbfaa4f",
+        "size_in_bytes": 1407
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/numpy_pickle.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0130c56557107b8c39eae0d730ed919501a2d7a8eb9f74067bf37030a054cb92",
+        "sha256_in_prefix": "0130c56557107b8c39eae0d730ed919501a2d7a8eb9f74067bf37030a054cb92",
+        "size_in_bytes": 24782
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/numpy_pickle_compat.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ceb8e2175998dfc71a0e1e40a7e3d9d374a5c6b2701c5f8ff8e4e016a3e6f6dc",
+        "sha256_in_prefix": "ceb8e2175998dfc71a0e1e40a7e3d9d374a5c6b2701c5f8ff8e4e016a3e6f6dc",
+        "size_in_bytes": 10477
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/numpy_pickle_utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9febb12bfa58896c441950828e48274c3054f9ca3586e5c9c4d8d1144293cbe",
+        "sha256_in_prefix": "b9febb12bfa58896c441950828e48274c3054f9ca3586e5c9c4d8d1144293cbe",
+        "size_in_bytes": 9348
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/parallel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "74a93dd538f920324d368da2f2f7a595af5040cb70edeac05ec6ff2971d4f349",
+        "sha256_in_prefix": "74a93dd538f920324d368da2f2f7a595af5040cb70edeac05ec6ff2971d4f349",
+        "size_in_bytes": 44777
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/pool.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "80e0068caf339fbccfedbc3053da57459e6180f9feff100d30a352013c952c66",
+        "sha256_in_prefix": "80e0068caf339fbccfedbc3053da57459e6180f9feff100d30a352013c952c66",
+        "size_in_bytes": 15866
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/__pycache__/testing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d081dbadd7ad62f657e18fececa3162dfb87429cb2747f7fb5ed06a0a6487d3",
+        "sha256_in_prefix": "4d081dbadd7ad62f657e18fececa3162dfb87429cb2747f7fb5ed06a0a6487d3",
+        "size_in_bytes": 3516
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/_cloudpickle_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "7d4c7db39aafda73038b4c61213eedb5825de9f186f1a61d0496dd5ccf9c0667",
+        "sha256_in_prefix": "7d4c7db39aafda73038b4c61213eedb5825de9f186f1a61d0496dd5ccf9c0667",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/_dask.py",
+        "path_type": "hardlink",
+        "sha256": "4e3e06458300b9cb136e556bd0760d0e0d2d3c58197233facc0e798f23e3e8d3",
+        "sha256_in_prefix": "4e3e06458300b9cb136e556bd0760d0e0d2d3c58197233facc0e798f23e3e8d3",
+        "size_in_bytes": 13006
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/_deprecated_format_stack.py",
+        "path_type": "hardlink",
+        "sha256": "fe93cbc0c1fa872761a4f08dc514530a46dcb0abbe49d3341fe7319f95fe1031",
+        "sha256_in_prefix": "fe93cbc0c1fa872761a4f08dc514530a46dcb0abbe49d3341fe7319f95fe1031",
+        "size_in_bytes": 14505
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/_deprecated_my_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "abc4326427ffb0504ce8f50a69e6d9313748232c7cc9e06e39f6f2c595fb980d",
+        "sha256_in_prefix": "abc4326427ffb0504ce8f50a69e6d9313748232c7cc9e06e39f6f2c595fb980d",
+        "size_in_bytes": 4134
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/_memmapping_reducer.py",
+        "path_type": "hardlink",
+        "sha256": "6b1b95dbfcd4c64ee4ee224858f5ccf495f1876d3f9f7c07c2bc9ed417e69871",
+        "sha256_in_prefix": "6b1b95dbfcd4c64ee4ee224858f5ccf495f1876d3f9f7c07c2bc9ed417e69871",
+        "size_in_bytes": 28277
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/_multiprocessing_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "b7bc085dfacb7f3a855e339e398b3824fe39b69b719989b9ff213cca52116d1f",
+        "sha256_in_prefix": "b7bc085dfacb7f3a855e339e398b3824fe39b69b719989b9ff213cca52116d1f",
+        "size_in_bytes": 1925
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/_parallel_backends.py",
+        "path_type": "hardlink",
+        "sha256": "d6e8b6d5ae3d07ec5cbbe975769cddcf2b5bd2c58ab22234a2d8888abf28d615",
+        "sha256_in_prefix": "d6e8b6d5ae3d07ec5cbbe975769cddcf2b5bd2c58ab22234a2d8888abf28d615",
+        "size_in_bytes": 25438
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/_store_backends.py",
+        "path_type": "hardlink",
+        "sha256": "b87d7f1d23380b6f1033e9824764e5ab95d0669c103fb227e64c5c59f5fd64ed",
+        "sha256_in_prefix": "b87d7f1d23380b6f1033e9824764e5ab95d0669c103fb227e64c5c59f5fd64ed",
+        "size_in_bytes": 14434
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d59e47dc7d83d0654d3204250aeb12ce23061ca1ce974577ba6d6d0cb8fe8d8d",
+        "sha256_in_prefix": "d59e47dc7d83d0654d3204250aeb12ce23061ca1ce974577ba6d6d0cb8fe8d8d",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/backports.py",
+        "path_type": "hardlink",
+        "sha256": "48b1e05ce00117d2621da9f746623f8c822f922584c8ea0679c83ca4803bcf5a",
+        "sha256_in_prefix": "48b1e05ce00117d2621da9f746623f8c822f922584c8ea0679c83ca4803bcf5a",
+        "size_in_bytes": 6082
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/compressor.py",
+        "path_type": "hardlink",
+        "sha256": "d6eee54a51c08e2d0332f1f6aacc53a25d5d1b30cd4d63ac2cb08566e4aad405",
+        "sha256_in_prefix": "d6eee54a51c08e2d0332f1f6aacc53a25d5d1b30cd4d63ac2cb08566e4aad405",
+        "size_in_bytes": 19769
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/disk.py",
+        "path_type": "hardlink",
+        "sha256": "3f1502eb77411b63b51ab88bd522ec907523cfb5f347ecbaaea284247118d230",
+        "sha256_in_prefix": "3f1502eb77411b63b51ab88bd522ec907523cfb5f347ecbaaea284247118d230",
+        "size_in_bytes": 4389
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/executor.py",
+        "path_type": "hardlink",
+        "sha256": "c05e294f0a2dd7047318baa8cdb43c9b8e92378d1149415530bc69aeac46d806",
+        "sha256_in_prefix": "c05e294f0a2dd7047318baa8cdb43c9b8e92378d1149415530bc69aeac46d806",
+        "size_in_bytes": 5316
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "90e572baeb4017ecfec1c2b3e5fe2dfdf468b88f17d7199f4fc3d0b700574c2f",
+        "sha256_in_prefix": "90e572baeb4017ecfec1c2b3e5fe2dfdf468b88f17d7199f4fc3d0b700574c2f",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/cloudpickle/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "02326ea98b5f59948fe6281e24816f018b0dcba90780b7a7e7c438c3e672587e",
+        "sha256_in_prefix": "02326ea98b5f59948fe6281e24816f018b0dcba90780b7a7e7c438c3e672587e",
+        "size_in_bytes": 292
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3585daab28e2ce34cfbe2c940c45b10ebdb0d0192e2c4506eedfed46ade10264",
+        "sha256_in_prefix": "3585daab28e2ce34cfbe2c940c45b10ebdb0d0192e2c4506eedfed46ade10264",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/cloudpickle.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "45927fd7e54c6199d7ce1fcf9e3d3a2d4c3b4df559f5d0bb85e4d46771db6f45",
+        "sha256_in_prefix": "45927fd7e54c6199d7ce1fcf9e3d3a2d4c3b4df559f5d0bb85e4d46771db6f45",
+        "size_in_bytes": 35033
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/cloudpickle_fast.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "67d3767011622184a9c06475fe5568b1c5cb81c3da76992f9b25903a97a60fe4",
+        "sha256_in_prefix": "67d3767011622184a9c06475fe5568b1c5cb81c3da76992f9b25903a97a60fe4",
+        "size_in_bytes": 32958
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/compat.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "aef2d21a70c0079228ac43cf4ec35d520450e211e147d7ce6f95f6f2cac42d66",
+        "sha256_in_prefix": "aef2d21a70c0079228ac43cf4ec35d520450e211e147d7ce6f95f6f2cac42d66",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/cloudpickle/cloudpickle.py",
+        "path_type": "hardlink",
+        "sha256": "b5d494a8c693d4e41c49a8aba4c08fa969fa9e956971d8cbb936e15230f5d5af",
+        "sha256_in_prefix": "b5d494a8c693d4e41c49a8aba4c08fa969fa9e956971d8cbb936e15230f5d5af",
+        "size_in_bytes": 35137
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/cloudpickle/cloudpickle_fast.py",
+        "path_type": "hardlink",
+        "sha256": "057127bee1aa375ada90d7f1a66934cc46d97502eab6d9f79f64023b8d749919",
+        "sha256_in_prefix": "057127bee1aa375ada90d7f1a66934cc46d97502eab6d9f79f64023b8d749919",
+        "size_in_bytes": 34114
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/cloudpickle/compat.py",
+        "path_type": "hardlink",
+        "sha256": "213383531d14fdbedc8694b8eff4a2ab1ed83f5acc614a491fa077ac100d9966",
+        "sha256_in_prefix": "213383531d14fdbedc8694b8eff4a2ab1ed83f5acc614a491fa077ac100d9966",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5752722a16de5f26784e11685d522f0b71900dcf4539737854757a295ebdc6cd",
+        "sha256_in_prefix": "5752722a16de5f26784e11685d522f0b71900dcf4539737854757a295ebdc6cd",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "132741aa314bc6a6b93448bf771c0609c0742974b1c48ea56da94feae43b371a",
+        "sha256_in_prefix": "132741aa314bc6a6b93448bf771c0609c0742974b1c48ea56da94feae43b371a",
+        "size_in_bytes": 1176
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/_base.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ead30a11da29cdc6b6debf1baa7a0182dd6b04a5e8af0021f3c2418891d96bbc",
+        "sha256_in_prefix": "ead30a11da29cdc6b6debf1baa7a0182dd6b04a5e8af0021f3c2418891d96bbc",
+        "size_in_bytes": 890
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/cloudpickle_wrapper.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "984afc7887fad8c2a548f8407c55217ebdf0be9e628af6704004214d54e9fc09",
+        "sha256_in_prefix": "984afc7887fad8c2a548f8407c55217ebdf0be9e628af6704004214d54e9fc09",
+        "size_in_bytes": 4684
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/initializers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8fbadf0bfe88cd0064804cc46f7dc7bb0899430a42b7967fd071c08c1166063",
+        "sha256_in_prefix": "b8fbadf0bfe88cd0064804cc46f7dc7bb0899430a42b7967fd071c08c1166063",
+        "size_in_bytes": 3066
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/process_executor.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "82fc049584ade43b181ac6bb43f6efde09b77cce6c1e4c1e4b9ee06b4ea4cfc9",
+        "sha256_in_prefix": "82fc049584ade43b181ac6bb43f6efde09b77cce6c1e4c1e4b9ee06b4ea4cfc9",
+        "size_in_bytes": 49443
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/__pycache__/reusable_executor.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6b4e4e77401a874b10b28ac360543a08fc01e631adc5f8fcd45405758bf804a",
+        "sha256_in_prefix": "f6b4e4e77401a874b10b28ac360543a08fc01e631adc5f8fcd45405758bf804a",
+        "size_in_bytes": 10433
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/_base.py",
+        "path_type": "hardlink",
+        "sha256": "25dfc0ff1b5b333b5711bb03e48f09d7e514bf5336046172acf30c9ddf6603e4",
+        "sha256_in_prefix": "25dfc0ff1b5b333b5711bb03e48f09d7e514bf5336046172acf30c9ddf6603e4",
+        "size_in_bytes": 1057
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ee34e6193aed8f19d017aaea5ffc4e777a1d9f6d8afb36dee3f39fe7267a7537",
+        "sha256_in_prefix": "ee34e6193aed8f19d017aaea5ffc4e777a1d9f6d8afb36dee3f39fe7267a7537",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "882461352cf3714be10b8f1492c3f09d9a784ba7265a1766c7fc46a22014d12a",
+        "sha256_in_prefix": "882461352cf3714be10b8f1492c3f09d9a784ba7265a1766c7fc46a22014d12a",
+        "size_in_bytes": 708
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/_posix_reduction.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "eebe916cff95aaf6dc46e15dbb7a8bede030166eba17ee14fa04dea5e2978e32",
+        "sha256_in_prefix": "eebe916cff95aaf6dc46e15dbb7a8bede030166eba17ee14fa04dea5e2978e32",
+        "size_in_bytes": 2626
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/_win_reduction.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7111bce654f8bceef7a90f09f3dc22e87b428f3f44d398827da57715b027998e",
+        "sha256_in_prefix": "7111bce654f8bceef7a90f09f3dc22e87b428f3f44d398827da57715b027998e",
+        "size_in_bytes": 2987
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/context.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "235d5ca8441a6e1c32ea6501c49cb0f54fb451808743981f9aa3d606f42c18e7",
+        "sha256_in_prefix": "235d5ca8441a6e1c32ea6501c49cb0f54fb451808743981f9aa3d606f42c18e7",
+        "size_in_bytes": 11799
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/fork_exec.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5d929219f5d9f8dcbf1cecd0dc03bba6a901bd47bbc6ad1d2f13af10167d4a1b",
+        "sha256_in_prefix": "5d929219f5d9f8dcbf1cecd0dc03bba6a901bd47bbc6ad1d2f13af10167d4a1b",
+        "size_in_bytes": 1566
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/popen_loky_posix.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd0c38b95fb56c53e072c553fbe6063af1e8f6a7654e9a4e45dd14f397461cde",
+        "sha256_in_prefix": "fd0c38b95fb56c53e072c553fbe6063af1e8f6a7654e9a4e45dd14f397461cde",
+        "size_in_bytes": 8914
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/popen_loky_win32.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8402eed47677bab677da68449dbc3053a00a89acf5d3d8c7df43cca8eeb5d9d5",
+        "sha256_in_prefix": "8402eed47677bab677da68449dbc3053a00a89acf5d3d8c7df43cca8eeb5d9d5",
+        "size_in_bytes": 6581
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/process.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f415b2eaa0f3c82e72f822fb8f5ddd61522bdbb25e08dfdb00277f7b6184ddef",
+        "sha256_in_prefix": "f415b2eaa0f3c82e72f822fb8f5ddd61522bdbb25e08dfdb00277f7b6184ddef",
+        "size_in_bytes": 2523
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/queues.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e401ba53d6f60d575687be9780a92870718a3f09876adb175873bf9c635f8c53",
+        "sha256_in_prefix": "e401ba53d6f60d575687be9780a92870718a3f09876adb175873bf9c635f8c53",
+        "size_in_bytes": 7931
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/reduction.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e5fccdf4d937de9b225b8bdd7f4d3199d317fd6981fd65694f077e2fa8fae4b",
+        "sha256_in_prefix": "7e5fccdf4d937de9b225b8bdd7f4d3199d317fd6981fd65694f077e2fa8fae4b",
+        "size_in_bytes": 7212
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/resource_tracker.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "63cd43d11217c47eeeb410275163efe76865542f49fd68bc250d92eb1ec00db4",
+        "sha256_in_prefix": "63cd43d11217c47eeeb410275163efe76865542f49fd68bc250d92eb1ec00db4",
+        "size_in_bytes": 13748
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/spawn.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e7cf468dcaf90cce400b1378abc7457f0430586f302f7248f4c27d80637531d",
+        "sha256_in_prefix": "8e7cf468dcaf90cce400b1378abc7457f0430586f302f7248f4c27d80637531d",
+        "size_in_bytes": 8722
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/synchronize.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "378a35bfd985e1f11f415eb2b868ffca89d8ed838ff8e2b70e073fcc1a4683e4",
+        "sha256_in_prefix": "378a35bfd985e1f11f415eb2b868ffca89d8ed838ff8e2b70e073fcc1a4683e4",
+        "size_in_bytes": 18144
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ba90d70d99e265db1c6113c955829b5ec0450ddf0e6e97df9ab9f46edc2de00",
+        "sha256_in_prefix": "2ba90d70d99e265db1c6113c955829b5ec0450ddf0e6e97df9ab9f46edc2de00",
+        "size_in_bytes": 6362
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/_posix_reduction.py",
+        "path_type": "hardlink",
+        "sha256": "1530af5f67f921f297e686e7e6dafad713fa4e437813af0bfa60615abf2da67e",
+        "sha256_in_prefix": "1530af5f67f921f297e686e7e6dafad713fa4e437813af0bfa60615abf2da67e",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/_win_reduction.py",
+        "path_type": "hardlink",
+        "sha256": "17a85d7737fb64f523d4ee0e6096d9d76a49981aef199de60da8aca4f6be8aaa",
+        "sha256_in_prefix": "17a85d7737fb64f523d4ee0e6096d9d76a49981aef199de60da8aca4f6be8aaa",
+        "size_in_bytes": 2042
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/context.py",
+        "path_type": "hardlink",
+        "sha256": "048445f2eb4d3c7cdbd046e3a6517394bd1861af3b6cf28ddaf6c513e350c65e",
+        "sha256_in_prefix": "048445f2eb4d3c7cdbd046e3a6517394bd1861af3b6cf28ddaf6c513e350c65e",
+        "size_in_bytes": 11433
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/fork_exec.py",
+        "path_type": "hardlink",
+        "sha256": "ac1b80f1f74ee5355a401795ed316b2eb8b75612f3b1ec8a9c1734e1f07dd380",
+        "sha256_in_prefix": "ac1b80f1f74ee5355a401795ed316b2eb8b75612f3b1ec8a9c1734e1f07dd380",
+        "size_in_bytes": 1185
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/popen_loky_posix.py",
+        "path_type": "hardlink",
+        "sha256": "f703adbce44d48fd7529029af2345255f40756f7a5ee552d0961913c490c8539",
+        "sha256_in_prefix": "f703adbce44d48fd7529029af2345255f40756f7a5ee552d0961913c490c8539",
+        "size_in_bytes": 5556
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/popen_loky_win32.py",
+        "path_type": "hardlink",
+        "sha256": "9e597c13cd7032982555acd2b70a3b9373b26dd0ea388b4a0362fce1512be1a8",
+        "sha256_in_prefix": "9e597c13cd7032982555acd2b70a3b9373b26dd0ea388b4a0362fce1512be1a8",
+        "size_in_bytes": 5052
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/process.py",
+        "path_type": "hardlink",
+        "sha256": "2e018a36f48837bb80fa9899def7445a924f8067a953bddc46269c03d56a746d",
+        "sha256_in_prefix": "2e018a36f48837bb80fa9899def7445a924f8067a953bddc46269c03d56a746d",
+        "size_in_bytes": 1798
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/queues.py",
+        "path_type": "hardlink",
+        "sha256": "dbd506336bb5d8fbd7081e9cf8691a92673f8e5cdd6331743285e522295e63a4",
+        "sha256_in_prefix": "dbd506336bb5d8fbd7081e9cf8691a92673f8e5cdd6331743285e522295e63a4",
+        "size_in_bytes": 6801
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/reduction.py",
+        "path_type": "hardlink",
+        "sha256": "e8802c95859daaaa2d7154a1fba71a57e1f2d78d816aa45079d47ba42626bed5",
+        "sha256_in_prefix": "e8802c95859daaaa2d7154a1fba71a57e1f2d78d816aa45079d47ba42626bed5",
+        "size_in_bytes": 7062
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/resource_tracker.py",
+        "path_type": "hardlink",
+        "sha256": "67a76a4cfdd2c80c2dcd50c455b5de030423d412a48a384ed6e486b2ddfdeee8",
+        "sha256_in_prefix": "67a76a4cfdd2c80c2dcd50c455b5de030423d412a48a384ed6e486b2ddfdeee8",
+        "size_in_bytes": 14359
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/spawn.py",
+        "path_type": "hardlink",
+        "sha256": "9b275170d02fcdd26de9fd6fd93f8e457cc5e4396634a0d84e71ee9024cbcea1",
+        "sha256_in_prefix": "9b275170d02fcdd26de9fd6fd93f8e457cc5e4396634a0d84e71ee9024cbcea1",
+        "size_in_bytes": 8857
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/synchronize.py",
+        "path_type": "hardlink",
+        "sha256": "0af5692934e568a847d040f9ef75c5f59ac119abb87818e7dca4066120a439f5",
+        "sha256_in_prefix": "0af5692934e568a847d040f9ef75c5f59ac119abb87818e7dca4066120a439f5",
+        "size_in_bytes": 11719
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/backend/utils.py",
+        "path_type": "hardlink",
+        "sha256": "f9bce4977ba3f2cafda45cf151b2faffe7fb5be7a40b83f5d089b52715f005c7",
+        "sha256_in_prefix": "f9bce4977ba3f2cafda45cf151b2faffe7fb5be7a40b83f5d089b52715f005c7",
+        "size_in_bytes": 5738
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/cloudpickle_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "8140dfc4843bb26fecb621b29b594fe523fdc456c99d46d5662206ff2a4a13db",
+        "sha256_in_prefix": "8140dfc4843bb26fecb621b29b594fe523fdc456c99d46d5662206ff2a4a13db",
+        "size_in_bytes": 3578
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/initializers.py",
+        "path_type": "hardlink",
+        "sha256": "5c78df34b0fd639aeeceba60f607a5b833f1b380be927e2cf6ad625064819460",
+        "sha256_in_prefix": "5c78df34b0fd639aeeceba60f607a5b833f1b380be927e2cf6ad625064819460",
+        "size_in_bytes": 2539
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/process_executor.py",
+        "path_type": "hardlink",
+        "sha256": "5d5492d00dd672cc1e59f9da067015b52b4cb6efb55fdcbd318784f9a75a0a40",
+        "sha256_in_prefix": "5d5492d00dd672cc1e59f9da067015b52b4cb6efb55fdcbd318784f9a75a0a40",
+        "size_in_bytes": 48885
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/externals/loky/reusable_executor.py",
+        "path_type": "hardlink",
+        "sha256": "ff2eb5a18ba2d8632aab95e739272bc07e59f36945060508ea732760c1a72818",
+        "sha256_in_prefix": "ff2eb5a18ba2d8632aab95e739272bc07e59f36945060508ea732760c1a72818",
+        "size_in_bytes": 10028
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/format_stack.py",
+        "path_type": "hardlink",
+        "sha256": "2395852e59f2621ad812d656257b5586fef407b030595fe92f8125be09c85b5a",
+        "sha256_in_prefix": "2395852e59f2621ad812d656257b5586fef407b030595fe92f8125be09c85b5a",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/func_inspect.py",
+        "path_type": "hardlink",
+        "sha256": "b12f8d73b5def12257b51b5af082e1cce085d8a1bd4c4fd419ee55f6a4d02088",
+        "sha256_in_prefix": "b12f8d73b5def12257b51b5af082e1cce085d8a1bd4c4fd419ee55f6a4d02088",
+        "size_in_bytes": 13945
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/hashing.py",
+        "path_type": "hardlink",
+        "sha256": "34ef74c0ab756e87b200cf11943d07b4dc091d5b062ef29d563f68446a62f3f6",
+        "sha256_in_prefix": "34ef74c0ab756e87b200cf11943d07b4dc091d5b062ef29d563f68446a62f3f6",
+        "size_in_bytes": 10537
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/logger.py",
+        "path_type": "hardlink",
+        "sha256": "c634c386a8e9414f038c8aab2f7e48899d73ec727e7e06d573eec88dc8a2dc48",
+        "sha256_in_prefix": "c634c386a8e9414f038c8aab2f7e48899d73ec727e7e06d573eec88dc8a2dc48",
+        "size_in_bytes": 5129
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/memory.py",
+        "path_type": "hardlink",
+        "sha256": "8f99d39d83335437103ad41813af0e73f1c0bbf258f5b17c5573b2b077c5bd44",
+        "sha256_in_prefix": "8f99d39d83335437103ad41813af0e73f1c0bbf258f5b17c5573b2b077c5bd44",
+        "size_in_bytes": 40609
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/my_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "f9391257d532ea45523929bcef40901581c86c833a0892a542daeb33e5d10c0c",
+        "sha256_in_prefix": "f9391257d532ea45523929bcef40901581c86c833a0892a542daeb33e5d10c0c",
+        "size_in_bytes": 962
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/numpy_pickle.py",
+        "path_type": "hardlink",
+        "sha256": "e7c2c171bd4722f1287b0e320b03e5d7c76f4a7080ec5d332d369c3948a637b1",
+        "sha256_in_prefix": "e7c2c171bd4722f1287b0e320b03e5d7c76f4a7080ec5d332d369c3948a637b1",
+        "size_in_bytes": 26869
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/numpy_pickle_compat.py",
+        "path_type": "hardlink",
+        "sha256": "79146cb9be1a381d1f3e6902e4bf89a0a2ace8dbfb845b3d6704260e66c03508",
+        "sha256_in_prefix": "79146cb9be1a381d1f3e6902e4bf89a0a2ace8dbfb845b3d6704260e66c03508",
+        "size_in_bytes": 8547
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/numpy_pickle_utils.py",
+        "path_type": "hardlink",
+        "sha256": "1266b88c9b25b021bf1c3200b678d3ef00cdc34f54bfee77ebb374d923779403",
+        "sha256_in_prefix": "1266b88c9b25b021bf1c3200b678d3ef00cdc34f54bfee77ebb374d923779403",
+        "size_in_bytes": 8705
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/parallel.py",
+        "path_type": "hardlink",
+        "sha256": "ff87d54174369a59c97806882501c6370df0df69f0e518fda5f5be1558bd6d7e",
+        "sha256_in_prefix": "ff87d54174369a59c97806882501c6370df0df69f0e518fda5f5be1558bd6d7e",
+        "size_in_bytes": 48569
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/pool.py",
+        "path_type": "hardlink",
+        "sha256": "26e1bdbae137289c11f20259206cf026a39b243d3116e52140fd8862f81069bd",
+        "sha256_in_prefix": "26e1bdbae137289c11f20259206cf026a39b243d3116e52140fd8862f81069bd",
+        "size_in_bytes": 14334
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6e42306393a77b23dc467d95bb342520576d5b90b0a3599427b21f4b3b433bd7",
+        "sha256_in_prefix": "6e42306393a77b23dc467d95bb342520576d5b90b0a3599427b21f4b3b433bd7",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b313b825574232a4be492b0d7f3bd0ac850bd37b34bd14f64dde538e69cc9c52",
+        "sha256_in_prefix": "b313b825574232a4be492b0d7f3bd0ac850bd37b34bd14f64dde538e69cc9c52",
+        "size_in_bytes": 235
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/common.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "50e35dd0a6c85696733b6a745dd2dde756ec2ce2bd9943817fb430ab8390efef",
+        "sha256_in_prefix": "50e35dd0a6c85696733b6a745dd2dde756ec2ce2bd9943817fb430ab8390efef",
+        "size_in_bytes": 4212
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_backports.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "858fe2ebea350fe4ab436ef78b1ff5b03428c1f3268c2674296a622d372b8a58",
+        "sha256_in_prefix": "858fe2ebea350fe4ab436ef78b1ff5b03428c1f3268c2674296a622d372b8a58",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_cloudpickle_wrapper.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a5c723a34a7ec9380d5b2a98a5092663d06caa4e1eb44d810f4fdc0732ab8e3",
+        "sha256_in_prefix": "6a5c723a34a7ec9380d5b2a98a5092663d06caa4e1eb44d810f4fdc0732ab8e3",
+        "size_in_bytes": 1203
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_dask.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "29b05940d47b0052105c961ee76e7d547e521b8f16ae703b5df1bfeb0b571a22",
+        "sha256_in_prefix": "29b05940d47b0052105c961ee76e7d547e521b8f16ae703b5df1bfeb0b571a22",
+        "size_in_bytes": 35550
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_deprecated_objects.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e40df6d4ce1fbe92f36d8f951e20c3b38d5a811b58ac54e5f8f4a8d28970133d",
+        "sha256_in_prefix": "e40df6d4ce1fbe92f36d8f951e20c3b38d5a811b58ac54e5f8f4a8d28970133d",
+        "size_in_bytes": 1736
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_disk.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b453f6cbf6d2ec040fe6d2c876dfad840c98903264c9cd8a5be1ff253628047d",
+        "sha256_in_prefix": "b453f6cbf6d2ec040fe6d2c876dfad840c98903264c9cd8a5be1ff253628047d",
+        "size_in_bytes": 3624
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_format_stack.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "218c88a13782f8d16a523571d0c8ef63956b2825ecd9275888ab366f62ac0b8e",
+        "sha256_in_prefix": "218c88a13782f8d16a523571d0c8ef63956b2825ecd9275888ab366f62ac0b8e",
+        "size_in_bytes": 5464
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_func_inspect.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "24a9956abc76b533dd1076d4cf11d5f4f3d4628e281c2dedd7b81e11b9c43d84",
+        "sha256_in_prefix": "24a9956abc76b533dd1076d4cf11d5f4f3d4628e281c2dedd7b81e11b9c43d84",
+        "size_in_bytes": 12458
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_func_inspect_special_encoding.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e657d9bb0ef0eac7bbba0bb0ccd80866521b5517e2ad38f4c2ff763bc2843ad",
+        "sha256_in_prefix": "6e657d9bb0ef0eac7bbba0bb0ccd80866521b5517e2ad38f4c2ff763bc2843ad",
+        "size_in_bytes": 310
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_hashing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f801fcb233034b02e5fda4d06a7b7d40f50df919475e643011b50d9f1ec856b",
+        "sha256_in_prefix": "5f801fcb233034b02e5fda4d06a7b7d40f50df919475e643011b50d9f1ec856b",
+        "size_in_bytes": 21137
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_init.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "842543a248b9c679e9a69e726c94d5e94890bfd39838cae1fec167ade8c06c7d",
+        "sha256_in_prefix": "842543a248b9c679e9a69e726c94d5e94890bfd39838cae1fec167ade8c06c7d",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_logger.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "66a6ed7728b68d92fe819804fa57fc521eac44d39859a85e6fef1e7c9281be7d",
+        "sha256_in_prefix": "66a6ed7728b68d92fe819804fa57fc521eac44d39859a85e6fef1e7c9281be7d",
+        "size_in_bytes": 1054
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_memmapping.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "76d998bec7704713da6a1bdafa0447f1a8d625a816829ecd77687fd67b0298f0",
+        "sha256_in_prefix": "76d998bec7704713da6a1bdafa0447f1a8d625a816829ecd77687fd67b0298f0",
+        "size_in_bytes": 51500
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_memory.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "36edea49d7cb9899bf1dd7e80278890005702075c745689b9acf8189da981b6c",
+        "sha256_in_prefix": "36edea49d7cb9899bf1dd7e80278890005702075c745689b9acf8189da981b6c",
+        "size_in_bytes": 59592
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_missing_multiprocessing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9558d283f44e6d6359cff8da2d6061f40c38b5baa267e333c9a5844763f4172f",
+        "sha256_in_prefix": "9558d283f44e6d6359cff8da2d6061f40c38b5baa267e333c9a5844763f4172f",
+        "size_in_bytes": 1542
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_module.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "86c55c620df9b14ad2b08ec95c0084cd7dcb2be8c4c55aac87ea9d66b9c31f6f",
+        "sha256_in_prefix": "86c55c620df9b14ad2b08ec95c0084cd7dcb2be8c4c55aac87ea9d66b9c31f6f",
+        "size_in_bytes": 2413
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_my_exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f49da8337cce78e498081f1d189423065b4f5243607434b3bb52d069188f337",
+        "sha256_in_prefix": "9f49da8337cce78e498081f1d189423065b4f5243607434b3bb52d069188f337",
+        "size_in_bytes": 3024
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_numpy_pickle.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b479663b9cb026d51954863533697b4f98c0689aaa1089d437e766bb187e5f78",
+        "sha256_in_prefix": "b479663b9cb026d51954863533697b4f98c0689aaa1089d437e766bb187e5f78",
+        "size_in_bytes": 61793
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_numpy_pickle_compat.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8dfd343381cf6739991355117aaeaecbff0a5dad83b9a915221337045676c64",
+        "sha256_in_prefix": "a8dfd343381cf6739991355117aaeaecbff0a5dad83b9a915221337045676c64",
+        "size_in_bytes": 1052
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_numpy_pickle_utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9af8c373fbd7ef82ee2efb06b0f5e9b0fec39f5060528ab2c7fe4a4792b21913",
+        "sha256_in_prefix": "9af8c373fbd7ef82ee2efb06b0f5e9b0fec39f5060528ab2c7fe4a4792b21913",
+        "size_in_bytes": 786
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_parallel.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d343e9413dce0a900f9ab027eaf8a392840e3f93518d78b63c660db4a00c8791",
+        "sha256_in_prefix": "d343e9413dce0a900f9ab027eaf8a392840e3f93518d78b63c660db4a00c8791",
+        "size_in_bytes": 92152
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_store_backends.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "de77ffd538c8f5c3a80a973c86b7ec7cf6d1ee938f0b11bbb749cedf9d6394b7",
+        "sha256_in_prefix": "de77ffd538c8f5c3a80a973c86b7ec7cf6d1ee938f0b11bbb749cedf9d6394b7",
+        "size_in_bytes": 3035
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_testing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4eaf7f8ec1827e869426d757a44681d44fd1a8b3535febd1084e1ff4f7f6cb1",
+        "sha256_in_prefix": "a4eaf7f8ec1827e869426d757a44681d44fd1a8b3535febd1084e1ff4f7f6cb1",
+        "size_in_bytes": 3396
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/test_utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dba69f2014c03b646e4b960b05d1d3b985bb047dce8ca0d1bc5a0ffe62f5a018",
+        "sha256_in_prefix": "dba69f2014c03b646e4b960b05d1d3b985bb047dce8ca0d1bc5a0ffe62f5a018",
+        "size_in_bytes": 1158
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/__pycache__/testutils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "46f7eda9df385b4fb80413ffdfe1a18e45b289354b482a56347280d888b0915c",
+        "sha256_in_prefix": "46f7eda9df385b4fb80413ffdfe1a18e45b289354b482a56347280d888b0915c",
+        "size_in_bytes": 622
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/common.py",
+        "path_type": "hardlink",
+        "sha256": "8160c8bc697c36ceaf3d306f22db921681168a023410f5d2a0f912bea48ce333",
+        "sha256_in_prefix": "8160c8bc697c36ceaf3d306f22db921681168a023410f5d2a0f912bea48ce333",
+        "size_in_bytes": 3283
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0aabe365583b4b45b2c957441a63e6e81cc8e3fb9b8dbdbea67f991c9890e1e7",
+        "sha256_in_prefix": "0aabe365583b4b45b2c957441a63e6e81cc8e3fb9b8dbdbea67f991c9890e1e7",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/__pycache__/create_numpy_pickle.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5abbaa83148f34c8a5c9825a304ea009efe90f288f285461fffa8cdd4a8d50e",
+        "sha256_in_prefix": "c5abbaa83148f34c8a5c9825a304ea009efe90f288f285461fffa8cdd4a8d50e",
+        "size_in_bytes": 4147
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/create_numpy_pickle.py",
+        "path_type": "hardlink",
+        "sha256": "f469bafd3fa9a9eecb193a34c5bcf77b52a3221a8a29be80ec89920256364723",
+        "sha256_in_prefix": "f469bafd3fa9a9eecb193a34c5bcf77b52a3221a8a29be80ec89920256364723",
+        "size_in_bytes": 3459
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np16.gz",
+        "path_type": "hardlink",
+        "sha256": "418447e90d83486568ae3092a960b18d358230e24ac9ec38365daa99f415bd0f",
+        "sha256_in_prefix": "418447e90d83486568ae3092a960b18d358230e24ac9ec38365daa99f415bd0f",
+        "size_in_bytes": 769
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np17.gz",
+        "path_type": "hardlink",
+        "sha256": "a1f4e8cccfca94f25ae744d1f050b0734f663263ba38ed0642181404b348b17b",
+        "sha256_in_prefix": "a1f4e8cccfca94f25ae744d1f050b0734f663263ba38ed0642181404b348b17b",
+        "size_in_bytes": 757
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py33_np18.gz",
+        "path_type": "hardlink",
+        "sha256": "d9e215780f978ce693e48110ead23652e1c6de1c2189172232690198f7088788",
+        "sha256_in_prefix": "d9e215780f978ce693e48110ead23652e1c6de1c2189172232690198f7088788",
+        "size_in_bytes": 792
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py34_np19.gz",
+        "path_type": "hardlink",
+        "sha256": "1abdb3ff5b555831f51f7ff00951e66a49277fc2aa787293f18cf8775be65023",
+        "sha256_in_prefix": "1abdb3ff5b555831f51f7ff00951e66a49277fc2aa787293f18cf8775be65023",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_compressed_pickle_py35_np19.gz",
+        "path_type": "hardlink",
+        "sha256": "a56c3fc6e0db3a4102aaed4a19fd4e154eecd956f30b6bf9179897844ed3c01e",
+        "sha256_in_prefix": "a56c3fc6e0db3a4102aaed4a19fd4e154eecd956f30b6bf9179897844ed3c01e",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl",
+        "path_type": "hardlink",
+        "sha256": "89c4508e3dfbe01f801e4e739f1aded13f685941e89281c8050f0ca8aa3c97e5",
+        "sha256_in_prefix": "89c4508e3dfbe01f801e4e739f1aded13f685941e89281c8050f0ca8aa3c97e5",
+        "size_in_bytes": 986
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.bz2",
+        "path_type": "hardlink",
+        "sha256": "a18415232322531c918164ae04148ebc258acd3a00fa4529728416755e14a15e",
+        "sha256_in_prefix": "a18415232322531c918164ae04148ebc258acd3a00fa4529728416755e14a15e",
+        "size_in_bytes": 997
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.gzip",
+        "path_type": "hardlink",
+        "sha256": "269bf788670380a4eff8ee2766c52b7886d42bbaa7b7672e819f9532035e1034",
+        "sha256_in_prefix": "269bf788670380a4eff8ee2766c52b7886d42bbaa7b7672e819f9532035e1034",
+        "size_in_bytes": 798
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.lzma",
+        "path_type": "hardlink",
+        "sha256": "734c2ed31f293efe01712b63ee913ad6b6697faf052c6fe9373419e1ef36cc7f",
+        "sha256_in_prefix": "734c2ed31f293efe01712b63ee913ad6b6697faf052c6fe9373419e1ef36cc7f",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.xz",
+        "path_type": "hardlink",
+        "sha256": "efb146d450c6d061d06affb56f17384e7f64cbab9b516fcc6c4d3f8869b3e707",
+        "sha256_in_prefix": "efb146d450c6d061d06affb56f17384e7f64cbab9b516fcc6c4d3f8869b3e707",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl",
+        "path_type": "hardlink",
+        "sha256": "e064c2eecfdc58d552844467da7bd56eca596098322bfd266a7e1312abdd5735",
+        "sha256_in_prefix": "e064c2eecfdc58d552844467da7bd56eca596098322bfd266a7e1312abdd5735",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.bz2",
+        "path_type": "hardlink",
+        "sha256": "e86d6f6ecfe2626cf691827ac38a81d64ec3ebb527c5432eb344b8496781b45a",
+        "sha256_in_prefix": "e86d6f6ecfe2626cf691827ac38a81d64ec3ebb527c5432eb344b8496781b45a",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.gzip",
+        "path_type": "hardlink",
+        "sha256": "b6545459e252d415e6730b4b35234af4bd210c77a4165d3b0aa5b14d28629e66",
+        "sha256_in_prefix": "b6545459e252d415e6730b4b35234af4bd210c77a4165d3b0aa5b14d28629e66",
+        "size_in_bytes": 831
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.lzma",
+        "path_type": "hardlink",
+        "sha256": "0a8acfc277efdeb47986336d248d35fac10130e9e44b13654556964ecccca290",
+        "sha256_in_prefix": "0a8acfc277efdeb47986336d248d35fac10130e9e44b13654556964ecccca290",
+        "size_in_bytes": 694
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.xz",
+        "path_type": "hardlink",
+        "sha256": "0e9a63dcc7df38ab0a1137a9b44b436b13cebfa300eb19dba4ae4bce50d0fa81",
+        "sha256_in_prefix": "0e9a63dcc7df38ab0a1137a9b44b436b13cebfa300eb19dba4ae4bce50d0fa81",
+        "size_in_bytes": 752
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl",
+        "path_type": "hardlink",
+        "sha256": "1cbe456f5b91f5a3cb8e386838f276c30335432a351426686187761d5c34168b",
+        "sha256_in_prefix": "1cbe456f5b91f5a3cb8e386838f276c30335432a351426686187761d5c34168b",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.bz2",
+        "path_type": "hardlink",
+        "sha256": "3f2af67ea667c1f5315ddcab06bfa447005863c1c0fd88bb7e04a0b8acb9a54b",
+        "sha256_in_prefix": "3f2af67ea667c1f5315ddcab06bfa447005863c1c0fd88bb7e04a0b8acb9a54b",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.gzip",
+        "path_type": "hardlink",
+        "sha256": "a2cf0d263408f4586795933e032f5d5ff528df98199e824281048856f7013df1",
+        "sha256_in_prefix": "a2cf0d263408f4586795933e032f5d5ff528df98199e824281048856f7013df1",
+        "size_in_bytes": 831
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.lzma",
+        "path_type": "hardlink",
+        "sha256": "43fd32e37a94eff1aa01a6c9f32dcf59584e8acbab9c202adc6cee0aed38579f",
+        "sha256_in_prefix": "43fd32e37a94eff1aa01a6c9f32dcf59584e8acbab9c202adc6cee0aed38579f",
+        "size_in_bytes": 697
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.xz",
+        "path_type": "hardlink",
+        "sha256": "04d7e68907e978b56975f9309492b8849e42a60974beb795c9e93273977f3cd3",
+        "sha256_in_prefix": "04d7e68907e978b56975f9309492b8849e42a60974beb795c9e93273977f3cd3",
+        "size_in_bytes": 752
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl",
+        "path_type": "hardlink",
+        "sha256": "97b9ef2e896104321d3c5ce73b3de504788c38f04f08c8b56d7a29d6d1520a96",
+        "sha256_in_prefix": "97b9ef2e896104321d3c5ce73b3de504788c38f04f08c8b56d7a29d6d1520a96",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.bz2",
+        "path_type": "hardlink",
+        "sha256": "a6a1a9b884be654e2e3fc9a48251ecf0c6920e255c3f2ee5dd71d8252a694606",
+        "sha256_in_prefix": "a6a1a9b884be654e2e3fc9a48251ecf0c6920e255c3f2ee5dd71d8252a694606",
+        "size_in_bytes": 1005
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.gzip",
+        "path_type": "hardlink",
+        "sha256": "61115713a2c46faa8aef6c8faa75dda90558f13b3cc4a512f4f5902a12f15af9",
+        "sha256_in_prefix": "61115713a2c46faa8aef6c8faa75dda90558f13b3cc4a512f4f5902a12f15af9",
+        "size_in_bytes": 833
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.lzma",
+        "path_type": "hardlink",
+        "sha256": "05fee0094793b938c291b708772658cfaf62adb957e12015404cf10a731084d5",
+        "sha256_in_prefix": "05fee0094793b938c291b708772658cfaf62adb957e12015404cf10a731084d5",
+        "size_in_bytes": 701
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.xz",
+        "path_type": "hardlink",
+        "sha256": "02cf30d8b196c303662b2dd035d2a58caeb762ae3a82345ffd1274961e7f5aa0",
+        "sha256_in_prefix": "02cf30d8b196c303662b2dd035d2a58caeb762ae3a82345ffd1274961e7f5aa0",
+        "size_in_bytes": 752
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_compressed_pickle_py36_np111.gz",
+        "path_type": "hardlink",
+        "sha256": "d56ae75c3a83a0d10f60e657d50e56af6e3addbf2f555e9fc385a6e52e1b32de",
+        "sha256_in_prefix": "d56ae75c3a83a0d10f60e657d50e56af6e3addbf2f555e9fc385a6e52e1b32de",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl",
+        "path_type": "hardlink",
+        "sha256": "5e6b0e171782d5fd5a61d1844dc946eb27c5f6b2e8075d436b23808433142ebc",
+        "sha256_in_prefix": "5e6b0e171782d5fd5a61d1844dc946eb27c5f6b2e8075d436b23808433142ebc",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.bz2",
+        "path_type": "hardlink",
+        "sha256": "bc8db259be742ca2ff36067277f5e4a03e6d78883ddee238da65a7c7d79ef804",
+        "sha256_in_prefix": "bc8db259be742ca2ff36067277f5e4a03e6d78883ddee238da65a7c7d79ef804",
+        "size_in_bytes": 991
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.gzip",
+        "path_type": "hardlink",
+        "sha256": "d56ae75c3a83a0d10f60e657d50e56af6e3addbf2f555e9fc385a6e52e1b32de",
+        "sha256_in_prefix": "d56ae75c3a83a0d10f60e657d50e56af6e3addbf2f555e9fc385a6e52e1b32de",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.lzma",
+        "path_type": "hardlink",
+        "sha256": "216034265646daeaf9dc78135039759bbabbf5d715aba6f454eab7de02a8254d",
+        "sha256_in_prefix": "216034265646daeaf9dc78135039759bbabbf5d715aba6f454eab7de02a8254d",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.xz",
+        "path_type": "hardlink",
+        "sha256": "dd787f35b3197418d8c7bca77c9dc5ca47b6f22cd24524b3ccd074cf90f893d6",
+        "sha256_in_prefix": "dd787f35b3197418d8c7bca77c9dc5ca47b6f22cd24524b3ccd074cf90f893d6",
+        "size_in_bytes": 752
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.8.4_compressed_pickle_py27_np17.gz",
+        "path_type": "hardlink",
+        "sha256": "4a9f994fb8baa63e689f681ba6db33bbb45aaf32693a61c9ebb50a3a608f40c8",
+        "sha256_in_prefix": "4a9f994fb8baa63e689f681ba6db33bbb45aaf32693a61c9ebb50a3a608f40c8",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np16.gz",
+        "path_type": "hardlink",
+        "sha256": "34bb43aefa365c81f42af51402f84ea8c7a85c48c65b422e4e4fe8b2ee57883c",
+        "sha256_in_prefix": "34bb43aefa365c81f42af51402f84ea8c7a85c48c65b422e4e4fe8b2ee57883c",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np17.gz",
+        "path_type": "hardlink",
+        "sha256": "34bb43aefa365c81f42af51402f84ea8c7a85c48c65b422e4e4fe8b2ee57883c",
+        "sha256_in_prefix": "34bb43aefa365c81f42af51402f84ea8c7a85c48c65b422e4e4fe8b2ee57883c",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_compressed_pickle_py34_np19.gz",
+        "path_type": "hardlink",
+        "sha256": "9f33bd8a21a41b729b05dac5deeb0e868f218a092b0e3fe5988094cf167217f6",
+        "sha256_in_prefix": "9f33bd8a21a41b729b05dac5deeb0e868f218a092b0e3fe5988094cf167217f6",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_compressed_pickle_py35_np19.gz",
+        "path_type": "hardlink",
+        "sha256": "9f33bd8a21a41b729b05dac5deeb0e868f218a092b0e3fe5988094cf167217f6",
+        "sha256_in_prefix": "9f33bd8a21a41b729b05dac5deeb0e868f218a092b0e3fe5988094cf167217f6",
+        "size_in_bytes": 673
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl",
+        "path_type": "hardlink",
+        "sha256": "9da8a3764db121e29d21ade67c9c3426598e76d88deae44cd7238983af8cef73",
+        "sha256_in_prefix": "9da8a3764db121e29d21ade67c9c3426598e76d88deae44cd7238983af8cef73",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_01.npy",
+        "path_type": "hardlink",
+        "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "sha256_in_prefix": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_02.npy",
+        "path_type": "hardlink",
+        "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "sha256_in_prefix": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_03.npy",
+        "path_type": "hardlink",
+        "sha256": "a0c45ae2a289841cbeba2443b7ebaa3b31c0a9e9dcc73294aca5729da0092405",
+        "sha256_in_prefix": "a0c45ae2a289841cbeba2443b7ebaa3b31c0a9e9dcc73294aca5729da0092405",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_04.npy",
+        "path_type": "hardlink",
+        "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "sha256_in_prefix": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl",
+        "path_type": "hardlink",
+        "sha256": "2f29d7f1d2ceca07f10df172c0e826ef08163a14b12c6ef3fa80ec53a5fcdc3c",
+        "sha256_in_prefix": "2f29d7f1d2ceca07f10df172c0e826ef08163a14b12c6ef3fa80ec53a5fcdc3c",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_01.npy",
+        "path_type": "hardlink",
+        "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "sha256_in_prefix": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_02.npy",
+        "path_type": "hardlink",
+        "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "sha256_in_prefix": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_03.npy",
+        "path_type": "hardlink",
+        "sha256": "a0c45ae2a289841cbeba2443b7ebaa3b31c0a9e9dcc73294aca5729da0092405",
+        "sha256_in_prefix": "a0c45ae2a289841cbeba2443b7ebaa3b31c0a9e9dcc73294aca5729da0092405",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_04.npy",
+        "path_type": "hardlink",
+        "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "sha256_in_prefix": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl",
+        "path_type": "hardlink",
+        "sha256": "c3d4cbc690d3ce9e5323a714ea546f32c01ab1710285c420184f6cdf4b26fc25",
+        "sha256_in_prefix": "c3d4cbc690d3ce9e5323a714ea546f32c01ab1710285c420184f6cdf4b26fc25",
+        "size_in_bytes": 691
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_01.npy",
+        "path_type": "hardlink",
+        "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "sha256_in_prefix": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_02.npy",
+        "path_type": "hardlink",
+        "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "sha256_in_prefix": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_03.npy",
+        "path_type": "hardlink",
+        "sha256": "8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7",
+        "sha256_in_prefix": "8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_04.npy",
+        "path_type": "hardlink",
+        "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "sha256_in_prefix": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl",
+        "path_type": "hardlink",
+        "sha256": "8a538100e6ae94b16f2ab0f7d92d4d7e7a622be2dfcc0f6b0b73b623bc513ae2",
+        "sha256_in_prefix": "8a538100e6ae94b16f2ab0f7d92d4d7e7a622be2dfcc0f6b0b73b623bc513ae2",
+        "size_in_bytes": 691
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_01.npy",
+        "path_type": "hardlink",
+        "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "sha256_in_prefix": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_02.npy",
+        "path_type": "hardlink",
+        "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "sha256_in_prefix": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_03.npy",
+        "path_type": "hardlink",
+        "sha256": "8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7",
+        "sha256_in_prefix": "8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_04.npy",
+        "path_type": "hardlink",
+        "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "sha256_in_prefix": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl",
+        "path_type": "hardlink",
+        "sha256": "59f0d522a29c333ce1d60480b2121fcc1a08a5d2dd650b86efdc987f991fa4ea",
+        "sha256_in_prefix": "59f0d522a29c333ce1d60480b2121fcc1a08a5d2dd650b86efdc987f991fa4ea",
+        "size_in_bytes": 691
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_01.npy",
+        "path_type": "hardlink",
+        "sha256": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "sha256_in_prefix": "0efbd7d9ce7eec3a6e0a0db41e795e0396cca3d6b037dad6c61b464843d28809",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_02.npy",
+        "path_type": "hardlink",
+        "sha256": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "sha256_in_prefix": "1c1cf36cb781fbcc21b953bb0a0b45df092da0eae0e765882e5963ccd70105b1",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_03.npy",
+        "path_type": "hardlink",
+        "sha256": "8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7",
+        "sha256_in_prefix": "8ede9a64a52b25d7db30950956c978ec0b3932b7d14acd5abc63216e64babde7",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_04.npy",
+        "path_type": "hardlink",
+        "sha256": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "sha256_in_prefix": "3ecbe244294ba93e08479b16c1b9a9411e3569ff660ed0459dca1d241381df05",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz",
+        "path_type": "hardlink",
+        "sha256": "f2361f589b31d2863627edcb96612280ae5c0a59c9496d89dab7de493670f93b",
+        "sha256_in_prefix": "f2361f589b31d2863627edcb96612280ae5c0a59c9496d89dab7de493670f93b",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_01.npy.z",
+        "path_type": "hardlink",
+        "sha256": "613f55bd3dec125dae5a53b2bc7d8293213d4a8938a1df4ede45ad81eb9452a1",
+        "sha256_in_prefix": "613f55bd3dec125dae5a53b2bc7d8293213d4a8938a1df4ede45ad81eb9452a1",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_02.npy.z",
+        "path_type": "hardlink",
+        "sha256": "b710394432343d1ba253f50d298f291a9fb3420410f6f695bcc8bad2138f695b",
+        "sha256_in_prefix": "b710394432343d1ba253f50d298f291a9fb3420410f6f695bcc8bad2138f695b",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_03.npy.z",
+        "path_type": "hardlink",
+        "sha256": "777030202bd4d8ca5236387668f22c74978664b9438c03401754a86bab8cd0fa",
+        "sha256_in_prefix": "777030202bd4d8ca5236387668f22c74978664b9438c03401754a86bab8cd0fa",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_backports.py",
+        "path_type": "hardlink",
+        "sha256": "63d6e119ae87f8afc580b903c976921f3a5a5a4d78f118e7f11f4828229dcbe9",
+        "sha256_in_prefix": "63d6e119ae87f8afc580b903c976921f3a5a5a4d78f118e7f11f4828229dcbe9",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_cloudpickle_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "18d68e1bc4b282f1df58d7615799e2accdeea3817ee4e077cae1a583bc6dad26",
+        "sha256_in_prefix": "18d68e1bc4b282f1df58d7615799e2accdeea3817ee4e077cae1a583bc6dad26",
+        "size_in_bytes": 749
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_dask.py",
+        "path_type": "hardlink",
+        "sha256": "2e61d8ae334a6bcbfb237867115d67992cd5a06e88a7980e70106bc65643cb43",
+        "sha256_in_prefix": "2e61d8ae334a6bcbfb237867115d67992cd5a06e88a7980e70106bc65643cb43",
+        "size_in_bytes": 18004
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_deprecated_objects.py",
+        "path_type": "hardlink",
+        "sha256": "af963f05ca2693e097bf008394dac837b7aa5f2b55790e21fec30f8a790f92b1",
+        "sha256_in_prefix": "af963f05ca2693e097bf008394dac837b7aa5f2b55790e21fec30f8a790f92b1",
+        "size_in_bytes": 1077
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_disk.py",
+        "path_type": "hardlink",
+        "sha256": "c09775a3d9cbcea1232eac7192007d4bbf9470a8c73d0f2a2b997473370da74a",
+        "sha256_in_prefix": "c09775a3d9cbcea1232eac7192007d4bbf9470a8c73d0f2a2b997473370da74a",
+        "size_in_bytes": 2205
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_format_stack.py",
+        "path_type": "hardlink",
+        "sha256": "c13b63465a7479d36feff373c5953a0c054942879b2fe9671ac5043305595e93",
+        "sha256_in_prefix": "c13b63465a7479d36feff373c5953a0c054942879b2fe9671ac5043305595e93",
+        "size_in_bytes": 4250
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_func_inspect.py",
+        "path_type": "hardlink",
+        "sha256": "283bcbb51ce2c80febe8688d121d39ff3865c7d9ed256eda6d2b90e9ca896a35",
+        "sha256_in_prefix": "283bcbb51ce2c80febe8688d121d39ff3865c7d9ed256eda6d2b90e9ca896a35",
+        "size_in_bytes": 8935
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_func_inspect_special_encoding.py",
+        "path_type": "hardlink",
+        "sha256": "a076cc4cf38add7234615a12d06b28b89f867ccfe778fe06388242f932a73605",
+        "sha256_in_prefix": "a076cc4cf38add7234615a12d06b28b89f867ccfe778fe06388242f932a73605",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_hashing.py",
+        "path_type": "hardlink",
+        "sha256": "6d6ec5f202d0c03a42385442016943c758b21a3437043118068977be9133b5a1",
+        "sha256_in_prefix": "6d6ec5f202d0c03a42385442016943c758b21a3437043118068977be9133b5a1",
+        "size_in_bytes": 16078
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_init.py",
+        "path_type": "hardlink",
+        "sha256": "6e0345fbd088265d4c14d03be4b05639a88db6f76e55fbaf825cffbbd4edf147",
+        "sha256_in_prefix": "6e0345fbd088265d4c14d03be4b05639a88db6f76e55fbaf825cffbbd4edf147",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_logger.py",
+        "path_type": "hardlink",
+        "sha256": "5a3c43ce94667708ff532b7647e4b70c5453f4219393b1b60d6b9c537b2a6eef",
+        "sha256_in_prefix": "5a3c43ce94667708ff532b7647e4b70c5453f4219393b1b60d6b9c537b2a6eef",
+        "size_in_bytes": 985
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_memmapping.py",
+        "path_type": "hardlink",
+        "sha256": "97bb8887181b70b87559ea4c741d880446a667f462b1b54adfc050b5d18f075a",
+        "sha256_in_prefix": "97bb8887181b70b87559ea4c741d880446a667f462b1b54adfc050b5d18f075a",
+        "size_in_bytes": 42512
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_memory.py",
+        "path_type": "hardlink",
+        "sha256": "b20a018575a06635936f71a2576d51027df87a1a64bb969a663cd647adf7f0ec",
+        "sha256_in_prefix": "b20a018575a06635936f71a2576d51027df87a1a64bb969a663cd647adf7f0ec",
+        "size_in_bytes": 43864
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_missing_multiprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "a1e9de3208ba8945486e47dacc6bd798ea7a7ea6bba24f6e863f74d908ecfe79",
+        "sha256_in_prefix": "a1e9de3208ba8945486e47dacc6bd798ea7a7ea6bba24f6e863f74d908ecfe79",
+        "size_in_bytes": 1123
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_module.py",
+        "path_type": "hardlink",
+        "sha256": "1d31d04a09f06bed5b964be12ffa1504ee7261dc3c22b41320908afd00ac32d3",
+        "sha256_in_prefix": "1d31d04a09f06bed5b964be12ffa1504ee7261dc3c22b41320908afd00ac32d3",
+        "size_in_bytes": 1936
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_my_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "e3fd71948c1b804b7afdba9a43c946c937d4015ed184b31145b40a23260e4c0f",
+        "sha256_in_prefix": "e3fd71948c1b804b7afdba9a43c946c937d4015ed184b31145b40a23260e4c0f",
+        "size_in_bytes": 2066
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_numpy_pickle.py",
+        "path_type": "hardlink",
+        "sha256": "773b78179dfe00d344af48d6a827a9a5e3c8687a7bba1f2fb82bbbaf1f7e0ad1",
+        "sha256_in_prefix": "773b78179dfe00d344af48d6a827a9a5e3c8687a7bba1f2fb82bbbaf1f7e0ad1",
+        "size_in_bytes": 42357
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_numpy_pickle_compat.py",
+        "path_type": "hardlink",
+        "sha256": "0b93a2685aea9b1603e7b7ebfcba6622d77a38e64f78e31fa3d455afa6592249",
+        "sha256_in_prefix": "0b93a2685aea9b1603e7b7ebfcba6622d77a38e64f78e31fa3d455afa6592249",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_numpy_pickle_utils.py",
+        "path_type": "hardlink",
+        "sha256": "3c955582bfafdeca3da007fd2db9404910a9b7ec17028d7d16fb14a70f9f6632",
+        "sha256_in_prefix": "3c955582bfafdeca3da007fd2db9404910a9b7ec17028d7d16fb14a70f9f6632",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_parallel.py",
+        "path_type": "hardlink",
+        "sha256": "5809ebd6f1d79c437c9ae23eb714ce5d9d8032ff215953a84f12aa0a0a6eb618",
+        "sha256_in_prefix": "5809ebd6f1d79c437c9ae23eb714ce5d9d8032ff215953a84f12aa0a0a6eb618",
+        "size_in_bytes": 61231
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_store_backends.py",
+        "path_type": "hardlink",
+        "sha256": "7d9874fc4e518f955327f5331f76aeb47a56c0469642f59389007c7de95500de",
+        "sha256_in_prefix": "7d9874fc4e518f955327f5331f76aeb47a56c0469642f59389007c7de95500de",
+        "size_in_bytes": 1942
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_testing.py",
+        "path_type": "hardlink",
+        "sha256": "23e12474a1d6747bbc9b97e8d8d9f207402a47ccc0389d3558a2afc996119de6",
+        "sha256_in_prefix": "23e12474a1d6747bbc9b97e8d8d9f207402a47ccc0389d3558a2afc996119de6",
+        "size_in_bytes": 2467
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "2fa6811e266b17a4d415b3c69905c6c8d327a00cb9a4484e2681f90801bfe825",
+        "sha256_in_prefix": "2fa6811e266b17a4d415b3c69905c6c8d327a00cb9a4484e2681f90801bfe825",
+        "size_in_bytes": 584
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/test/testutils.py",
+        "path_type": "hardlink",
+        "sha256": "e9aef35499b5920e8cfade021fdb73f00eab31d0ba658f6c53ac0107c0bb673a",
+        "sha256_in_prefix": "e9aef35499b5920e8cfade021fdb73f00eab31d0ba658f6c53ac0107c0bb673a",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "lib/python3.12/site-packages/joblib/testing.py",
+        "path_type": "hardlink",
+        "sha256": "26a40358490defa64f9adeb912cc221113287c5adefc9505cc12607e6c36936c",
+        "sha256_in_prefix": "26a40358490defa64f9adeb912cc221113287c5adefc9505cc12607e6c36936c",
+        "size_in_bytes": 2260
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "55430323a91d91559b064f3c84c40133cd8e26ab48e045a561d677c37915f0b2",
+  "size": 496628,
+  "subdir": "osx-64",
+  "timestamp": 1699246306948,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/joblib-1.2.0-py312hecd8cb5_0.conda",
+  "version": "1.2.0"
+}

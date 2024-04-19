@@ -1,0 +1,309 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/uc-micro-py-1.0.1-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/uc_micro/__init__.py",
+    "lib/python3.12/site-packages/uc_micro/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/categories/Cc/__init__.py",
+    "lib/python3.12/site-packages/uc_micro/categories/Cc/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/categories/Cc/__pycache__/regex.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/categories/Cc/regex.py",
+    "lib/python3.12/site-packages/uc_micro/categories/Cf/__init__.py",
+    "lib/python3.12/site-packages/uc_micro/categories/Cf/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/categories/Cf/__pycache__/regex.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/categories/Cf/regex.py",
+    "lib/python3.12/site-packages/uc_micro/categories/P/__init__.py",
+    "lib/python3.12/site-packages/uc_micro/categories/P/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/categories/P/__pycache__/regex.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/categories/P/regex.py",
+    "lib/python3.12/site-packages/uc_micro/categories/Z/__init__.py",
+    "lib/python3.12/site-packages/uc_micro/categories/Z/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/categories/Z/__pycache__/regex.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/categories/Z/regex.py",
+    "lib/python3.12/site-packages/uc_micro/categories/__init__.py",
+    "lib/python3.12/site-packages/uc_micro/categories/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/properties/Any/__init__.py",
+    "lib/python3.12/site-packages/uc_micro/properties/Any/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/properties/Any/__pycache__/regex.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro/properties/Any/regex.py",
+    "lib/python3.12/site-packages/uc_micro/properties/__init__.py",
+    "lib/python3.12/site-packages/uc_micro/properties/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/LICENSE",
+    "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/top_level.txt"
+  ],
+  "fn": "uc-micro-py-1.0.1-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "0a50a659fd8f94f09cb27e99b541ce0e",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/uc-micro-py-1.0.1-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "040281c56ed73d9e3b52bac38180d301",
+  "name": "uc-micro-py",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/uc-micro-py-1.0.1-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "96175c109d09ff95f1c4021e6981ac6bfed4b47bcf9c01a8b09fac020996d44b",
+        "sha256_in_prefix": "96175c109d09ff95f1c4021e6981ac6bfed4b47bcf9c01a8b09fac020996d44b",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "eceabbacfd8324ac79b71175d901ccc4bcc4dc25028a4997d07782e44e72122d",
+        "sha256_in_prefix": "eceabbacfd8324ac79b71175d901ccc4bcc4dc25028a4997d07782e44e72122d",
+        "size_in_bytes": 294
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Cc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "sha256_in_prefix": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Cc/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d388bf5da367520509281a422d49aa203960f94ae7183878c3968786a166609f",
+        "sha256_in_prefix": "d388bf5da367520509281a422d49aa203960f94ae7183878c3968786a166609f",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Cc/__pycache__/regex.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "25cb4d692d3fee4e03f3c9792933a278067ddf3773c68ae174696ee618398629",
+        "sha256_in_prefix": "25cb4d692d3fee4e03f3c9792933a278067ddf3773c68ae174696ee618398629",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Cc/regex.py",
+        "path_type": "hardlink",
+        "sha256": "5884aa62da1e29e9f3d2b5b7a6d3b4b2849bc24ca5506639ba59b03168875e66",
+        "sha256_in_prefix": "5884aa62da1e29e9f3d2b5b7a6d3b4b2849bc24ca5506639ba59b03168875e66",
+        "size_in_bytes": 30
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Cf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "sha256_in_prefix": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Cf/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8aaa957cecba11d8a406009bb74421ba58438aebb98dd51b8b45fceb94a2117c",
+        "sha256_in_prefix": "8aaa957cecba11d8a406009bb74421ba58438aebb98dd51b8b45fceb94a2117c",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Cf/__pycache__/regex.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d400a0cf591a6e5e39c6b5213c042f1c29a3df133843cfeb92f30646c8da3509",
+        "sha256_in_prefix": "d400a0cf591a6e5e39c6b5213c042f1c29a3df133843cfeb92f30646c8da3509",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Cf/regex.py",
+        "path_type": "hardlink",
+        "sha256": "4a4e5e6dd3b7cda39b6b868a58922df9781ad8532c8fd73f5729f49de4bab927",
+        "sha256_in_prefix": "4a4e5e6dd3b7cda39b6b868a58922df9781ad8532c8fd73f5729f49de4bab927",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/P/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "sha256_in_prefix": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/P/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "59a4b5a4a2400d79c679553a5fa3c14e1de2a721738827e6f2e27031cf87c420",
+        "sha256_in_prefix": "59a4b5a4a2400d79c679553a5fa3c14e1de2a721738827e6f2e27031cf87c420",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/P/__pycache__/regex.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "79f4a6d0f2ecd331325c832c98bbe8c3b02a363cce8846478c6127d70a554e4b",
+        "sha256_in_prefix": "79f4a6d0f2ecd331325c832c98bbe8c3b02a363cce8846478c6127d70a554e4b",
+        "size_in_bytes": 2067
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/P/regex.py",
+        "path_type": "hardlink",
+        "sha256": "0f6e69a37bf7891738725c4cf8141003e8eef9b5a16c4ad4b0b4c7b3cbe53196",
+        "sha256_in_prefix": "0f6e69a37bf7891738725c4cf8141003e8eef9b5a16c4ad4b0b4c7b3cbe53196",
+        "size_in_bytes": 1916
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Z/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "sha256_in_prefix": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Z/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c35daad2fd83756c0cac6a29ee61c35b4b931ff31cccc478b15d742b8c2dda23",
+        "sha256_in_prefix": "c35daad2fd83756c0cac6a29ee61c35b4b931ff31cccc478b15d742b8c2dda23",
+        "size_in_bytes": 197
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Z/__pycache__/regex.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "240be88e0861e020fc47568b9324bcee065f107052e4c0265c17503e5c235903",
+        "sha256_in_prefix": "240be88e0861e020fc47568b9324bcee065f107052e4c0265c17503e5c235903",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/Z/regex.py",
+        "path_type": "hardlink",
+        "sha256": "652cc0d8bd4a6ccdf1742ad23a13afb44d0f2a151fb8fcddc035b8d682166ab4",
+        "sha256_in_prefix": "652cc0d8bd4a6ccdf1742ad23a13afb44d0f2a151fb8fcddc035b8d682166ab4",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dbfcf52c9e215e4f7f63023969d60583ca958ba37879cc589e3c9aeda9ca3c04",
+        "sha256_in_prefix": "dbfcf52c9e215e4f7f63023969d60583ca958ba37879cc589e3c9aeda9ca3c04",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/categories/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c95c479dc6abaf3905ec5906f3b5b18b7a5500813dc940b8140f0e8f83300f5",
+        "sha256_in_prefix": "3c95c479dc6abaf3905ec5906f3b5b18b7a5500813dc940b8140f0e8f83300f5",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/properties/Any/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "sha256_in_prefix": "b81dd2ef806560390183dedba2f5fa4d34368767baac55a8e38be12f50fee670",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/properties/Any/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5160a95aa2b8dc90b8abc205a53109774e7b0085135223a554c0e4d898d72804",
+        "sha256_in_prefix": "5160a95aa2b8dc90b8abc205a53109774e7b0085135223a554c0e4d898d72804",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/properties/Any/__pycache__/regex.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3a166c7b90c7aa082591331b2d5f2268b93d874623605e726cec656e1747dc3",
+        "sha256_in_prefix": "f3a166c7b90c7aa082591331b2d5f2268b93d874623605e726cec656e1747dc3",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/properties/Any/regex.py",
+        "path_type": "hardlink",
+        "sha256": "1e3631ae356e8711d836ce1fb1dca4b1130e6ba92a32b665d45c98cc9e267d64",
+        "sha256_in_prefix": "1e3631ae356e8711d836ce1fb1dca4b1130e6ba92a32b665d45c98cc9e267d64",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/properties/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cf91c5879f61362f4f5edec9fcd7fabe55456d927a24bda0e246cba573e5c4ac",
+        "sha256_in_prefix": "cf91c5879f61362f4f5edec9fcd7fabe55456d927a24bda0e246cba573e5c4ac",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro/properties/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "353aca7f52427618418865ec8dcc684744f63736c67fe317312c23bb78f4afb6",
+        "sha256_in_prefix": "353aca7f52427618418865ec8dcc684744f63736c67fe317312c23bb78f4afb6",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "270c94e1a22aca5eb28f4e67490062530b319b2f61d2f5d55390828d59760a95",
+        "sha256_in_prefix": "270c94e1a22aca5eb28f4e67490062530b319b2f61d2f5d55390828d59760a95",
+        "size_in_bytes": 2253
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "1069e0e6b16885de12f4a4aee38d44ac8dd4c97fd70e41fb792affcd612620a9",
+        "sha256_in_prefix": "1069e0e6b16885de12f4a4aee38d44ac8dd4c97fd70e41fb792affcd612620a9",
+        "size_in_bytes": 1707
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "44de2450450608a8b0234e5e7cfc8e626fc9c51b60b27ad43d568511098af065",
+        "sha256_in_prefix": "44de2450450608a8b0234e5e7cfc8e626fc9c51b60b27ad43d568511098af065",
+        "size_in_bytes": 2613
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9813161e0662bfcf8208ecf9e185ff0154a45571b1b6cc8fb15363bb20039864",
+        "sha256_in_prefix": "9813161e0662bfcf8208ecf9e185ff0154a45571b1b6cc8fb15363bb20039864",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "lib/python3.12/site-packages/uc_micro_py-1.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "91fae468fb452ab9f3029555423e9d9218bf20044b436de9e43030e69a014cdc",
+        "sha256_in_prefix": "91fae468fb452ab9f3029555423e9d9218bf20044b436de9e43030e69a014cdc",
+        "size_in_bytes": 9
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d3e63c4562864f942bc65ec23b9d2253f1487f911bb82d32bff0c46d82476fce",
+  "size": 11329,
+  "subdir": "osx-64",
+  "timestamp": 1699262948002,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/uc-micro-py-1.0.1-py312hecd8cb5_0.conda",
+  "version": "1.0.1"
+}

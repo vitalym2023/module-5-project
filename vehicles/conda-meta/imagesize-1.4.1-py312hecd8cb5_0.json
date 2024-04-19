@@ -1,0 +1,133 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/imagesize-1.4.1-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/LICENSE.rst",
+    "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/imagesize/__init__.py",
+    "lib/python3.12/site-packages/imagesize/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/imagesize/__pycache__/imagesize.cpython-312.pyc",
+    "lib/python3.12/site-packages/imagesize/imagesize.py"
+  ],
+  "fn": "imagesize-1.4.1-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "0f35934bc36695397573b62d8233a9ce",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/imagesize-1.4.1-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "56b48e3731589db1ecde4a41d1188288",
+  "name": "imagesize",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/imagesize-1.4.1-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "sha256_in_prefix": "d0659c2767a164c2bf2736ee9f7bb619e0f165c89a962839de53fd5f77f62f4e",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6c573845bda676017eefe3e7c74c74610c90746ea166792d2d2dc6004b98e11f",
+        "sha256_in_prefix": "6c573845bda676017eefe3e7c74c74610c90746ea166792d2d2dc6004b98e11f",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cf138ae973c6b2c11c5ef8186d95a621305ce9d2f0ae141f614229a2b076dac9",
+        "sha256_in_prefix": "cf138ae973c6b2c11c5ef8186d95a621305ce9d2f0ae141f614229a2b076dac9",
+        "size_in_bytes": 944
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b3f2d4d51a19ffbff03bb72f778ecffc1a430b26037abca24d6ec05ed00ce135",
+        "sha256_in_prefix": "b3f2d4d51a19ffbff03bb72f778ecffc1a430b26037abca24d6ec05ed00ce135",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize-1.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "sha256_in_prefix": "fff8fa9258b3a0a09a664db55b6f9d29c400565769d28a5f1d5122122664e914",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "615b44aa4689aa0b7e1e720d133832755f5e1a1b2a07f8802161035e36cbcb30",
+        "sha256_in_prefix": "615b44aa4689aa0b7e1e720d133832755f5e1a1b2a07f8802161035e36cbcb30",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d28eba65388e57a8ada90f98de183d968651fa527a32f242fbf910a407fa1e3",
+        "sha256_in_prefix": "9d28eba65388e57a8ada90f98de183d968651fa527a32f242fbf910a407fa1e3",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize/__pycache__/imagesize.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "36ddb303cee5c2b1c05cec213b3dbe122ebc2cbd3b7893c029ae212943049180",
+        "sha256_in_prefix": "36ddb303cee5c2b1c05cec213b3dbe122ebc2cbd3b7893c029ae212943049180",
+        "size_in_bytes": 15620
+      },
+      {
+        "_path": "lib/python3.12/site-packages/imagesize/imagesize.py",
+        "path_type": "hardlink",
+        "sha256": "955631fd5661ce576af667154cf8924c1509329915791ffd7b67a0feeff32e13",
+        "sha256_in_prefix": "955631fd5661ce576af667154cf8924c1509329915791ffd7b67a0feeff32e13",
+        "size_in_bytes": 13992
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c46c07783308f5a9fe26db1f20d0c2a7765dc0b2aa26cdb029477a282517ce3b",
+  "size": 16956,
+  "subdir": "osx-64",
+  "timestamp": 1699248476905,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/imagesize-1.4.1-py312hecd8cb5_0.conda",
+  "version": "1.4.1"
+}

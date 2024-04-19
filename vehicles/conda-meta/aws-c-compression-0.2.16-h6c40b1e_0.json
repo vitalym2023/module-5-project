@@ -1,0 +1,100 @@
+{
+  "build": "h6c40b1e_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "aws-c-common >=0.8.5,<0.8.6.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/aws-c-compression-0.2.16-h6c40b1e_0",
+  "features": "",
+  "files": [
+    "include/aws/compression/compression.h",
+    "include/aws/compression/exports.h",
+    "include/aws/compression/huffman.h",
+    "lib/aws-c-compression/cmake/aws-c-compression-config.cmake",
+    "lib/aws-c-compression/cmake/shared/aws-c-compression-targets-release.cmake",
+    "lib/aws-c-compression/cmake/shared/aws-c-compression-targets.cmake",
+    "lib/libaws-c-compression.1.0.0.dylib",
+    "lib/libaws-c-compression.dylib"
+  ],
+  "fn": "aws-c-compression-0.2.16-h6c40b1e_0.conda",
+  "legacy_bz2_md5": "931b0654ae05bcd1acc760dc830b89d3",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/aws-c-compression-0.2.16-h6c40b1e_0",
+    "type": 1
+  },
+  "md5": "8e0d2735c1f583c192272103699a9695",
+  "name": "aws-c-compression",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/aws-c-compression-0.2.16-h6c40b1e_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/aws/compression/compression.h",
+        "path_type": "hardlink",
+        "sha256": "257981665a69a0c2b28ea0490f615da59610a1da33f37dbb193d2a71d4389695",
+        "sha256_in_prefix": "257981665a69a0c2b28ea0490f615da59610a1da33f37dbb193d2a71d4389695",
+        "size_in_bytes": 1034
+      },
+      {
+        "_path": "include/aws/compression/exports.h",
+        "path_type": "hardlink",
+        "sha256": "8851c4f63053a1d90b17eb29ea4bb477cdfcb315090d06933b18e9710b85dba8",
+        "sha256_in_prefix": "8851c4f63053a1d90b17eb29ea4bb477cdfcb315090d06933b18e9710b85dba8",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "include/aws/compression/huffman.h",
+        "path_type": "hardlink",
+        "sha256": "acd5a9db5c6f471f08894615527c3d937757083b67a06384e35f5b3b9b0b41bc",
+        "sha256_in_prefix": "acd5a9db5c6f471f08894615527c3d937757083b67a06384e35f5b3b9b0b41bc",
+        "size_in_bytes": 4696
+      },
+      {
+        "_path": "lib/aws-c-compression/cmake/aws-c-compression-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "0b355e8406ff62a1379aa02bce03381d4489a1df03ceea0ef4ff5d6aa9e54e59",
+        "sha256_in_prefix": "0b355e8406ff62a1379aa02bce03381d4489a1df03ceea0ef4ff5d6aa9e54e59",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "lib/aws-c-compression/cmake/shared/aws-c-compression-targets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "7048f23514265178f848a1828a5aadccf359ee53dfe306a7144f9519d28f9aec",
+        "sha256_in_prefix": "7048f23514265178f848a1828a5aadccf359ee53dfe306a7144f9519d28f9aec",
+        "size_in_bytes": 943
+      },
+      {
+        "_path": "lib/aws-c-compression/cmake/shared/aws-c-compression-targets.cmake",
+        "path_type": "hardlink",
+        "sha256": "9c34e54ec2a54cdbba9000cb3cb7908fca956f9074964392c44aa008e159e5c6",
+        "sha256_in_prefix": "9c34e54ec2a54cdbba9000cb3cb7908fca956f9074964392c44aa008e159e5c6",
+        "size_in_bytes": 4254
+      },
+      {
+        "_path": "lib/libaws-c-compression.1.0.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "89c8edb06797e5145139ebb024574871baa19f1d0eb97034ac1992868c66f45a",
+        "sha256_in_prefix": "89c8edb06797e5145139ebb024574871baa19f1d0eb97034ac1992868c66f45a",
+        "size_in_bytes": 18588
+      },
+      {
+        "_path": "lib/libaws-c-compression.dylib",
+        "path_type": "softlink",
+        "sha256": "89c8edb06797e5145139ebb024574871baa19f1d0eb97034ac1992868c66f45a",
+        "size_in_bytes": 18588
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c2cc1cbdf13e8f8e88b9ec0866f054edc2b59ac3f9f81bb87e979f429f1f8696",
+  "size": 17765,
+  "subdir": "osx-64",
+  "timestamp": 1706690854689,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/aws-c-compression-0.2.16-h6c40b1e_0.conda",
+  "version": "0.2.16"
+}

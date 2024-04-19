@@ -1,0 +1,299 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "typing_extensions >=3.7"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/aioitertools-0.7.1-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/aioitertools-0.7.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/aioitertools-0.7.1.dist-info/LICENSE",
+    "lib/python3.12/site-packages/aioitertools-0.7.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/aioitertools-0.7.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/aioitertools-0.7.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/aioitertools-0.7.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/aioitertools-0.7.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/aioitertools/__init__.py",
+    "lib/python3.12/site-packages/aioitertools/__version__.py",
+    "lib/python3.12/site-packages/aioitertools/asyncio.py",
+    "lib/python3.12/site-packages/aioitertools/builtins.py",
+    "lib/python3.12/site-packages/aioitertools/helpers.py",
+    "lib/python3.12/site-packages/aioitertools/itertools.py",
+    "lib/python3.12/site-packages/aioitertools/more_itertools.py",
+    "lib/python3.12/site-packages/aioitertools/py.typed",
+    "lib/python3.12/site-packages/aioitertools/tests/__init__.py",
+    "lib/python3.12/site-packages/aioitertools/tests/__main__.py",
+    "lib/python3.12/site-packages/aioitertools/tests/asyncio.py",
+    "lib/python3.12/site-packages/aioitertools/tests/builtins.py",
+    "lib/python3.12/site-packages/aioitertools/tests/helpers.py",
+    "lib/python3.12/site-packages/aioitertools/tests/itertools.py",
+    "lib/python3.12/site-packages/aioitertools/tests/more_itertools.py",
+    "lib/python3.12/site-packages/aioitertools/types.py",
+    "lib/python3.12/site-packages/aioitertools/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/__pycache__/__version__.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/__pycache__/asyncio.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/__pycache__/builtins.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/__pycache__/helpers.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/__pycache__/itertools.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/__pycache__/more_itertools.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/tests/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/tests/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/tests/__pycache__/asyncio.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/tests/__pycache__/builtins.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/tests/__pycache__/helpers.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/tests/__pycache__/itertools.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/tests/__pycache__/more_itertools.cpython-312.pyc",
+    "lib/python3.12/site-packages/aioitertools/__pycache__/types.cpython-312.pyc"
+  ],
+  "fn": "aioitertools-0.7.1-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "572c3084a7886f8fd8547cc1deed4a7d",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/aioitertools-0.7.1-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "4f67000d720557e75fffdea752e7244f",
+  "name": "aioitertools",
+  "noarch": "python",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/aioitertools-0.7.1-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/aioitertools-0.7.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/aioitertools-0.7.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "b2e96b4ad6ec380e5529e1ca741a0540c859005f144eb86d105fb1df34cb25a2",
+        "sha256_in_prefix": "b2e96b4ad6ec380e5529e1ca741a0540c859005f144eb86d105fb1df34cb25a2",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "site-packages/aioitertools-0.7.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ef3449ce534c915a3f20cae11c6e252cce8ea89682bcc695b60b74363024ec22",
+        "sha256_in_prefix": "ef3449ce534c915a3f20cae11c6e252cce8ea89682bcc695b60b74363024ec22",
+        "size_in_bytes": 3421
+      },
+      {
+        "_path": "site-packages/aioitertools-0.7.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "01a32ccef845a7ac5be2e05e8bb262a03547f356592f816f358a5620766d2732",
+        "sha256_in_prefix": "01a32ccef845a7ac5be2e05e8bb262a03547f356592f816f358a5620766d2732",
+        "size_in_bytes": 2789
+      },
+      {
+        "_path": "site-packages/aioitertools-0.7.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/aioitertools-0.7.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0aac93ae482140136c1332c3dc76c2484209fdf639f3e5e9a14dbd754cf01d29",
+        "sha256_in_prefix": "0aac93ae482140136c1332c3dc76c2484209fdf639f3e5e9a14dbd754cf01d29",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/aioitertools-0.7.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a64708f85590abef57355503051ef3957b900d3dfb0a615a45c706f5d6295f00",
+        "sha256_in_prefix": "a64708f85590abef57355503051ef3957b900d3dfb0a615a45c706f5d6295f00",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/aioitertools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "72e3bd84ff0938598ee229a76363cc447d6606760a1c596e9d53b9af589f8fc4",
+        "sha256_in_prefix": "72e3bd84ff0938598ee229a76363cc447d6606760a1c596e9d53b9af589f8fc4",
+        "size_in_bytes": 588
+      },
+      {
+        "_path": "site-packages/aioitertools/__version__.py",
+        "path_type": "hardlink",
+        "sha256": "d8a2590d230e1bb292f3603160ead9e198a16315f4c237d48c3b08661dcbd36e",
+        "sha256_in_prefix": "d8a2590d230e1bb292f3603160ead9e198a16315f4c237d48c3b08661dcbd36e",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/aioitertools/asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "30fe7df35e0ff64f846bc150cf47ed788583041e01fbbdb88a9ebec5ce63aceb",
+        "sha256_in_prefix": "30fe7df35e0ff64f846bc150cf47ed788583041e01fbbdb88a9ebec5ce63aceb",
+        "size_in_bytes": 4562
+      },
+      {
+        "_path": "site-packages/aioitertools/builtins.py",
+        "path_type": "hardlink",
+        "sha256": "00c15600c29d2779d6d0e7865f67652914052eec86059fa0f3dcd8d83d157bc7",
+        "sha256_in_prefix": "00c15600c29d2779d6d0e7865f67652914052eec86059fa0f3dcd8d83d157bc7",
+        "size_in_bytes": 7968
+      },
+      {
+        "_path": "site-packages/aioitertools/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "367c1bc5609c732d95fd0e134b664c7649cf87dc8213845f30dd21fb9ef648db",
+        "sha256_in_prefix": "367c1bc5609c732d95fd0e134b664c7649cf87dc8213845f30dd21fb9ef648db",
+        "size_in_bytes": 483
+      },
+      {
+        "_path": "site-packages/aioitertools/itertools.py",
+        "path_type": "hardlink",
+        "sha256": "80177039f63a2ac28d4098a48bcae8ba44f3f26b1c5624ab55e06571fc01ce33",
+        "sha256_in_prefix": "80177039f63a2ac28d4098a48bcae8ba44f3f26b1c5624ab55e06571fc01ce33",
+        "size_in_bytes": 14407
+      },
+      {
+        "_path": "site-packages/aioitertools/more_itertools.py",
+        "path_type": "hardlink",
+        "sha256": "3b487e03087fa3924aa5d3d68227269b06e6e90e2e3289203c52e337dce5e164",
+        "sha256_in_prefix": "3b487e03087fa3924aa5d3d68227269b06e6e90e2e3289203c52e337dce5e164",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "site-packages/aioitertools/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/aioitertools/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4e24616922e8f6c61d8fc80efa87825e231c536a7b2536b67c6a8d6184504319",
+        "sha256_in_prefix": "4e24616922e8f6c61d8fc80efa87825e231c536a7b2536b67c6a8d6184504319",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "site-packages/aioitertools/tests/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "59b2bd9b979997ef7c09844f48df7979e8e51c45d063d6b9c022ed6e3214a33a",
+        "sha256_in_prefix": "59b2bd9b979997ef7c09844f48df7979e8e51c45d063d6b9c022ed6e3214a33a",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "site-packages/aioitertools/tests/asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "9964049fa7c9193cedda3006418d4908c53094e8ce8a43fc849be23a780d4fa3",
+        "sha256_in_prefix": "9964049fa7c9193cedda3006418d4908c53094e8ce8a43fc849be23a780d4fa3",
+        "size_in_bytes": 3846
+      },
+      {
+        "_path": "site-packages/aioitertools/tests/builtins.py",
+        "path_type": "hardlink",
+        "sha256": "a9858aca509c80307edebffd42d8102620ab1aade0d3d4e59644a99ececaa744",
+        "sha256_in_prefix": "a9858aca509c80307edebffd42d8102620ab1aade0d3d4e59644a99ececaa744",
+        "size_in_bytes": 8223
+      },
+      {
+        "_path": "site-packages/aioitertools/tests/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "920e76ac81a056ffb231f17da4863c185f4af0ee92a2ef5c80dc56714d270a2c",
+        "sha256_in_prefix": "920e76ac81a056ffb231f17da4863c185f4af0ee92a2ef5c80dc56714d270a2c",
+        "size_in_bytes": 1238
+      },
+      {
+        "_path": "site-packages/aioitertools/tests/itertools.py",
+        "path_type": "hardlink",
+        "sha256": "0825465705fb411620223fabf535990e1b01661d8d1d95994edcc74e407a808c",
+        "sha256_in_prefix": "0825465705fb411620223fabf535990e1b01661d8d1d95994edcc74e407a808c",
+        "size_in_bytes": 21574
+      },
+      {
+        "_path": "site-packages/aioitertools/tests/more_itertools.py",
+        "path_type": "hardlink",
+        "sha256": "a5b27b87f0e00095a5efd3544a18564add11dec453d69cf42592c683dcc92ec9",
+        "sha256_in_prefix": "a5b27b87f0e00095a5efd3544a18564add11dec453d69cf42592c683dcc92ec9",
+        "size_in_bytes": 1700
+      },
+      {
+        "_path": "site-packages/aioitertools/types.py",
+        "path_type": "hardlink",
+        "sha256": "fe198088b6d402e617bfefa2ba90664b51accb7b39d79f2b1391033f99f646d4",
+        "sha256_in_prefix": "fe198088b6d402e617bfefa2ba90664b51accb7b39d79f2b1391033f99f646d4",
+        "size_in_bytes": 879
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/__pycache__/__version__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/__pycache__/asyncio.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/__pycache__/builtins.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/__pycache__/helpers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/__pycache__/itertools.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/__pycache__/more_itertools.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/tests/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/tests/__pycache__/asyncio.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/tests/__pycache__/builtins.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/tests/__pycache__/helpers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/tests/__pycache__/itertools.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/tests/__pycache__/more_itertools.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/aioitertools/__pycache__/types.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "463446be5c6f12720747ea75cd95b4d71c9715280b7bb46e200992e86c67b6ee",
+  "size": 19990,
+  "subdir": "noarch",
+  "timestamp": 1607109696386,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/aioitertools-0.7.1-pyhd3eb1b0_0.conda",
+  "version": "0.7.1"
+}

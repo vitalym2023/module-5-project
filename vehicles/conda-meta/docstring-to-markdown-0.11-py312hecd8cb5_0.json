@@ -1,0 +1,141 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/docstring-to-markdown-0.11-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/LICENSE",
+    "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/METADATA",
+    "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/RECORD",
+    "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/WHEEL",
+    "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/docstring_to_markdown/__init__.py",
+    "lib/python3.12/site-packages/docstring_to_markdown/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_to_markdown/__pycache__/rst.cpython-312.pyc",
+    "lib/python3.12/site-packages/docstring_to_markdown/py.typed",
+    "lib/python3.12/site-packages/docstring_to_markdown/rst.py"
+  ],
+  "fn": "docstring-to-markdown-0.11-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "71cdca6eeb1a17c82df7b71a5f12b9cd",
+  "license": "LGPL-2.1-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/docstring-to-markdown-0.11-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "890b1c22f93a6ea4994585e688491e59",
+  "name": "docstring-to-markdown",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/docstring-to-markdown-0.11-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+        "sha256_in_prefix": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+        "size_in_bytes": 26526
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c4bded05b079750c2144c37a97ec63b26e24011f66d6851fa15148672f59a6e4",
+        "sha256_in_prefix": "c4bded05b079750c2144c37a97ec63b26e24011f66d6851fa15148672f59a6e4",
+        "size_in_bytes": 1941
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7cb9099c7b69c0d34fa43207afe81dbcb3765331e9d0cabe3529e7b25e9fbda4",
+        "sha256_in_prefix": "7cb9099c7b69c0d34fa43207afe81dbcb3765331e9d0cabe3529e7b25e9fbda4",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "046e7e9f7efe209cf4b2ac307a3a483ac8ffa641a48cab13c7086550cfed770c",
+        "sha256_in_prefix": "046e7e9f7efe209cf4b2ac307a3a483ac8ffa641a48cab13c7086550cfed770c",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown-0.11.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "fda7f9e3cda51a8f836dc4ff82d71b133567207e95aac32f37b3b60a006f60d0",
+        "sha256_in_prefix": "fda7f9e3cda51a8f836dc4ff82d71b133567207e95aac32f37b3b60a006f60d0",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "887d583b00ca2cf19101069ddd58e6755593aee2f694990fb2b14541da6208c5",
+        "sha256_in_prefix": "887d583b00ca2cf19101069ddd58e6755593aee2f694990fb2b14541da6208c5",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c79f776e59d50150a8fba5b70088252184c999e137f29bc79fd896a7927f603d",
+        "sha256_in_prefix": "c79f776e59d50150a8fba5b70088252184c999e137f29bc79fd896a7927f603d",
+        "size_in_bytes": 708
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown/__pycache__/rst.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "962b56363fdba45f46aa5c618e3b765c2d44f4c23fb91a180219f7a6a40726c5",
+        "sha256_in_prefix": "962b56363fdba45f46aa5c618e3b765c2d44f4c23fb91a180219f7a6a40726c5",
+        "size_in_bytes": 33924
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/docstring_to_markdown/rst.py",
+        "path_type": "hardlink",
+        "sha256": "db03a7d582ca98eea7fbeb962809e23660709e89cc88cd40dbc0ab9f8b0898a8",
+        "sha256_in_prefix": "db03a7d582ca98eea7fbeb962809e23660709e89cc88cd40dbc0ab9f8b0898a8",
+        "size_in_bytes": 25134
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cc22f8eae61fd1b821b69252e02ae8556406775e0e5c2ed59614c8ef0656c27c",
+  "size": 34853,
+  "subdir": "osx-64",
+  "timestamp": 1699248281780,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/docstring-to-markdown-0.11-py312hecd8cb5_0.conda",
+  "version": "0.11"
+}

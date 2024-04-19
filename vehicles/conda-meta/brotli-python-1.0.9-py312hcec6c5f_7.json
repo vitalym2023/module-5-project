@@ -1,0 +1,125 @@
+{
+  "build": "py312hcec6c5f_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.6",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/brotli-python-1.0.9-py312hcec6c5f_7",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/LICENSE",
+    "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/METADATA",
+    "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/RECORD",
+    "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/WHEEL",
+    "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/__pycache__/brotli.cpython-312.pyc",
+    "lib/python3.12/site-packages/_brotli.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/brotli.py"
+  ],
+  "fn": "brotli-python-1.0.9-py312hcec6c5f_7.conda",
+  "legacy_bz2_md5": "25df9dc4eeccbc7780fe27016eba6a47",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/brotli-python-1.0.9-py312hcec6c5f_7",
+    "type": 1
+  },
+  "md5": "a6161626dfba8a9031f05d25366c05d3",
+  "name": "brotli-python",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/brotli-python-1.0.9-py312hcec6c5f_7.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+        "sha256_in_prefix": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7d1dce650d5f97857af281a7613b481b137da87bc7c53fa13862ba0768b9ae3c",
+        "sha256_in_prefix": "7d1dce650d5f97857af281a7613b481b137da87bc7c53fa13862ba0768b9ae3c",
+        "size_in_bytes": 1357
+      },
+      {
+        "_path": "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ecbd296b662aa5af29a961c59fdcb95cbed0e3df5724dc665eb36c5e60975c15",
+        "sha256_in_prefix": "ecbd296b662aa5af29a961c59fdcb95cbed0e3df5724dc665eb36c5e60975c15",
+        "size_in_bytes": 850
+      },
+      {
+        "_path": "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2d42cdba927801ff1a6499ddea7ad3b94eec2afd1a2f972097751f83586047fb",
+        "sha256_in_prefix": "2d42cdba927801ff1a6499ddea7ad3b94eec2afd1a2f972097751f83586047fb",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e38530b0d43141dc433cdd4b751a10475e8c728104b1975b1853bbb7084f999c",
+        "sha256_in_prefix": "e38530b0d43141dc433cdd4b751a10475e8c728104b1975b1853bbb7084f999c",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/python3.12/site-packages/Brotli-1.0.9.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "82c4b9e07ae13b766f785c5e32b2a8ffba87e129b84db43b8c62d5044a89e0d2",
+        "sha256_in_prefix": "82c4b9e07ae13b766f785c5e32b2a8ffba87e129b84db43b8c62d5044a89e0d2",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "lib/python3.12/site-packages/__pycache__/brotli.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "eec23e467311093e54578284355fb0991603409d3ee82c341edfa96f642f0e8a",
+        "sha256_in_prefix": "eec23e467311093e54578284355fb0991603409d3ee82c341edfa96f642f0e8a",
+        "size_in_bytes": 1872
+      },
+      {
+        "_path": "lib/python3.12/site-packages/_brotli.cpython-312-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "bcd84f59aeb12251665da597afb00382d8cf719b2f3ecf69dfe8902674607c00",
+        "sha256_in_prefix": "bcd84f59aeb12251665da597afb00382d8cf719b2f3ecf69dfe8902674607c00",
+        "size_in_bytes": 872432
+      },
+      {
+        "_path": "lib/python3.12/site-packages/brotli.py",
+        "path_type": "hardlink",
+        "sha256": "8b0a109cfbeb00db5a2584c9ea64a3390504347ed9f1180011b9fe1f1311fa45",
+        "sha256_in_prefix": "8b0a109cfbeb00db5a2584c9ea64a3390504347ed9f1180011b9fe1f1311fa45",
+        "size_in_bytes": 1857
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e4404f8a239fb1300cec0cf0bf30f8ee0d9fac37a8809240a937ff154123eae9",
+  "size": 350387,
+  "subdir": "osx-64",
+  "timestamp": 1699238909784,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/brotli-python-1.0.9-py312hcec6c5f_7.conda",
+  "version": "1.0.9"
+}

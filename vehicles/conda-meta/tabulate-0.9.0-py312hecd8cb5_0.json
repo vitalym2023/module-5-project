@@ -1,0 +1,151 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/tabulate-0.9.0-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "bin/tabulate",
+    "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/LICENSE",
+    "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/tabulate/__init__.py",
+    "lib/python3.12/site-packages/tabulate/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/tabulate/__pycache__/version.cpython-312.pyc",
+    "lib/python3.12/site-packages/tabulate/version.py"
+  ],
+  "fn": "tabulate-0.9.0-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "6a2adf817cfefccc5da443086c1fc6ea",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/tabulate-0.9.0-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "f2e76481ce5c8bdf53f0b3f814827c58",
+  "name": "tabulate",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/tabulate-0.9.0-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/tabulate",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/builder/cbouss/perseverance-python-buildout/croot/tabulate_1701814043620/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "8fef5a85a2f27db2f8275ca897d31ddef534f65da28aadff585cebbe90c57aba",
+        "sha256_in_prefix": "38ca372cc9ff89776470f3e9f732b75e019d835909f9021e91f782b53447047a",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cdfab50d37d8ead06468fb76a3abafcd05c16749ec8a18eebfa50fd48c7cb2d2",
+        "sha256_in_prefix": "cdfab50d37d8ead06468fb76a3abafcd05c16749ec8a18eebfa50fd48c7cb2d2",
+        "size_in_bytes": 1080
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f2802aade2612091b45951f265af29174f90c3236f68cc8ccdeb646941e62969",
+        "sha256_in_prefix": "f2802aade2612091b45951f265af29174f90c3236f68cc8ccdeb646941e62969",
+        "size_in_bytes": 34132
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "38b9a30d8936246c3f4b21c155b1b36969b49d590a92e03c70e749849e6b2f90",
+        "sha256_in_prefix": "38b9a30d8936246c3f4b21c155b1b36969b49d590a92e03c70e749849e6b2f90",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bbf1179246d0bc0dbe76828e3b2097ca5ed4c871903be9e90001cae81c9cfb3a",
+        "sha256_in_prefix": "bbf1179246d0bc0dbe76828e3b2097ca5ed4c871903be9e90001cae81c9cfb3a",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f039828416266b69f852a0b556490a6c3e4dbb832b7596ac511a1e4ed1b4255a",
+        "sha256_in_prefix": "f039828416266b69f852a0b556490a6c3e4dbb832b7596ac511a1e4ed1b4255a",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate-0.9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a9faa44366b3ecb4f151e45e3ed5fc8209a1dbde0a7f5111748fb5d5a5aa1595",
+        "sha256_in_prefix": "a9faa44366b3ecb4f151e45e3ed5fc8209a1dbde0a7f5111748fb5d5a5aa1595",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5f7af0a28fcd713b830c97388675945fa8c4950b05b58f8d187c900a5752d57d",
+        "sha256_in_prefix": "5f7af0a28fcd713b830c97388675945fa8c4950b05b58f8d187c900a5752d57d",
+        "size_in_bytes": 95290
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0524c3613e53ac5e1fdb01c629f5d7e0c5bd29536be56a5a927b58079a8859d3",
+        "sha256_in_prefix": "0524c3613e53ac5e1fdb01c629f5d7e0c5bd29536be56a5a927b58079a8859d3",
+        "size_in_bytes": 91745
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate/__pycache__/version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c56d5e44983d8e893f61a75db76506230d715ec8eaf1cd65a5aa7cda065e92a8",
+        "sha256_in_prefix": "c56d5e44983d8e893f61a75db76506230d715ec8eaf1cd65a5aa7cda065e92a8",
+        "size_in_bytes": 261
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tabulate/version.py",
+        "path_type": "hardlink",
+        "sha256": "ba181c569b161426a9a3710cf9e07eaded63b449cabf44a767a7bd02beb4911f",
+        "sha256_in_prefix": "ba181c569b161426a9a3710cf9e07eaded63b449cabf44a767a7bd02beb4911f",
+        "size_in_bytes": 160
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c7b1addf54ed208613ce6add8607e237f235abfa98c00639919d55aed772d4c2",
+  "size": 64280,
+  "subdir": "osx-64",
+  "timestamp": 1701814081103,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/tabulate-0.9.0-py312hecd8cb5_0.conda",
+  "version": "0.9.0"
+}

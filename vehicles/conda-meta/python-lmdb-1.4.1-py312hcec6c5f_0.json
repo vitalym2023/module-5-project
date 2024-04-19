@@ -1,0 +1,192 @@
+{
+  "build": "py312hcec6c5f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=14.0.6",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/python-lmdb-1.4.1-py312hcec6c5f_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/LICENSE",
+    "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/lmdb/__init__.py",
+    "lib/python3.12/site-packages/lmdb/__main__.py",
+    "lib/python3.12/site-packages/lmdb/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/lmdb/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/lmdb/__pycache__/_config.cpython-312.pyc",
+    "lib/python3.12/site-packages/lmdb/__pycache__/cffi.cpython-312.pyc",
+    "lib/python3.12/site-packages/lmdb/__pycache__/tool.cpython-312.pyc",
+    "lib/python3.12/site-packages/lmdb/_config.py",
+    "lib/python3.12/site-packages/lmdb/cffi.py",
+    "lib/python3.12/site-packages/lmdb/cpython.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/lmdb/tool.py"
+  ],
+  "fn": "python-lmdb-1.4.1-py312hcec6c5f_0.conda",
+  "legacy_bz2_md5": "d803f747a921096f48c1207b9572dfb2",
+  "license": "OLDAP-2.8",
+  "license_family": "Other",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/python-lmdb-1.4.1-py312hcec6c5f_0",
+    "type": 1
+  },
+  "md5": "d7d983f7de1060be450be982d484bfec",
+  "name": "python-lmdb",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/python-lmdb-1.4.1-py312hcec6c5f_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "310fe25c858a9515fc8c8d7d1f24a67c9496f84a91e0a0e41ea9975b1371e569",
+        "sha256_in_prefix": "310fe25c858a9515fc8c8d7d1f24a67c9496f84a91e0a0e41ea9975b1371e569",
+        "size_in_bytes": 2214
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a26c785ae51af4cc35a284ab69cb8523baeadbffd7705edb69406fa2147957f1",
+        "sha256_in_prefix": "a26c785ae51af4cc35a284ab69cb8523baeadbffd7705edb69406fa2147957f1",
+        "size_in_bytes": 1165
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "87d3d1c7185ab7639df21015c142b64cdf626f4ce99717cb0ccfe737e1c0fd48",
+        "sha256_in_prefix": "87d3d1c7185ab7639df21015c142b64cdf626f4ce99717cb0ccfe737e1c0fd48",
+        "size_in_bytes": 1311
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2d42cdba927801ff1a6499ddea7ad3b94eec2afd1a2f972097751f83586047fb",
+        "sha256_in_prefix": "2d42cdba927801ff1a6499ddea7ad3b94eec2afd1a2f972097751f83586047fb",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5601c40ab666991927ec97408961d17142ed158d4c0e3e106fd29c19efe053bb",
+        "sha256_in_prefix": "5601c40ab666991927ec97408961d17142ed158d4c0e3e106fd29c19efe053bb",
+        "size_in_bytes": 121
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb-1.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a8e902e4797a6de06a12f74ce9e67e5d4d8b2b8cdba3740769339478721ceece",
+        "sha256_in_prefix": "a8e902e4797a6de06a12f74ce9e67e5d4d8b2b8cdba3740769339478721ceece",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5d774a58a1450066521265e0bbc5cb4e4316f74bda1efc122a74b61a98b09625",
+        "sha256_in_prefix": "5d774a58a1450066521265e0bbc5cb4e4316f74bda1efc122a74b61a98b09625",
+        "size_in_bytes": 1710
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "0469af6d5155a4ecee56d8a62defeb1bc628e7ea18da42e339b2febf0cdf7ef2",
+        "sha256_in_prefix": "0469af6d5155a4ecee56d8a62defeb1bc628e7ea18da42e339b2febf0cdf7ef2",
+        "size_in_bytes": 861
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "db3e98f0b861b4816ea6ca63cd967563ece08f392d75141ac177dca76e4e36de",
+        "sha256_in_prefix": "db3e98f0b861b4816ea6ca63cd967563ece08f392d75141ac177dca76e4e36de",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "862468c5451811b4b8bd0b1f07712f7590058b6b373f937cbf10d5b9df750e73",
+        "sha256_in_prefix": "862468c5451811b4b8bd0b1f07712f7590058b6b373f937cbf10d5b9df750e73",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/__pycache__/_config.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee161badc9d324851f37e6629b7565a0c406c08ca68efcc0c3b2f8459601ff4e",
+        "sha256_in_prefix": "ee161badc9d324851f37e6629b7565a0c406c08ca68efcc0c3b2f8459601ff4e",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/__pycache__/cffi.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7e9e72dc5fa3838985471f8a07c09fff49240a4ef870052aff32f00df0e922b",
+        "sha256_in_prefix": "c7e9e72dc5fa3838985471f8a07c09fff49240a4ef870052aff32f00df0e922b",
+        "size_in_bytes": 111513
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/__pycache__/tool.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e708725c9c8627e008c1c175949ca84fa9a94201f558975980a26c12bcfe280",
+        "sha256_in_prefix": "8e708725c9c8627e008c1c175949ca84fa9a94201f558975980a26c12bcfe280",
+        "size_in_bytes": 32350
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/_config.py",
+        "path_type": "hardlink",
+        "sha256": "69a23566f685cd21c7295acded2de6329550cfef5b5cfd82f84e449b0cfa68d9",
+        "sha256_in_prefix": "69a23566f685cd21c7295acded2de6329550cfef5b5cfd82f84e449b0cfa68d9",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/cffi.py",
+        "path_type": "hardlink",
+        "sha256": "d38ea86fac869fa3d265f72d0bd52d30e4b180edc2ce279dcf58c5e5e950cd2a",
+        "sha256_in_prefix": "d38ea86fac869fa3d265f72d0bd52d30e4b180edc2ce279dcf58c5e5e950cd2a",
+        "size_in_bytes": 92210
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/cpython.cpython-312-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/builder/cbouss/perseverance-python-buildout/croot/python-lmdb_1699249805759/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "acbc8b4677b78167fe6d3c6c332dbd61485231698db166fe66aa77f5a20e2f9d",
+        "sha256_in_prefix": "388146485e9405163d13d2d119137eff5d2b2f018304eb63b3a2b60c935ed405",
+        "size_in_bytes": 138244
+      },
+      {
+        "_path": "lib/python3.12/site-packages/lmdb/tool.py",
+        "path_type": "hardlink",
+        "sha256": "50c0e0eafabc7b027160a480b944d10181699c340ddd88a338eca3a1f44017bc",
+        "sha256_in_prefix": "50c0e0eafabc7b027160a480b944d10181699c340ddd88a338eca3a1f44017bc",
+        "size_in_bytes": 19675
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "822c607d43a1a7ab3edec52511b770723f1557d54b17258170b283c58774ee14",
+  "size": 141957,
+  "subdir": "osx-64",
+  "timestamp": 1699249842205,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/python-lmdb-1.4.1-py312hcec6c5f_0.conda",
+  "version": "1.4.1"
+}

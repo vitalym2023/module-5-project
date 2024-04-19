@@ -1,0 +1,297 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "matplotlib-base >=3.3"
+  ],
+  "depends": [
+    "imagecodecs >=2023.1.23",
+    "numpy >=1.19.2",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/tifffile-2023.4.12-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "bin/lsm2bin",
+    "bin/tiff2fsspec",
+    "bin/tiffcomment",
+    "bin/tifffile",
+    "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/LICENSE",
+    "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/METADATA",
+    "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/RECORD",
+    "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/WHEEL",
+    "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/tifffile/__init__.py",
+    "lib/python3.12/site-packages/tifffile/__main__.py",
+    "lib/python3.12/site-packages/tifffile/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/tifffile/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/tifffile/__pycache__/_imagecodecs.cpython-312.pyc",
+    "lib/python3.12/site-packages/tifffile/__pycache__/geodb.cpython-312.pyc",
+    "lib/python3.12/site-packages/tifffile/__pycache__/lsm2bin.cpython-312.pyc",
+    "lib/python3.12/site-packages/tifffile/__pycache__/numcodecs.cpython-312.pyc",
+    "lib/python3.12/site-packages/tifffile/__pycache__/tiff2fsspec.cpython-312.pyc",
+    "lib/python3.12/site-packages/tifffile/__pycache__/tiffcomment.cpython-312.pyc",
+    "lib/python3.12/site-packages/tifffile/__pycache__/tifffile.cpython-312.pyc",
+    "lib/python3.12/site-packages/tifffile/_imagecodecs.py",
+    "lib/python3.12/site-packages/tifffile/geodb.py",
+    "lib/python3.12/site-packages/tifffile/lsm2bin.py",
+    "lib/python3.12/site-packages/tifffile/numcodecs.py",
+    "lib/python3.12/site-packages/tifffile/tiff2fsspec.py",
+    "lib/python3.12/site-packages/tifffile/tiffcomment.py",
+    "lib/python3.12/site-packages/tifffile/tifffile.py"
+  ],
+  "fn": "tifffile-2023.4.12-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "d686eaa8ce8010c294d398632559ded9",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/tifffile-2023.4.12-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "4be8e3daf21682ccc4abe5bbb5e38330",
+  "name": "tifffile",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/tifffile-2023.4.12-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/lsm2bin",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/builder/cbouss/perseverance-python-buildout/croot/tifffile_1699250821262/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "00f87141feea785f668b455dd0a773fa14d2b089ed031e15e6df6f81c8d2ec5a",
+        "sha256_in_prefix": "26cee1d23522e9e23c3782c6a3a976f660c601222648d41153e9730ddc8bd074",
+        "size_in_bytes": 469
+      },
+      {
+        "_path": "bin/tiff2fsspec",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/builder/cbouss/perseverance-python-buildout/croot/tifffile_1699250821262/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "ba3a7ca99c6f204297bf06aa740ce9dc0553a23acd5d29206848b2095afceb6c",
+        "sha256_in_prefix": "f4727901a7fad102314823e94f07076d5d3939601676ecd20e3982175f16f537",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "bin/tiffcomment",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/builder/cbouss/perseverance-python-buildout/croot/tifffile_1699250821262/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "281bfe2de2eadf8d653696e4297fb403b3660fc04d7d8f33510333ab925d80fd",
+        "sha256_in_prefix": "2e485c21c33d7fe0c048c8da48710644ca672a2b0433d95dd6933641b5d04232",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "bin/tifffile",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/builder/cbouss/perseverance-python-buildout/croot/tifffile_1699250821262/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "8ed9758d413aa3fa65dff0a067623ae7a48ef488524586e5c4de7f4595850c45",
+        "sha256_in_prefix": "9f90e81d80178e1271ec51994a9523f7ba98715a410fc6603daab58c31993d77",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "51a605c33f4444ad8c2564340f8bbae3de94e3fe0eba4bf70b364c4e3c74ef32",
+        "sha256_in_prefix": "51a605c33f4444ad8c2564340f8bbae3de94e3fe0eba4bf70b364c4e3c74ef32",
+        "size_in_bytes": 1559
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d31b3ce619244380fbadd5d6b4ab995e9427e05e1cf2d8ed0570c43dc8eaa92e",
+        "sha256_in_prefix": "d31b3ce619244380fbadd5d6b4ab995e9427e05e1cf2d8ed0570c43dc8eaa92e",
+        "size_in_bytes": 30375
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e3b58a0ee3178d83f859462872492bb9a1780057f903efe3c6ac490fb295f753",
+        "sha256_in_prefix": "e3b58a0ee3178d83f859462872492bb9a1780057f903efe3c6ac490fb295f753",
+        "size_in_bytes": 2280
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9feb25a02e353df2988fbbe8489acde9708eb82d02901e8fd0543441fa2b77de",
+        "sha256_in_prefix": "9feb25a02e353df2988fbbe8489acde9708eb82d02901e8fd0543441fa2b77de",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "cb29c2fbc60a62a8f2695058ff48d4765ea8d128ec6acf323c00911e75def1bf",
+        "sha256_in_prefix": "cb29c2fbc60a62a8f2695058ff48d4765ea8d128ec6acf323c00911e75def1bf",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile-2023.4.12.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "87a7aa68736a6a426ad2d54dd37ed742246e5a1d7fdc903c4892e19336d37cb8",
+        "sha256_in_prefix": "87a7aa68736a6a426ad2d54dd37ed742246e5a1d7fdc903c4892e19336d37cb8",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "82a60fc5e03f64d89ec1d57ffa40ca59a1695d83f259e89efb64538f90952dfc",
+        "sha256_in_prefix": "82a60fc5e03f64d89ec1d57ffa40ca59a1695d83f259e89efb64538f90952dfc",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "4966ca62acae468bd0c09aa4267cd8b5bc0065850b1d691e839dc56390d7a553",
+        "sha256_in_prefix": "4966ca62acae468bd0c09aa4267cd8b5bc0065850b1d691e839dc56390d7a553",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4b2ba5e9c748ee42e334be4957b56b4082812a5d96f69f8d78f7955ee3abc52",
+        "sha256_in_prefix": "a4b2ba5e9c748ee42e334be4957b56b4082812a5d96f69f8d78f7955ee3abc52",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "04e36949a756ce9d5fdb90fb4fb1a9bbfa3514cf49f346e1dbfd530bcaa5366c",
+        "sha256_in_prefix": "04e36949a756ce9d5fdb90fb4fb1a9bbfa3514cf49f346e1dbfd530bcaa5366c",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__pycache__/_imagecodecs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d7cc6b8d8df57fba5fe70ded8f7c77c45d55e27479eeb4445bf1a000f06e3ec",
+        "sha256_in_prefix": "2d7cc6b8d8df57fba5fe70ded8f7c77c45d55e27479eeb4445bf1a000f06e3ec",
+        "size_in_bytes": 12492
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__pycache__/geodb.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "41c39bca2abe4310892e41951ab59786a5f76a142ae2a5e9828a4f919d066718",
+        "sha256_in_prefix": "41c39bca2abe4310892e41951ab59786a5f76a142ae2a5e9828a4f919d066718",
+        "size_in_bytes": 72456
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__pycache__/lsm2bin.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "88534ca471da67f9097ca574f75b5783b0ce9fa2d1baf9a34149ec994f44af70",
+        "sha256_in_prefix": "88534ca471da67f9097ca574f75b5783b0ce9fa2d1baf9a34149ec994f44af70",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__pycache__/numcodecs.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b1e06d18a5ff1bbe16da326f9e2f9891b5c491c5540d62cf1ec924da11a492a1",
+        "sha256_in_prefix": "b1e06d18a5ff1bbe16da326f9e2f9891b5c491c5540d62cf1ec924da11a492a1",
+        "size_in_bytes": 5037
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__pycache__/tiff2fsspec.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "54fba4d24c77e852fa1441e2fc00d8c47b44a280c2765de3125997dd47d15ff7",
+        "sha256_in_prefix": "54fba4d24c77e852fa1441e2fc00d8c47b44a280c2765de3125997dd47d15ff7",
+        "size_in_bytes": 2973
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__pycache__/tiffcomment.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "db00f127bdfbef66be1c13f9352d0ea5a4d32b3c1b0363b80b23e6e4b6c96448",
+        "sha256_in_prefix": "db00f127bdfbef66be1c13f9352d0ea5a4d32b3c1b0363b80b23e6e4b6c96448",
+        "size_in_bytes": 2340
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/__pycache__/tifffile.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0128138e7a3febb1ed9fb9f3d6bfef7e932e3a670665522048498c9037da3150",
+        "sha256_in_prefix": "0128138e7a3febb1ed9fb9f3d6bfef7e932e3a670665522048498c9037da3150",
+        "size_in_bytes": 872559
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/_imagecodecs.py",
+        "path_type": "hardlink",
+        "sha256": "92d0b1f7b1274a0b492d57b9191928b48323f1a3e8c2f91e3848741c05a987cf",
+        "sha256_in_prefix": "92d0b1f7b1274a0b492d57b9191928b48323f1a3e8c2f91e3848741c05a987cf",
+        "size_in_bytes": 11839
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/geodb.py",
+        "path_type": "hardlink",
+        "sha256": "6bc82d07d517f035a62e71307d9938ccafb9edf60e8b36915760a2d0a032c2e9",
+        "sha256_in_prefix": "6bc82d07d517f035a62e71307d9938ccafb9edf60e8b36915760a2d0a032c2e9",
+        "size_in_bytes": 61794
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/lsm2bin.py",
+        "path_type": "hardlink",
+        "sha256": "ea73a63c0902391b1f46885a603d964c4d8f3d4086386d8c2688b811fe8c8ca0",
+        "sha256_in_prefix": "ea73a63c0902391b1f46885a603d964c4d8f3d4086386d8c2688b811fe8c8ca0",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/numcodecs.py",
+        "path_type": "hardlink",
+        "sha256": "55d6bf8a087d54fe4f7017d6d0168f202e34f28c88b137f7d25922ee51c39ef1",
+        "sha256_in_prefix": "55d6bf8a087d54fe4f7017d6d0168f202e34f28c88b137f7d25922ee51c39ef1",
+        "size_in_bytes": 5906
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/tiff2fsspec.py",
+        "path_type": "hardlink",
+        "sha256": "4e741a816f846eddd1ff30a001dd9ed967112ed71142ba06bf3e5fc7b55261cc",
+        "sha256_in_prefix": "4e741a816f846eddd1ff30a001dd9ed967112ed71142ba06bf3e5fc7b55261cc",
+        "size_in_bytes": 2410
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/tiffcomment.py",
+        "path_type": "hardlink",
+        "sha256": "3f61fe8392e4c9d9833af363a8d70295cc6d95d99f744557127987087be1861c",
+        "sha256_in_prefix": "3f61fe8392e4c9d9833af363a8d70295cc6d95d99f744557127987087be1861c",
+        "size_in_bytes": 1437
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tifffile/tifffile.py",
+        "path_type": "hardlink",
+        "sha256": "8b36615ae553f68da9b8b9eff9aeec0b37ab836546b940a9e536c2eded2599ad",
+        "sha256_in_prefix": "8b36615ae553f68da9b8b9eff9aeec0b37ab836546b940a9e536c2eded2599ad",
+        "size_in_bytes": 859764
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "663941ac451dbe71194ac7e8c8e350a951d81ea1fe6313904efd4b5cd749a570",
+  "size": 471399,
+  "subdir": "osx-64",
+  "timestamp": 1699250844773,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/tifffile-2023.4.12-py312hecd8cb5_0.conda",
+  "version": "2023.4.12"
+}

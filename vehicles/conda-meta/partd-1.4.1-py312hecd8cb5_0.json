@@ -1,0 +1,330 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "pandas >=0.19.0",
+    "numpy >= 1.9.0"
+  ],
+  "depends": [
+    "locket",
+    "python >=3.12,<3.13.0a0",
+    "toolz"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/partd-1.4.1-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/partd-1.4.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/partd-1.4.1.dist-info/LICENSE.txt",
+    "lib/python3.12/site-packages/partd-1.4.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/partd-1.4.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/partd-1.4.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/partd-1.4.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/partd-1.4.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/partd-1.4.1.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/partd/__init__.py",
+    "lib/python3.12/site-packages/partd/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/buffer.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/compressed.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/core.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/dict.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/encode.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/file.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/numpy.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/pandas.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/pickle.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/python.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/__pycache__/zmq.cpython-312.pyc",
+    "lib/python3.12/site-packages/partd/_version.py",
+    "lib/python3.12/site-packages/partd/buffer.py",
+    "lib/python3.12/site-packages/partd/compressed.py",
+    "lib/python3.12/site-packages/partd/core.py",
+    "lib/python3.12/site-packages/partd/dict.py",
+    "lib/python3.12/site-packages/partd/encode.py",
+    "lib/python3.12/site-packages/partd/file.py",
+    "lib/python3.12/site-packages/partd/numpy.py",
+    "lib/python3.12/site-packages/partd/pandas.py",
+    "lib/python3.12/site-packages/partd/pickle.py",
+    "lib/python3.12/site-packages/partd/python.py",
+    "lib/python3.12/site-packages/partd/utils.py",
+    "lib/python3.12/site-packages/partd/zmq.py"
+  ],
+  "fn": "partd-1.4.1-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "9d518461a933c29d06f3cb40695aa0e3",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/partd-1.4.1-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "128d8a6c5bf214edd2822345e594e081",
+  "name": "partd",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/partd-1.4.1-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/partd-1.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd-1.4.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "1edc098db759632c80e4c1d0503ad17f131f6b974e3a77efc26e8c8e188044a5",
+        "sha256_in_prefix": "1edc098db759632c80e4c1d0503ad17f131f6b974e3a77efc26e8c8e188044a5",
+        "size_in_bytes": 1505
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd-1.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6ccbb6582744f17a294210eee17fc3b4bd52d1cb53cd94fc28996ace172f7932",
+        "sha256_in_prefix": "6ccbb6582744f17a294210eee17fc3b4bd52d1cb53cd94fc28996ace172f7932",
+        "size_in_bytes": 4642
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd-1.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "174faf32d6be799dd2f5b1e87ab5d186d3216836c2ea964c903c239ff5c0e2a0",
+        "sha256_in_prefix": "174faf32d6be799dd2f5b1e87ab5d186d3216836c2ea964c903c239ff5c0e2a0",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd-1.4.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd-1.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd-1.4.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "430920fbc95af2832b16451658c0dd0262de999b71a5ece00c7329f8210541ac",
+        "sha256_in_prefix": "430920fbc95af2832b16451658c0dd0262de999b71a5ece00c7329f8210541ac",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd-1.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "59dc05418698e0b523c6a72db52edbb7332c3f24605fbd45812f64ff2cc74c47",
+        "sha256_in_prefix": "59dc05418698e0b523c6a72db52edbb7332c3f24605fbd45812f64ff2cc74c47",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7eb7efe852cfbfac5d7e991bc354596cd0567fc0ec376bc187c6e353b184f032",
+        "sha256_in_prefix": "7eb7efe852cfbfac5d7e991bc354596cd0567fc0ec376bc187c6e353b184f032",
+        "size_in_bytes": 507
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b868fc4b8dfbe925413f413674df7a6d03a944f4b3843ada576a4c58a0385b7f",
+        "sha256_in_prefix": "b868fc4b8dfbe925413f413674df7a6d03a944f4b3843ada576a4c58a0385b7f",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3adc616320241f8af7c3240706932ec4bea20931a62fff57c429bcf275447279",
+        "sha256_in_prefix": "3adc616320241f8af7c3240706932ec4bea20931a62fff57c429bcf275447279",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/buffer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "502957a440d137961710ec1d8ad13c5908916b4a092425c4f2d1fa8c58586ef6",
+        "sha256_in_prefix": "502957a440d137961710ec1d8ad13c5908916b4a092425c4f2d1fa8c58586ef6",
+        "size_in_bytes": 7182
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/compressed.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f26fb990693377a9d5b41e173f765666b07a50feb5777f181c6448b4a96adaf5",
+        "sha256_in_prefix": "f26fb990693377a9d5b41e173f765666b07a50feb5777f181c6448b4a96adaf5",
+        "size_in_bytes": 1602
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/core.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "492a6903ad061f8c8daec734592814e456fe579bcac247d9ed072c477d191fb5",
+        "sha256_in_prefix": "492a6903ad061f8c8daec734592814e456fe579bcac247d9ed072c477d191fb5",
+        "size_in_bytes": 4715
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/dict.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fdca7f785df6330b3b6f5c27bc400ce6c2daa245583a58d157bede331d65b3a9",
+        "sha256_in_prefix": "fdca7f785df6330b3b6f5c27bc400ce6c2daa245583a58d157bede331d65b3a9",
+        "size_in_bytes": 3982
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/encode.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "479f8add7eb1d0c9e9877756a73e7d76b0512f11ee35969445854bca27515f42",
+        "sha256_in_prefix": "479f8add7eb1d0c9e9877756a73e7d76b0512f11ee35969445854bca27515f42",
+        "size_in_bytes": 3117
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/file.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b4d262f65fe7cabc2ae04710b178094a3115dad9f531281fb1e3eb6948278d1",
+        "sha256_in_prefix": "0b4d262f65fe7cabc2ae04710b178094a3115dad9f531281fb1e3eb6948278d1",
+        "size_in_bytes": 8584
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/numpy.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f77cfb8b42bc895993ad1ba46110f449e9554798b00cb070d9f864403c2688c5",
+        "sha256_in_prefix": "f77cfb8b42bc895993ad1ba46110f449e9554798b00cb070d9f864403c2688c5",
+        "size_in_bytes": 7862
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/pandas.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4fe158eeeb84fc08df842bfbde80b24e0b073fe965e156c274bf9844adce15c3",
+        "sha256_in_prefix": "4fe158eeeb84fc08df842bfbde80b24e0b073fe965e156c274bf9844adce15c3",
+        "size_in_bytes": 11836
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/pickle.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "16b42cdf058dfecd5d7a63e6107280f73725bc0a38575e187bd83ee246e1e65d",
+        "sha256_in_prefix": "16b42cdf058dfecd5d7a63e6107280f73725bc0a38575e187bd83ee246e1e65d",
+        "size_in_bytes": 681
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/python.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab9cef12e8e2725233d17990d6ac7e916774fcad285e7582dc52cb88a82b83d3",
+        "sha256_in_prefix": "ab9cef12e8e2725233d17990d6ac7e916774fcad285e7582dc52cb88a82b83d3",
+        "size_in_bytes": 1631
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "25ac77c2a9f523bae7955ca7df1f07b93679be6495d1d4904940069766b1b3d0",
+        "sha256_in_prefix": "25ac77c2a9f523bae7955ca7df1f07b93679be6495d1d4904940069766b1b3d0",
+        "size_in_bytes": 5731
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/__pycache__/zmq.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c31b12d06a4cdc4fb3109cd50dc842be4cde1abce4a7793571ff866954461fa3",
+        "sha256_in_prefix": "c31b12d06a4cdc4fb3109cd50dc842be4cde1abce4a7793571ff866954461fa3",
+        "size_in_bytes": 17981
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/_version.py",
+        "path_type": "hardlink",
+        "sha256": "b013c85edd3d850a244a8ad25191de8619861845a97004c1d024e6fa97907d01",
+        "sha256_in_prefix": "b013c85edd3d850a244a8ad25191de8619861845a97004c1d024e6fa97907d01",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/buffer.py",
+        "path_type": "hardlink",
+        "sha256": "4959d32248791d29f433439cf3a4eccc304195947029c4b40ec4a970429d31cc",
+        "sha256_in_prefix": "4959d32248791d29f433439cf3a4eccc304195947029c4b40ec4a970429d31cc",
+        "size_in_bytes": 3628
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/compressed.py",
+        "path_type": "hardlink",
+        "sha256": "949012ca39c96ee0d49af1b050f42eaf6d571189513438804ed3c01846112930",
+        "sha256_in_prefix": "949012ca39c96ee0d49af1b050f42eaf6d571189513438804ed3c01846112930",
+        "size_in_bytes": 1174
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/core.py",
+        "path_type": "hardlink",
+        "sha256": "7797d759e5d81c3ec09e976bb4b4f72fe7940aeee340324b0df4e948beb42dbc",
+        "sha256_in_prefix": "7797d759e5d81c3ec09e976bb4b4f72fe7940aeee340324b0df4e948beb42dbc",
+        "size_in_bytes": 2259
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/dict.py",
+        "path_type": "hardlink",
+        "sha256": "cffb1a7b5393cd6ff76de61214ca1e5a2c958a71cbed7a04317788598791f877",
+        "sha256_in_prefix": "cffb1a7b5393cd6ff76de61214ca1e5a2c958a71cbed7a04317788598791f877",
+        "size_in_bytes": 1701
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/encode.py",
+        "path_type": "hardlink",
+        "sha256": "d6d7780d4b8b48bd22f55b3ccd015a22d67fa9d867932e73a7f02855d95bf858",
+        "sha256_in_prefix": "d6d7780d4b8b48bd22f55b3ccd015a22d67fa9d867932e73a7f02855d95bf858",
+        "size_in_bytes": 1287
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/file.py",
+        "path_type": "hardlink",
+        "sha256": "71bce3c28ec0c72c2fc5e230258826591d5df3c280765c3609d255ce0d71abfc",
+        "sha256_in_prefix": "71bce3c28ec0c72c2fc5e230258826591d5df3c280765c3609d255ce0d71abfc",
+        "size_in_bytes": 3954
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/numpy.py",
+        "path_type": "hardlink",
+        "sha256": "dbd440c76326155115d4ab2f3d0759b497eb37a4f57a37cca34de6b6ead12659",
+        "sha256_in_prefix": "dbd440c76326155115d4ab2f3d0759b497eb37a4f57a37cca34de6b6ead12659",
+        "size_in_bytes": 4181
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/pandas.py",
+        "path_type": "hardlink",
+        "sha256": "a4f259a5cc8995fcd149ec98e0701b08a2a957247975c972a39e23a51baac1e4",
+        "sha256_in_prefix": "a4f259a5cc8995fcd149ec98e0701b08a2a957247975c972a39e23a51baac1e4",
+        "size_in_bytes": 6931
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/pickle.py",
+        "path_type": "hardlink",
+        "sha256": "53c329784043bde7f26f0e53a38507de1aed0a4fc2d220ee9878b4453c200784",
+        "sha256_in_prefix": "53c329784043bde7f26f0e53a38507de1aed0a4fc2d220ee9878b4453c200784",
+        "size_in_bytes": 360
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/python.py",
+        "path_type": "hardlink",
+        "sha256": "f1de4284e655d20346bc5471a59753e10b22ce12a643325c1743685c7d45b402",
+        "sha256_in_prefix": "f1de4284e655d20346bc5471a59753e10b22ce12a643325c1743685c7d45b402",
+        "size_in_bytes": 902
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/utils.py",
+        "path_type": "hardlink",
+        "sha256": "4c2076a830c288c1d41791547f17820596c2c5f7c44593b564dffe16905c8fa2",
+        "sha256_in_prefix": "4c2076a830c288c1d41791547f17820596c2c5f7c44593b564dffe16905c8fa2",
+        "size_in_bytes": 3603
+      },
+      {
+        "_path": "lib/python3.12/site-packages/partd/zmq.py",
+        "path_type": "hardlink",
+        "sha256": "46375260c212595c49d6dda36308a618313b38df55c6ae26db624e35b5871e11",
+        "sha256_in_prefix": "46375260c212595c49d6dda36308a618313b38df55c6ae26db624e35b5871e11",
+        "size_in_bytes": 9578
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "abc63d8db3373f8848cae6163d6cb5ff7f2d93fb4a721e104d61b2231556383e",
+  "size": 47041,
+  "subdir": "osx-64",
+  "timestamp": 1699246545211,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/partd-1.4.1-py312hecd8cb5_0.conda",
+  "version": "1.4.1"
+}

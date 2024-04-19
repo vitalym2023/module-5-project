@@ -1,0 +1,181 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/constantly-23.10.4-py312hecd8cb5_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/constantly-23.10.4.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/constantly-23.10.4.dist-info/LICENSE",
+    "lib/python3.12/site-packages/constantly-23.10.4.dist-info/METADATA",
+    "lib/python3.12/site-packages/constantly-23.10.4.dist-info/RECORD",
+    "lib/python3.12/site-packages/constantly-23.10.4.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/constantly-23.10.4.dist-info/WHEEL",
+    "lib/python3.12/site-packages/constantly-23.10.4.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/constantly-23.10.4.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/constantly/__init__.py",
+    "lib/python3.12/site-packages/constantly/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/constantly/__pycache__/_constants.cpython-312.pyc",
+    "lib/python3.12/site-packages/constantly/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/constantly/_constants.py",
+    "lib/python3.12/site-packages/constantly/_version.py",
+    "lib/python3.12/site-packages/constantly/test/__init__.py",
+    "lib/python3.12/site-packages/constantly/test/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/constantly/test/__pycache__/test_constants.cpython-312.pyc",
+    "lib/python3.12/site-packages/constantly/test/test_constants.py"
+  ],
+  "fn": "constantly-23.10.4-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "17facafc8ee90bfd42b8acc73aee2538",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/constantly-23.10.4-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "972be129bfd6113d86875f97a4bfac63",
+  "name": "constantly",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/constantly-23.10.4-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/constantly-23.10.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly-23.10.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "020870fcaf4bf9c50b233e331817094fe109b91c0880570fd476f527cfbfc085",
+        "sha256_in_prefix": "020870fcaf4bf9c50b233e331817094fe109b91c0880570fd476f527cfbfc085",
+        "size_in_bytes": 1116
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly-23.10.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f8c54f7190b362ac0b8d836ae8ee09d8e88e1f30f589de4b9df2ad20d3d0c8ed",
+        "sha256_in_prefix": "f8c54f7190b362ac0b8d836ae8ee09d8e88e1f30f589de4b9df2ad20d3d0c8ed",
+        "size_in_bytes": 1763
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly-23.10.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dae8c566d4e166ae392cda6f986bdd43e83a767088dcdff10978e8fe7a939661",
+        "sha256_in_prefix": "dae8c566d4e166ae392cda6f986bdd43e83a767088dcdff10978e8fe7a939661",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly-23.10.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly-23.10.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly-23.10.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "8ca18d153af0764355f54c5a8db66c193df1716d8e8bcdb3cf99130ac5498beb",
+        "sha256_in_prefix": "8ca18d153af0764355f54c5a8db66c193df1716d8e8bcdb3cf99130ac5498beb",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly-23.10.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6772d9c514f7b15ece21c2dd772816cbcad16a0b9ce1ad61946a2d0ecfaf1483",
+        "sha256_in_prefix": "6772d9c514f7b15ece21c2dd772816cbcad16a0b9ce1ad61946a2d0ecfaf1483",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3aa075cf2cb558fed37a823d01788cd41cc75a415a1d6193d527816c6677d4de",
+        "sha256_in_prefix": "3aa075cf2cb558fed37a823d01788cd41cc75a415a1d6193d527816c6677d4de",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "49c0cec22e84d078f90b3048e305ab2211ed536825e78921f6211c4d62228e0f",
+        "sha256_in_prefix": "49c0cec22e84d078f90b3048e305ab2211ed536825e78921f6211c4d62228e0f",
+        "size_in_bytes": 682
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/__pycache__/_constants.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "02b8bc2137668090d628694f917801fa068af50cb2aa46d6b3394a9ab5a9cecb",
+        "sha256_in_prefix": "02b8bc2137668090d628694f917801fa068af50cb2aa46d6b3394a9ab5a9cecb",
+        "size_in_bytes": 19742
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd03521ba8a4fd1059022ce21fb6850279b7c8607f1a4199bac54d2f929ea9e4",
+        "sha256_in_prefix": "bd03521ba8a4fd1059022ce21fb6850279b7c8607f1a4199bac54d2f929ea9e4",
+        "size_in_bytes": 538
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "49fabd596aeaa181dac07cffe0021e16f6f20dbd12a07984829fabd1f0f112d3",
+        "sha256_in_prefix": "49fabd596aeaa181dac07cffe0021e16f6f20dbd12a07984829fabd1f0f112d3",
+        "size_in_bytes": 16005
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/_version.py",
+        "path_type": "hardlink",
+        "sha256": "7de637e56f1e97ce4d448bbdfd237dde883617bcb2a0daa08ed256668860b5eb",
+        "sha256_in_prefix": "7de637e56f1e97ce4d448bbdfd237dde883617bcb2a0daa08ed256668860b5eb",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d44f3ab7f91173eb6a7600852829565d2f768546f1e4d87e20377080feb58824",
+        "sha256_in_prefix": "d44f3ab7f91173eb6a7600852829565d2f768546f1e4d87e20377080feb58824",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "47365dc1fda3a8540dee75267cb6c5680396fdc55255045661fc3082d327a1f5",
+        "sha256_in_prefix": "47365dc1fda3a8540dee75267cb6c5680396fdc55255045661fc3082d327a1f5",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/test/__pycache__/test_constants.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f48e90d213f710a9637c61b274c7348411a1b36c0274e608bbda06692c3b976",
+        "sha256_in_prefix": "9f48e90d213f710a9637c61b274c7348411a1b36c0274e608bbda06692c3b976",
+        "size_in_bytes": 60127
+      },
+      {
+        "_path": "lib/python3.12/site-packages/constantly/test/test_constants.py",
+        "path_type": "hardlink",
+        "sha256": "657c8a6a2d63a3c4a1f0515a17ff241e85d7491fa4b5a74683cc3bb12a26eeab",
+        "sha256_in_prefix": "657c8a6a2d63a3c4a1f0515a17ff241e85d7491fa4b5a74683cc3bb12a26eeab",
+        "size_in_bytes": 37364
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2fa921ce2efe7e0c290ec7d1134fa994782cc6e1053f36dff37db5ea85fea9bc",
+  "size": 32103,
+  "subdir": "osx-64",
+  "timestamp": 1703165735687,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/constantly-23.10.4-py312hecd8cb5_0.conda",
+  "version": "23.10.4"
+}

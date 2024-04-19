@@ -1,0 +1,37 @@
+{
+  "build": "py312hecd8cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.8.0,<3.8.1.0a0",
+    "python >=3.12,<3.13.0a0",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/matplotlib-3.8.0-py312hecd8cb5_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.8.0-py312hecd8cb5_0.conda",
+  "legacy_bz2_md5": "bd1096080fb0b27c18405b4288ba25e4",
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/matplotlib-3.8.0-py312hecd8cb5_0",
+    "type": 1
+  },
+  "md5": "64ffa3462aace0fc2d5fa5bff15f63f6",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/matplotlib-3.8.0-py312hecd8cb5_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1831aed014d87addf37082c457ea11c581f9e8c6093667422f82bcf34af929b2",
+  "size": 8007,
+  "subdir": "osx-64",
+  "timestamp": 1699246479357,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/matplotlib-3.8.0-py312hecd8cb5_0.conda",
+  "version": "3.8.0"
+}

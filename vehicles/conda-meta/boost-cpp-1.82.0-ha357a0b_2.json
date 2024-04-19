@@ -1,0 +1,36 @@
+{
+  "build": "ha357a0b_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libboost 1.82.0 hf53b9f2_2",
+    "libcxx >=14.0.6"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/boost-cpp-1.82.0-ha357a0b_2",
+  "features": "",
+  "files": [],
+  "fn": "boost-cpp-1.82.0-ha357a0b_2.conda",
+  "legacy_bz2_md5": "3c42777bc9330fe91177ea813b9ec252",
+  "license": "BSL-1.0",
+  "license_family": "OTHER",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/boost-cpp-1.82.0-ha357a0b_2",
+    "type": 1
+  },
+  "md5": "3e2d66900df7412e823c18175f7023a8",
+  "name": "boost-cpp",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/boost-cpp-1.82.0-ha357a0b_2.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cb2dbc1e9e630010ce71abcc922d294363bfe03174da413b3553ce4e69b2c92f",
+  "size": 12216,
+  "subdir": "osx-64",
+  "timestamp": 1696762233693,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/boost-cpp-1.82.0-ha357a0b_2.conda",
+  "version": "1.82.0"
+}

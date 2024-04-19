@@ -1,0 +1,36 @@
+{
+  "build": "py312hecd8cb5_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "typing_extensions 4.9.0 py312hecd8cb5_1"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/typing-extensions-4.9.0-py312hecd8cb5_1",
+  "features": "",
+  "files": [],
+  "fn": "typing-extensions-4.9.0-py312hecd8cb5_1.conda",
+  "legacy_bz2_md5": "a1b25ee6946fb60b7b6f1077315e62b8",
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/typing-extensions-4.9.0-py312hecd8cb5_1",
+    "type": 1
+  },
+  "md5": "5ed2adcf9c1f0cd61cd19bf842d83c45",
+  "name": "typing-extensions",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/typing-extensions-4.9.0-py312hecd8cb5_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dc2094cf6d46443c883e3f317076e31b4bdcc1984d76276a1a613ab5d49e90b0",
+  "size": 10224,
+  "subdir": "osx-64",
+  "timestamp": 1705619972542,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/typing-extensions-4.9.0-py312hecd8cb5_1.conda",
+  "version": "4.9.0"
+}

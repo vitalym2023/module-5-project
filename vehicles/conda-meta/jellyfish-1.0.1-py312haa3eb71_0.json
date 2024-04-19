@@ -1,0 +1,149 @@
+{
+  "build": "py312haa3eb71_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/jellyfish-1.0.1-py312haa3eb71_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/license_files/LICENSE",
+    "lib/python3.12/site-packages/jellyfish/__init__.py",
+    "lib/python3.12/site-packages/jellyfish/__init__.pyi",
+    "lib/python3.12/site-packages/jellyfish/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/jellyfish/__pycache__/_jellyfish.cpython-312.pyc",
+    "lib/python3.12/site-packages/jellyfish/_jellyfish.py",
+    "lib/python3.12/site-packages/jellyfish/_rustyfish.cpython-312-darwin.so",
+    "lib/python3.12/site-packages/jellyfish/py.typed"
+  ],
+  "fn": "jellyfish-1.0.1-py312haa3eb71_0.conda",
+  "legacy_bz2_md5": "c1b216f3be432f305c9891a581d1233d",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/jellyfish-1.0.1-py312haa3eb71_0",
+    "type": 1
+  },
+  "md5": "068d6b8108ea0f4060aed92b549c2e62",
+  "name": "jellyfish",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/jellyfish-1.0.1-py312haa3eb71_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3525eba3e91f159a23cd17587794d0bd531af7ec84abf412d3d5620cae5a0524",
+        "sha256_in_prefix": "3525eba3e91f159a23cd17587794d0bd531af7ec84abf412d3d5620cae5a0524",
+        "size_in_bytes": 2542
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0923c4df6f8d38248321d04b3b4e3bb9c9493bdb0cb83d871abffd8cf62c58d9",
+        "sha256_in_prefix": "0923c4df6f8d38248321d04b3b4e3bb9c9493bdb0cb83d871abffd8cf62c58d9",
+        "size_in_bytes": 1114
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7929a7086cbdaf6e06426f60af6ba1c23f8d1d01d826749aa7d2fc2ed194c7f8",
+        "sha256_in_prefix": "7929a7086cbdaf6e06426f60af6ba1c23f8d1d01d826749aa7d2fc2ed194c7f8",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f56a9b7a4818d2398d35c25710ce6048fe1b9f59ef9bd72e18078e2b32aa0247",
+        "sha256_in_prefix": "f56a9b7a4818d2398d35c25710ce6048fe1b9f59ef9bd72e18078e2b32aa0247",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish-1.0.1.dist-info/license_files/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "684bda4f00092afbb5486356d0e0e95b7909d17496111d32268e438ec5d618e0",
+        "sha256_in_prefix": "684bda4f00092afbb5486356d0e0e95b7909d17496111d32268e438ec5d618e0",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6233554013e3c6f3da17d5430c573ec0e88489605bfec4385eccc49f409c3ad3",
+        "sha256_in_prefix": "6233554013e3c6f3da17d5430c573ec0e88489605bfec4385eccc49f409c3ad3",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish/__init__.pyi",
+        "path_type": "hardlink",
+        "sha256": "f4d1c0e2625a0df8bb09df3d44ec312f6d3fc35f40f500e0706b0b672d72040a",
+        "sha256_in_prefix": "f4d1c0e2625a0df8bb09df3d44ec312f6d3fc35f40f500e0706b0b672d72040a",
+        "size_in_bytes": 508
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c345750070d76822971bec6949acd6e19ccee78743cd8177c0807cd13f553a5",
+        "sha256_in_prefix": "8c345750070d76822971bec6949acd6e19ccee78743cd8177c0807cd13f553a5",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish/__pycache__/_jellyfish.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6665ce4f7253247c71da838cdaac38da58a936c7fedc5ad7928bc9e8fb502177",
+        "sha256_in_prefix": "6665ce4f7253247c71da838cdaac38da58a936c7fedc5ad7928bc9e8fb502177",
+        "size_in_bytes": 15094
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish/_jellyfish.py",
+        "path_type": "hardlink",
+        "sha256": "8496e8e0da9bf36d0dd59b1f907c5a51a9bf13b27315e9960233482b4d96fe9e",
+        "sha256_in_prefix": "8496e8e0da9bf36d0dd59b1f907c5a51a9bf13b27315e9960233482b4d96fe9e",
+        "size_in_bytes": 13116
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish/_rustyfish.cpython-312-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "900a79c22cedd6e7da6541515bfb3817f2414006854836d55c63ec792508e0c5",
+        "sha256_in_prefix": "900a79c22cedd6e7da6541515bfb3817f2414006854836d55c63ec792508e0c5",
+        "size_in_bytes": 800268
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jellyfish/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ec766b6ea4a69c87ad2dde6c8087c3f69ff0ddda866ada13efbcedd3bb639382",
+  "size": 280858,
+  "subdir": "osx-64",
+  "timestamp": 1699271644097,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/jellyfish-1.0.1-py312haa3eb71_0.conda",
+  "version": "1.0.1"
+}

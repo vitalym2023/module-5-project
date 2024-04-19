@@ -1,0 +1,651 @@
+{
+  "build": "py312h8e4b320_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "requests",
+    "slack-sdk",
+    "ipywidgets >=6"
+  ],
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/tqdm-4.65.0-py312h8e4b320_0",
+  "features": "",
+  "files": [
+    "bin/tqdm",
+    "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/LICENCE",
+    "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/METADATA",
+    "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/RECORD",
+    "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/WHEEL",
+    "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/tqdm/__init__.py",
+    "lib/python3.12/site-packages/tqdm/__main__.py",
+    "lib/python3.12/site-packages/tqdm/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/_dist_ver.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/_main.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/_monitor.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/_tqdm.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/_tqdm_gui.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/_tqdm_notebook.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/_tqdm_pandas.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/_utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/asyncio.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/auto.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/autonotebook.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/cli.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/dask.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/gui.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/keras.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/notebook.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/rich.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/std.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/tk.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/utils.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/__pycache__/version.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/_dist_ver.py",
+    "lib/python3.12/site-packages/tqdm/_main.py",
+    "lib/python3.12/site-packages/tqdm/_monitor.py",
+    "lib/python3.12/site-packages/tqdm/_tqdm.py",
+    "lib/python3.12/site-packages/tqdm/_tqdm_gui.py",
+    "lib/python3.12/site-packages/tqdm/_tqdm_notebook.py",
+    "lib/python3.12/site-packages/tqdm/_tqdm_pandas.py",
+    "lib/python3.12/site-packages/tqdm/_utils.py",
+    "lib/python3.12/site-packages/tqdm/asyncio.py",
+    "lib/python3.12/site-packages/tqdm/auto.py",
+    "lib/python3.12/site-packages/tqdm/autonotebook.py",
+    "lib/python3.12/site-packages/tqdm/cli.py",
+    "lib/python3.12/site-packages/tqdm/completion.sh",
+    "lib/python3.12/site-packages/tqdm/contrib/__init__.py",
+    "lib/python3.12/site-packages/tqdm/contrib/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/contrib/__pycache__/bells.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/contrib/__pycache__/concurrent.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/contrib/__pycache__/discord.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/contrib/__pycache__/itertools.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/contrib/__pycache__/logging.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/contrib/__pycache__/slack.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/contrib/__pycache__/telegram.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/contrib/__pycache__/utils_worker.cpython-312.pyc",
+    "lib/python3.12/site-packages/tqdm/contrib/bells.py",
+    "lib/python3.12/site-packages/tqdm/contrib/concurrent.py",
+    "lib/python3.12/site-packages/tqdm/contrib/discord.py",
+    "lib/python3.12/site-packages/tqdm/contrib/itertools.py",
+    "lib/python3.12/site-packages/tqdm/contrib/logging.py",
+    "lib/python3.12/site-packages/tqdm/contrib/slack.py",
+    "lib/python3.12/site-packages/tqdm/contrib/telegram.py",
+    "lib/python3.12/site-packages/tqdm/contrib/utils_worker.py",
+    "lib/python3.12/site-packages/tqdm/dask.py",
+    "lib/python3.12/site-packages/tqdm/gui.py",
+    "lib/python3.12/site-packages/tqdm/keras.py",
+    "lib/python3.12/site-packages/tqdm/notebook.py",
+    "lib/python3.12/site-packages/tqdm/rich.py",
+    "lib/python3.12/site-packages/tqdm/std.py",
+    "lib/python3.12/site-packages/tqdm/tk.py",
+    "lib/python3.12/site-packages/tqdm/tqdm.1",
+    "lib/python3.12/site-packages/tqdm/utils.py",
+    "lib/python3.12/site-packages/tqdm/version.py"
+  ],
+  "fn": "tqdm-4.65.0-py312h8e4b320_0.conda",
+  "legacy_bz2_md5": "99eae51349693b5c9a0f9001bd22c75d",
+  "license": "MPL-2.0 AND MIT",
+  "license_family": "MOZILLA",
+  "link": {
+    "source": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/tqdm-4.65.0-py312h8e4b320_0",
+    "type": 1
+  },
+  "md5": "7308b08166696956dc55f3e6cf606eea",
+  "name": "tqdm",
+  "package_tarball_full_path": "/Users/vitalijmihajlov/opt/anaconda3/pkgs/tqdm-4.65.0-py312h8e4b320_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/tqdm",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/builder/cbouss/perseverance-python-buildout/croot/tqdm_1707340842215/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "b4c531093566c4c224daeb5b328c94d490c1cbd756da8bdebe700f9d1ea3aa63",
+        "sha256_in_prefix": "d367a516f55c6109a5af2777b553f810d695682a4be2a4e662b6d45317d3c884",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/LICENCE",
+        "path_type": "hardlink",
+        "sha256": "817d843653b04523f8bc8ad171bc302489194442193bf14a6f754d6433b74941",
+        "sha256_in_prefix": "817d843653b04523f8bc8ad171bc302489194442193bf14a6f754d6433b74941",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9b296a6de42ef1b4c962eb92ca976a1232337ce3f03fc5a1982651d17b00940d",
+        "sha256_in_prefix": "9b296a6de42ef1b4c962eb92ca976a1232337ce3f03fc5a1982651d17b00940d",
+        "size_in_bytes": 56974
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "aed66085a619be62d2e55fe2676da7ea31985cb500479f8ccee12c160d42c647",
+        "sha256_in_prefix": "aed66085a619be62d2e55fe2676da7ea31985cb500479f8ccee12c160d42c647",
+        "size_in_bytes": 4831
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9cb615216cc3f5def4676e8ccfa9217d50dd70fe4a48a66a5b688df6b90fe603",
+        "sha256_in_prefix": "9cb615216cc3f5def4676e8ccfa9217d50dd70fe4a48a66a5b688df6b90fe603",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "45e2421fb522dd9ca1e8cd7a1383a1b19d6853b5ad31709f6eda3206118edbd6",
+        "sha256_in_prefix": "45e2421fb522dd9ca1e8cd7a1383a1b19d6853b5ad31709f6eda3206118edbd6",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm-4.65.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "34b89424d7e673d02dd79b3b254462c2fa8c123522f46e4f30646b98c6333523",
+        "sha256_in_prefix": "34b89424d7e673d02dd79b3b254462c2fa8c123522f46e4f30646b98c6333523",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f6640d6124aa3fdf496acb9b102d4f3892cc9a1924047e9c259c4f211e46da94",
+        "sha256_in_prefix": "f6640d6124aa3fdf496acb9b102d4f3892cc9a1924047e9c259c4f211e46da94",
+        "size_in_bytes": 1572
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+        "sha256_in_prefix": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+        "size_in_bytes": 30
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d49168587c26de21c0461317dc0ecde27c3d8f3067b469b0b19a86d9669a10fc",
+        "sha256_in_prefix": "d49168587c26de21c0461317dc0ecde27c3d8f3067b469b0b19a86d9669a10fc",
+        "size_in_bytes": 1642
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "02e3e7aa5c12ae53f779802d8f849d4f10ea89f9aa6173a9dd312c71eb44d340",
+        "sha256_in_prefix": "02e3e7aa5c12ae53f779802d8f849d4f10ea89f9aa6173a9dd312c71eb44d340",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/_dist_ver.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea61797a819ad3e4cc58b85f466bc2cc31854b3f3badc6d49aecd81253960fc4",
+        "sha256_in_prefix": "ea61797a819ad3e4cc58b85f466bc2cc31854b3f3badc6d49aecd81253960fc4",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/_main.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3fce06e2437675bd3099182e1728d99b508eb450868124215dea8f700d72f2f1",
+        "sha256_in_prefix": "3fce06e2437675bd3099182e1728d99b508eb450868124215dea8f700d72f2f1",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/_monitor.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f52a6ac934b1708b0b61218291b1810be7106947e9cfb6f5c21aea45ed31820",
+        "sha256_in_prefix": "7f52a6ac934b1708b0b61218291b1810be7106947e9cfb6f5c21aea45ed31820",
+        "size_in_bytes": 4133
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/_tqdm.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "10ebc2bf095c3159ffc7bed0b497447ce2f1d9f2a3c14f310a31ed2ddb2b1534",
+        "sha256_in_prefix": "10ebc2bf095c3159ffc7bed0b497447ce2f1d9f2a3c14f310a31ed2ddb2b1534",
+        "size_in_bytes": 439
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/_tqdm_gui.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "de8b45cf28ced1e175ff751422fb88c4c7ba23fd549c9272446aef48c982dc3c",
+        "sha256_in_prefix": "de8b45cf28ced1e175ff751422fb88c4c7ba23fd549c9272446aef48c982dc3c",
+        "size_in_bytes": 452
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/_tqdm_notebook.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e86d9f0f5ceb62c66ffa4ada40ba37ac2e8f3370e5bf573ac56b70217363d781",
+        "sha256_in_prefix": "e86d9f0f5ceb62c66ffa4ada40ba37ac2e8f3370e5bf573ac56b70217363d781",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/_tqdm_pandas.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "838c278f4f8ff4a874af64af6348970b1458d816a4f17d190310ef39b80ce393",
+        "sha256_in_prefix": "838c278f4f8ff4a874af64af6348970b1458d816a4f17d190310ef39b80ce393",
+        "size_in_bytes": 1377
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/_utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b82ce30ded6bee7d97a6dfc55f21c5eee72c0a1f14601fdb59eb37c143b271be",
+        "sha256_in_prefix": "b82ce30ded6bee7d97a6dfc55f21c5eee72c0a1f14601fdb59eb37c143b271be",
+        "size_in_bytes": 851
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/asyncio.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f0fb8099f10437fc68e9986cce8c9e575387737a53dbd7985f994e4c9d2631e0",
+        "sha256_in_prefix": "f0fb8099f10437fc68e9986cce8c9e575387737a53dbd7985f994e4c9d2631e0",
+        "size_in_bytes": 4435
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/auto.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "341771e9b0085b398f614a96538a3ce98a58ad100c83aefc1d57112cc723f1a7",
+        "sha256_in_prefix": "341771e9b0085b398f614a96538a3ce98a58ad100c83aefc1d57112cc723f1a7",
+        "size_in_bytes": 1312
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/autonotebook.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ec247894f22a307723340f0deba068fc04108e706d1d6a502548842c470f835",
+        "sha256_in_prefix": "0ec247894f22a307723340f0deba068fc04108e706d1d6a502548842c470f835",
+        "size_in_bytes": 1216
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/cli.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b92deb9e9202ad458e41584707f061a5c9617655ae3db778cbed368f3297184",
+        "sha256_in_prefix": "3b92deb9e9202ad458e41584707f061a5c9617655ae3db778cbed368f3297184",
+        "size_in_bytes": 15089
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/dask.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ddbef7aa8b1b58f73879cfdbac1b95a2d7d9b5528a9ff6ea9cde25719141d9a4",
+        "sha256_in_prefix": "ddbef7aa8b1b58f73879cfdbac1b95a2d7d9b5528a9ff6ea9cde25719141d9a4",
+        "size_in_bytes": 2530
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/gui.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "63b39e52d816830c3d4bdb648347a5f9f2beb146a4e29e3e53417518bfb1df81",
+        "sha256_in_prefix": "63b39e52d816830c3d4bdb648347a5f9f2beb146a4e29e3e53417518bfb1df81",
+        "size_in_bytes": 8200
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/keras.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c320b47ccb2e51457dffd05c670abed9e5c6ed1f27f070f16a86994984ba254",
+        "sha256_in_prefix": "3c320b47ccb2e51457dffd05c670abed9e5c6ed1f27f070f16a86994984ba254",
+        "size_in_bytes": 6858
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/notebook.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4dcb46a604f4b0c2bd6c1818a67171687d63176dceb123891c614c082c63746",
+        "sha256_in_prefix": "a4dcb46a604f4b0c2bd6c1818a67171687d63176dceb123891c614c082c63746",
+        "size_in_bytes": 11723
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/rich.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "41bc370260a427b849f60ff5bd99b09cc7d86b984be11f911795d48894c48169",
+        "sha256_in_prefix": "41bc370260a427b849f60ff5bd99b09cc7d86b984be11f911795d48894c48169",
+        "size_in_bytes": 7193
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/std.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "400309b9e4477c65e12e4654c1e996f501bb377d57c041eecc5a30745ce96c4e",
+        "sha256_in_prefix": "400309b9e4477c65e12e4654c1e996f501bb377d57c041eecc5a30745ce96c4e",
+        "size_in_bytes": 65001
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/tk.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "138879ac6768dae2a4d01e464ea8c57d97ac18cc1c8622299991e1886f482d6a",
+        "sha256_in_prefix": "138879ac6768dae2a4d01e464ea8c57d97ac18cc1c8622299991e1886f482d6a",
+        "size_in_bytes": 9928
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "59daa5a82ebc7ab43a7ea9c2104cc343f532205c194c79fc52d596c87e8c7867",
+        "sha256_in_prefix": "59daa5a82ebc7ab43a7ea9c2104cc343f532205c194c79fc52d596c87e8c7867",
+        "size_in_bytes": 15937
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/__pycache__/version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "38d18378cd628c7c32e33e531e3549261cafcb50905cedddca1d049f8f3d5658",
+        "sha256_in_prefix": "38d18378cd628c7c32e33e531e3549261cafcb50905cedddca1d049f8f3d5658",
+        "size_in_bytes": 569
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/_dist_ver.py",
+        "path_type": "hardlink",
+        "sha256": "24e3be2d47e299cd2e74290e492b3b8645d111d084b318a2250b188009c2610d",
+        "sha256_in_prefix": "24e3be2d47e299cd2e74290e492b3b8645d111d084b318a2250b188009c2610d",
+        "size_in_bytes": 23
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/_main.py",
+        "path_type": "hardlink",
+        "sha256": "f724af8268bfd92c38080a395035b44367717d3af26e8116187a217c2273d2c0",
+        "sha256_in_prefix": "f724af8268bfd92c38080a395035b44367717d3af26e8116187a217c2273d2c0",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/_monitor.py",
+        "path_type": "hardlink",
+        "sha256": "524bbe0cf5a0cc9edd3b908ad3cc4a24af84fc5eaa43e241de4b2e5dccd2611d",
+        "sha256_in_prefix": "524bbe0cf5a0cc9edd3b908ad3cc4a24af84fc5eaa43e241de4b2e5dccd2611d",
+        "size_in_bytes": 3699
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/_tqdm.py",
+        "path_type": "hardlink",
+        "sha256": "2df2c2b89e9ba6c568f718a59ad057c849b5bc69d4085ae5896f398f727e9c3e",
+        "sha256_in_prefix": "2df2c2b89e9ba6c568f718a59ad057c849b5bc69d4085ae5896f398f727e9c3e",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/_tqdm_gui.py",
+        "path_type": "hardlink",
+        "sha256": "d371dcf0a6b2c49bde89e239fb4fb6346883a4bbf0f6365e9287c9515ec20b09",
+        "sha256_in_prefix": "d371dcf0a6b2c49bde89e239fb4fb6346883a4bbf0f6365e9287c9515ec20b09",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/_tqdm_notebook.py",
+        "path_type": "hardlink",
+        "sha256": "06e1e22eec6eeae11f64568f256dd13e93dac5a55cb44400de47522520cbd61c",
+        "sha256_in_prefix": "06e1e22eec6eeae11f64568f256dd13e93dac5a55cb44400de47522520cbd61c",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/_tqdm_pandas.py",
+        "path_type": "hardlink",
+        "sha256": "73d8e9b5482280de9ac510e145de1189ff7c4e6c5ea297359c5345848a5b1541",
+        "sha256_in_prefix": "73d8e9b5482280de9ac510e145de1189ff7c4e6c5ea297359c5345848a5b1541",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "ff813bddb7c38f87f5b37b0ce3634b1cdad90ce9228d9a16abe9fac562e4759f",
+        "sha256_in_prefix": "ff813bddb7c38f87f5b37b0ce3634b1cdad90ce9228d9a16abe9fac562e4759f",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "59c59b5448dcd7e1b1aa73740559ed0eec18477d4937d495ec4459844cfc90aa",
+        "sha256_in_prefix": "59c59b5448dcd7e1b1aa73740559ed0eec18477d4937d495ec4459844cfc90aa",
+        "size_in_bytes": 2775
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/auto.py",
+        "path_type": "hardlink",
+        "sha256": "9c365f963ea9db32a48c108d068babae14bcd7361f672d7f750bdb724add5bca",
+        "sha256_in_prefix": "9c365f963ea9db32a48c108d068babae14bcd7361f672d7f750bdb724add5bca",
+        "size_in_bytes": 871
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/autonotebook.py",
+        "path_type": "hardlink",
+        "sha256": "61bf45e6e6a204f85f6c30c5a5bb681bc236614c37b9027cf6b5032db7d1eb0b",
+        "sha256_in_prefix": "61bf45e6e6a204f85f6c30c5a5bb681bc236614c37b9027cf6b5032db7d1eb0b",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/cli.py",
+        "path_type": "hardlink",
+        "sha256": "7ff49c1b0e8662fdf957057327d4fe000927a95d2f347410e1811d5a08ef8b61",
+        "sha256_in_prefix": "7ff49c1b0e8662fdf957057327d4fe000927a95d2f347410e1811d5a08ef8b61",
+        "size_in_bytes": 10727
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/completion.sh",
+        "path_type": "hardlink",
+        "sha256": "8fbf4a6d29a9223fc4d758df4df057ac69d44f3297569435bc6550becc83465e",
+        "sha256_in_prefix": "8fbf4a6d29a9223fc4d758df4df057ac69d44f3297569435bc6550becc83465e",
+        "size_in_bytes": 946
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "70d35a45445d70f8db4299313c67b889a4a1c90aff0f1f21e8d409b9b3e1abb8",
+        "sha256_in_prefix": "70d35a45445d70f8db4299313c67b889a4a1c90aff0f1f21e8d409b9b3e1abb8",
+        "size_in_bytes": 2513
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4349746fcce964b8426482cb98ce330dd5b5ae2074a1caa913fa33798a01ebb6",
+        "sha256_in_prefix": "4349746fcce964b8426482cb98ce330dd5b5ae2074a1caa913fa33798a01ebb6",
+        "size_in_bytes": 4180
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__pycache__/bells.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0df2b0b9653f82933ba820fb2f19053dcadc848d9949521dde2b7bd076218f17",
+        "sha256_in_prefix": "0df2b0b9653f82933ba820fb2f19053dcadc848d9949521dde2b7bd076218f17",
+        "size_in_bytes": 1285
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__pycache__/concurrent.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9cd15fc4406dfb6a2aea1c98ab6596d47c93d3685b7e18833daae443c4f5172",
+        "sha256_in_prefix": "e9cd15fc4406dfb6a2aea1c98ab6596d47c93d3685b7e18833daae443c4f5172",
+        "size_in_bytes": 4655
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__pycache__/discord.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f10a58346f5eb501a719d94c860f02fa776b84cd00e147ac5d9a15e14c65c0c4",
+        "sha256_in_prefix": "f10a58346f5eb501a719d94c860f02fa776b84cd00e147ac5d9a15e14c65c0c4",
+        "size_in_bytes": 6016
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__pycache__/itertools.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d838a132c6958c51ad62965298733670b07ba74cfa946045121035c527fece3",
+        "sha256_in_prefix": "2d838a132c6958c51ad62965298733670b07ba74cfa946045121035c527fece3",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__pycache__/logging.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6d7d054e573a70d37bd9839a7ac29c271bbd99d3ef5bc48fe88bb8653361de1",
+        "sha256_in_prefix": "e6d7d054e573a70d37bd9839a7ac29c271bbd99d3ef5bc48fe88bb8653361de1",
+        "size_in_bytes": 5146
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__pycache__/slack.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "08217a05aeb813ca5bd5651207229cdc4c7b0cac48275e89f8c66660850cccaa",
+        "sha256_in_prefix": "08217a05aeb813ca5bd5651207229cdc4c7b0cac48275e89f8c66660850cccaa",
+        "size_in_bytes": 6111
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__pycache__/telegram.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab79f645b2d5831fb4598dd126351ec11ba6dacb51bf7ad742eeadae14812adb",
+        "sha256_in_prefix": "ab79f645b2d5831fb4598dd126351ec11ba6dacb51bf7ad742eeadae14812adb",
+        "size_in_bytes": 7765
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/__pycache__/utils_worker.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c48c9f2e7e993102ef4a330c76763ecc580d41e6e7446e8c011245f87acc576",
+        "sha256_in_prefix": "4c48c9f2e7e993102ef4a330c76763ecc580d41e6e7446e8c011245f87acc576",
+        "size_in_bytes": 2044
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/bells.py",
+        "path_type": "hardlink",
+        "sha256": "631d47a860a61eb1120803bbd348f9c04fff24295e34e0c9c5e761d628cf2c3d",
+        "sha256_in_prefix": "631d47a860a61eb1120803bbd348f9c04fff24295e34e0c9c5e761d628cf2c3d",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/concurrent.py",
+        "path_type": "hardlink",
+        "sha256": "2b5ca3968292e5644d1728cb46d8740e65393c09c36c5d00f860f6ecdf89e1af",
+        "sha256_in_prefix": "2b5ca3968292e5644d1728cb46d8740e65393c09c36c5d00f860f6ecdf89e1af",
+        "size_in_bytes": 3986
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/discord.py",
+        "path_type": "hardlink",
+        "sha256": "f1d5fb3b22a6142fac4fc05c7ea4c29812c1448f76dfbc41bc01c1a9eff802a0",
+        "sha256_in_prefix": "f1d5fb3b22a6142fac4fc05c7ea4c29812c1448f76dfbc41bc01c1a9eff802a0",
+        "size_in_bytes": 3955
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/itertools.py",
+        "path_type": "hardlink",
+        "sha256": "59d28a414e5e4b3b2a1eedbd48dfe81f5da1b98668d098a1aa88bdfa7561c33e",
+        "sha256_in_prefix": "59d28a414e5e4b3b2a1eedbd48dfe81f5da1b98668d098a1aa88bdfa7561c33e",
+        "size_in_bytes": 774
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/logging.py",
+        "path_type": "hardlink",
+        "sha256": "231d69e23f7323561572bed48071e1a4516e83879dd271d44919c1517ce529a0",
+        "sha256_in_prefix": "231d69e23f7323561572bed48071e1a4516e83879dd271d44919c1517ce529a0",
+        "size_in_bytes": 3804
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/slack.py",
+        "path_type": "hardlink",
+        "sha256": "01d50bc69fc20d9275b61ce0aecff425b26cd9d91c6bc6b9f8e8a6864aa1df6b",
+        "sha256_in_prefix": "01d50bc69fc20d9275b61ce0aecff425b26cd9d91c6bc6b9f8e8a6864aa1df6b",
+        "size_in_bytes": 4061
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/telegram.py",
+        "path_type": "hardlink",
+        "sha256": "3bb1cb613c55b17dcf4c9bf5d252433f37d132aed4ec827fabd069b15a3b6f26",
+        "sha256_in_prefix": "3bb1cb613c55b17dcf4c9bf5d252433f37d132aed4ec827fabd069b15a3b6f26",
+        "size_in_bytes": 5093
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/contrib/utils_worker.py",
+        "path_type": "hardlink",
+        "sha256": "1c93f9333d52d71cb31247b625aa89dac60b1d7003628a367a94f9033437f1e0",
+        "sha256_in_prefix": "1c93f9333d52d71cb31247b625aa89dac60b1d7003628a367a94f9033437f1e0",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/dask.py",
+        "path_type": "hardlink",
+        "sha256": "456477af3f6cdfaccd71e7844939be1771f517b771b81baa4b56e189f3aebc46",
+        "sha256_in_prefix": "456477af3f6cdfaccd71e7844939be1771f517b771b81baa4b56e189f3aebc46",
+        "size_in_bytes": 1337
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/gui.py",
+        "path_type": "hardlink",
+        "sha256": "b1c4a96a5ff764c019d66a2537917cfca516c98d3d1ec4db387432e0bc0f641b",
+        "sha256_in_prefix": "b1c4a96a5ff764c019d66a2537917cfca516c98d3d1ec4db387432e0bc0f641b",
+        "size_in_bytes": 5800
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/keras.py",
+        "path_type": "hardlink",
+        "sha256": "72b081b4d9ceafc67375054fccf3565c31f974c9ec9a97e414cdbcf45ccee43b",
+        "sha256_in_prefix": "72b081b4d9ceafc67375054fccf3565c31f974c9ec9a97e414cdbcf45ccee43b",
+        "size_in_bytes": 4359
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "ecebef3b3267da2ccc9b6dccce79078caf4ce063a859c6ef1b2b23540315be45",
+        "sha256_in_prefix": "ecebef3b3267da2ccc9b6dccce79078caf4ce063a859c6ef1b2b23540315be45",
+        "size_in_bytes": 11049
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/rich.py",
+        "path_type": "hardlink",
+        "sha256": "f126a6896f8b954284310c33b9ba261c25e45fa6b06b3fbb4eafa09cc9092790",
+        "sha256_in_prefix": "f126a6896f8b954284310c33b9ba261c25e45fa6b06b3fbb4eafa09cc9092790",
+        "size_in_bytes": 5018
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/std.py",
+        "path_type": "hardlink",
+        "sha256": "b6a33f404eb3723a2f73d393f796001fa4af6245638ae80aea71a004d60a7552",
+        "sha256_in_prefix": "b6a33f404eb3723a2f73d393f796001fa4af6245638ae80aea71a004d60a7552",
+        "size_in_bytes": 57678
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/tk.py",
+        "path_type": "hardlink",
+        "sha256": "7e631d0b68594024297c1d449f86062121c4840a99768faa6270f48af3ba0b44",
+        "sha256_in_prefix": "7e631d0b68594024297c1d449f86062121c4840a99768faa6270f48af3ba0b44",
+        "size_in_bytes": 6718
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/tqdm.1",
+        "path_type": "hardlink",
+        "sha256": "d5830b645898d301805188239ab7ebf6f41397232a97a2d3df5a145af3b241d5",
+        "sha256_in_prefix": "d5830b645898d301805188239ab7ebf6f41397232a97a2d3df5a145af3b241d5",
+        "size_in_bytes": 7997
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/utils.py",
+        "path_type": "hardlink",
+        "sha256": "7e4a33391fce35c9513643ddbaa913f67b107f5a55cc8304c5bf2c2c3d9cddd5",
+        "sha256_in_prefix": "7e4a33391fce35c9513643ddbaa913f67b107f5a55cc8304c5bf2c2c3d9cddd5",
+        "size_in_bytes": 9510
+      },
+      {
+        "_path": "lib/python3.12/site-packages/tqdm/version.py",
+        "path_type": "hardlink",
+        "sha256": "fb5c968dfbb73f47a0855b32b071f4edf6f376200335177346d60fa8e6aa4760",
+        "sha256_in_prefix": "fb5c968dfbb73f47a0855b32b071f4edf6f376200335177346d60fa8e6aa4760",
+        "size_in_bytes": 333
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1a0bd557c8f5358a7464875ad1c4946b0a7de447a8ef8eb49465b2e6fc24b21c",
+  "size": 154582,
+  "subdir": "osx-64",
+  "timestamp": 1707340877524,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/tqdm-4.65.0-py312h8e4b320_0.conda",
+  "version": "4.65.0"
+}
